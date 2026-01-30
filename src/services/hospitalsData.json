@@ -1,0 +1,4280 @@
+[
+  {
+    "id": 1,
+    "external_id": "13126",
+    "name": "Thiruvallur",
+    "city": "Private",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 615,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.788255137536824,
+      "lng": 81.21168461290694
+    }
+  },
+  {
+    "id": 2,
+    "external_id": "11219",
+    "name": "A.S Imaging Centre Pvt Ltd, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 439,
+    "availability": "Immediate",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 14.48868588127901,
+      "lng": 81.40868211172705
+    }
+  },
+  {
+    "id": 3,
+    "external_id": "11220",
+    "name": "Ariyalur Golden Hospital Pvt.Ltd, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 698,
+    "availability": "10-20 mins wait",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.207608063287843,
+      "lng": 81.6089161691764
+    }
+  },
+  {
+    "id": 4,
+    "external_id": "11207",
+    "name": "DEIC , Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 696,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.125192789403272,
+      "lng": 80.53146587185775
+    }
+  },
+  {
+    "id": 5,
+    "external_id": "11206",
+    "name": "District Diff. abled welfare office,Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 758,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.74839708229895,
+      "lng": 81.42467458437766
+    }
+  },
+  {
+    "id": 6,
+    "external_id": "11212",
+    "name": "Govt Andimadam UPHC, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.073280579613055,
+      "lng": 80.61860419253597
+    }
+  },
+  {
+    "id": 7,
+    "external_id": "11211",
+    "name": "Govt Hospital, Sendurai, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.020856916510096,
+      "lng": 80.39331249760355
+    }
+  },
+  {
+    "id": 8,
+    "external_id": "11210",
+    "name": "Govt Hospital, Udayarpalayam, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.783788152890981,
+      "lng": 80.3369371079948
+    }
+  },
+  {
+    "id": 9,
+    "external_id": "11217",
+    "name": "Govt Kadugur UPHC, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.461160480450951,
+      "lng": 81.98751279022193
+    }
+  },
+  {
+    "id": 10,
+    "external_id": "11214",
+    "name": "Govt Kumiliyam UPHC, Sendurai,  Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.434120228429503,
+      "lng": 80.01055119998352
+    }
+  },
+  {
+    "id": 11,
+    "external_id": "11213",
+    "name": "Govt Meensurtty UPHC, Jayankondam, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.454336133146008,
+      "lng": 81.2287342584659
+    }
+  },
+  {
+    "id": 12,
+    "external_id": "11215",
+    "name": "Govt T.Palur UPHC, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.67288420969513,
+      "lng": 81.81809396888585
+    }
+  },
+  {
+    "id": 13,
+    "external_id": "11216",
+    "name": "Govt Thirumanur UPHC,  Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.650965672737433,
+      "lng": 81.8436578155065
+    }
+  },
+  {
+    "id": 14,
+    "external_id": "11208",
+    "name": "Govt. Medical College and Hosp, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.32521479355817,
+      "lng": 80.85839425113556
+    }
+  },
+  {
+    "id": 15,
+    "external_id": "11209",
+    "name": "Govt.Head Qrtrs Jayakondam,Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.361264769647107,
+      "lng": 81.30371274512841
+    }
+  },
+  {
+    "id": 16,
+    "external_id": "11218",
+    "name": "KVS Scans and Diagnostic, Ariyalur DC.",
+    "city": "Ariyalur",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 441,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 13.000703940994502,
+      "lng": 80.09760226715937
+    }
+  },
+  {
+    "id": 17,
+    "external_id": "11222",
+    "name": "Nalam Multispeciality Hospital, Ariyalur TN. ",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Physician",
+      "Cardiologist",
+      "Orthopedic"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 385,
+    "availability": "Immediate",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Physician",
+    "location": {
+      "lat": 13.809558740182085,
+      "lng": 80.69020644784213
+    }
+  },
+  {
+    "id": 18,
+    "external_id": "11221",
+    "name": "New life Critical Care Centre, Ariyalur TN.",
+    "city": "Ariyalur",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 663,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.195957418361102,
+      "lng": 81.80634427399185
+    }
+  },
+  {
+    "id": 19,
+    "external_id": "11248",
+    "name": "Aarthi Scans, Chengalpet DC.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 456,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 14.420338449242783,
+      "lng": 80.2557811235102
+    }
+  },
+  {
+    "id": 20,
+    "external_id": "11246",
+    "name": "Absolute Special School, Autism, Chengalpattu, TN. ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 372,
+    "availability": "Immediate",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.181614689190566,
+      "lng": 81.44257698027282
+    }
+  },
+  {
+    "id": 21,
+    "external_id": "11253",
+    "name": "Annai Arul Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 501,
+    "availability": "10-20 mins wait",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.311166127822707,
+      "lng": 81.48904820179573
+    }
+  },
+  {
+    "id": 22,
+    "external_id": "11274",
+    "name": "Apollo Speciality Hosptial, OMR, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 320,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.711542992031376,
+      "lng": 80.85624788920153
+    }
+  },
+  {
+    "id": 23,
+    "external_id": "11249",
+    "name": "Arya Scans, Chengalpet DC.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 653,
+    "availability": "10-20 mins wait",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 14.271931177232284,
+      "lng": 80.41137912435045
+    }
+  },
+  {
+    "id": 24,
+    "external_id": "11276",
+    "name": "B.M Hospital, Nanganallur, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 572,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.309094499107806,
+      "lng": 81.35014688297251
+    }
+  },
+  {
+    "id": 25,
+    "external_id": "11259",
+    "name": "Balaji Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 725,
+    "availability": "10-20 mins wait",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.929577297602552,
+      "lng": 81.96444892956711
+    }
+  },
+  {
+    "id": 26,
+    "external_id": "11283",
+    "name": "Bharath Medical Col and Hosp, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 643,
+    "availability": "Immediate",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.750887264232503,
+      "lng": 80.8124770240929
+    }
+  },
+  {
+    "id": 27,
+    "external_id": "11280",
+    "name": "C-Dot Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 761,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.812763572820963,
+      "lng": 81.79539930474324
+    }
+  },
+  {
+    "id": 28,
+    "external_id": "11225",
+    "name": "Chengalpet Medical College, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.47151799820223,
+      "lng": 80.32314754460353
+    }
+  },
+  {
+    "id": 29,
+    "external_id": "11277",
+    "name": "Chennai Urology And Robotics Inst, OMR, Chengalpet  TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 310,
+    "availability": "Immediate",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.58952099445041,
+      "lng": 80.95926440974567
+    }
+  },
+  {
+    "id": 30,
+    "external_id": "11293",
+    "name": "Chettinad Hospital and Res Ins, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 670,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.461699438430992,
+      "lng": 80.65692272072363
+    }
+  },
+  {
+    "id": 31,
+    "external_id": "11260",
+    "name": "Chettinad Super Speciality Hosp, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 565,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.052894688937002,
+      "lng": 80.52195386317251
+    }
+  },
+  {
+    "id": 32,
+    "external_id": "11266",
+    "name": "Dr Kamakshi Memorial Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 748,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.633984759700468,
+      "lng": 81.28288859273533
+    }
+  },
+  {
+    "id": 33,
+    "external_id": "11271",
+    "name": "Dr Kumars Health Care Pvt Ltd, Chengalpet, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 386,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.858423585512254,
+      "lng": 81.19842962521317
+    }
+  },
+  {
+    "id": 34,
+    "external_id": "11278",
+    "name": "Dr. Rela Inst. and Medical Centre, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 631,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.462655179055847,
+      "lng": 80.09158095851629
+    }
+  },
+  {
+    "id": 35,
+    "external_id": "11284",
+    "name": "Easy mom Fertility,maternity, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Gynecologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 536,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for Gynecologist",
+    "location": {
+      "lat": 13.2865201957082,
+      "lng": 81.27378161255018
+    }
+  },
+  {
+    "id": 36,
+    "external_id": "11281",
+    "name": "Gem Hospital And Res Centre Pvt Ltd, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 309,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.2973741044193,
+      "lng": 80.29443151296786
+    }
+  },
+  {
+    "id": 37,
+    "external_id": "11251",
+    "name": "Genorime Pvt Ltd, Chengalpet, DC.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 530,
+    "availability": "Immediate",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.908899740685488,
+      "lng": 81.94765251667266
+    }
+  },
+  {
+    "id": 38,
+    "external_id": "11254",
+    "name": "Gleneagles Global Health City, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 659,
+    "availability": "10-20 mins wait",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.439540720402002,
+      "lng": 80.87513832527219
+    }
+  },
+  {
+    "id": 39,
+    "external_id": "11229",
+    "name": "Govt Head Qrtrs Hospital, Tambaram, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.088431618027284,
+      "lng": 81.76240892260654
+    }
+  },
+  {
+    "id": 40,
+    "external_id": "11227",
+    "name": "Govt Hospital, Cheyyur Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.923358239820399,
+      "lng": 80.8772793796761
+    }
+  },
+  {
+    "id": 41,
+    "external_id": "11228",
+    "name": "Govt Hospital, Madhurandaham Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.624789092573904,
+      "lng": 81.41623211264063
+    }
+  },
+  {
+    "id": 42,
+    "external_id": "11230",
+    "name": "Govt Hospital, Thiruporur, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.399931073424394,
+      "lng": 81.14678425513965
+    }
+  },
+  {
+    "id": 43,
+    "external_id": "11231",
+    "name": "Govt Hospital,Injabakkam,Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.939450800235436,
+      "lng": 81.53297909216805
+    }
+  },
+  {
+    "id": 44,
+    "external_id": "11232",
+    "name": "Govt Hospital,Mahabalipuram, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.12211426770679,
+      "lng": 80.82362078023021
+    }
+  },
+  {
+    "id": 45,
+    "external_id": "11233",
+    "name": "Govt Hospital,Thirukalukundram,Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.2781797057368,
+      "lng": 80.98598864188094
+    }
+  },
+  {
+    "id": 46,
+    "external_id": "11224",
+    "name": "Govt PHC, Nandhivaram, Chengalpattu, TN. ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 707,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.236603991580802,
+      "lng": 80.12714145848076
+    }
+  },
+  {
+    "id": 47,
+    "external_id": "11226",
+    "name": "Govt Sanatorium, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.996103623046846,
+      "lng": 80.81978417259702
+    }
+  },
+  {
+    "id": 48,
+    "external_id": "11223",
+    "name": "Govt.DDWO,Chengalpattu TN. ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 715,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.509666111446544,
+      "lng": 81.61022698013667
+    }
+  },
+  {
+    "id": 49,
+    "external_id": "11241",
+    "name": "Govt.PHC St.Thomas mount,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.629036817048666,
+      "lng": 81.49184422909934
+    }
+  },
+  {
+    "id": 50,
+    "external_id": "11242",
+    "name": "Govt.PHC Tiruporur,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.204596463790788,
+      "lng": 81.4923733282149
+    }
+  },
+  {
+    "id": 51,
+    "external_id": "11243",
+    "name": "Govt.PHC,Chithamur,idaikalinadu,Chengulpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.290741409414162,
+      "lng": 80.5818322803391
+    }
+  },
+  {
+    "id": 52,
+    "external_id": "11244",
+    "name": "Govt.PHC,Tirukalukundram,Sadras,Chengulpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.57885564826401,
+      "lng": 80.03991804670805
+    }
+  },
+  {
+    "id": 53,
+    "external_id": "11234",
+    "name": "Govt.UPHC Achirapakkam,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.970037607794067,
+      "lng": 81.19985994678552
+    }
+  },
+  {
+    "id": 54,
+    "external_id": "11235",
+    "name": "Govt.UPHC Chunamed,Chengalpattu TN. ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.870545614437585,
+      "lng": 80.66244789165097
+    }
+  },
+  {
+    "id": 55,
+    "external_id": "11237",
+    "name": "Govt.UPHC Kelambakkam,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.006482791326778,
+      "lng": 81.72843011733495
+    }
+  },
+  {
+    "id": 56,
+    "external_id": "11240",
+    "name": "Govt.UPHC Madhuranthagam ,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.077768030127569,
+      "lng": 81.34855146827049
+    }
+  },
+  {
+    "id": 57,
+    "external_id": "11239",
+    "name": "Govt.UPHC Medavakkam,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.825269480871139,
+      "lng": 81.181166620748
+    }
+  },
+  {
+    "id": 58,
+    "external_id": "11238",
+    "name": "Govt.UPHC Nandhivaram,Chengalpattu TN. ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.39498626779301,
+      "lng": 80.67843168225633
+    }
+  },
+  {
+    "id": 59,
+    "external_id": "11236",
+    "name": "Govt.UPHC Pavanjur,Chengalpattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.950294040949203,
+      "lng": 81.68869635294693
+    }
+  },
+  {
+    "id": 60,
+    "external_id": "11245",
+    "name": "Govt.UPHC Semmancherry, Chengalpattu TN.  ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.774596342286356,
+      "lng": 81.600737246312
+    }
+  },
+  {
+    "id": 61,
+    "external_id": "11267",
+    "name": "Hariharan Diabetes, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 461,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.35967780028329,
+      "lng": 80.05199301235473
+    }
+  },
+  {
+    "id": 62,
+    "external_id": "11255",
+    "name": "Hindu Mission Health Services, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 726,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.723412550081889,
+      "lng": 81.55117037914802
+    }
+  },
+  {
+    "id": 63,
+    "external_id": "11256",
+    "name": "Hindu Mission Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 464,
+    "availability": "10-20 mins wait",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.24455840134404,
+      "lng": 81.51064394097745
+    }
+  },
+  {
+    "id": 64,
+    "external_id": "11291",
+    "name": "Jeevan Sumyuktha Hospitals, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 351,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.973819758607238,
+      "lng": 80.51849430019767
+    }
+  },
+  {
+    "id": 65,
+    "external_id": "11296",
+    "name": "JJ Hospital, Chengalpet, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 677,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.053001933620735,
+      "lng": 80.0344588992588
+    }
+  },
+  {
+    "id": 66,
+    "external_id": "11287",
+    "name": "Jolen Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 436,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.044770399670604,
+      "lng": 81.13749627778633
+    }
+  },
+  {
+    "id": 67,
+    "external_id": "11292",
+    "name": "JSP Hospital Pvt Ltd, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 798,
+    "availability": "Immediate",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.21018243331535,
+      "lng": 81.62013828003552
+    }
+  },
+  {
+    "id": 68,
+    "external_id": "11268",
+    "name": "Karpaga Vinyaga Institute, Chengalpet,TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 560,
+    "availability": "10-20 mins wait",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.945947349002626,
+      "lng": 81.5780883811312
+    }
+  },
+  {
+    "id": 69,
+    "external_id": "11289",
+    "name": "Kasturi Hospital, Tambaram, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 779,
+    "availability": "Immediate",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.914019965878742,
+      "lng": 81.22661707009776
+    }
+  },
+  {
+    "id": 70,
+    "external_id": "11250",
+    "name": "LifeCell international Pvt Ltd, Chengalpet DC.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 395,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.740627392997155,
+      "lng": 81.31427723898618
+    }
+  },
+  {
+    "id": 71,
+    "external_id": "11290",
+    "name": "Lions Hemodialysis Centre, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Nephrologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 728,
+    "availability": "Immediate",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for Nephrologist",
+    "location": {
+      "lat": 13.061572402511915,
+      "lng": 81.86435897074347
+    }
+  },
+  {
+    "id": 72,
+    "external_id": "11269",
+    "name": "Melmaruvathur Adhiparsakthi Inst, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 370,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.40472857131155,
+      "lng": 81.5200194589786
+    }
+  },
+  {
+    "id": 73,
+    "external_id": "11279",
+    "name": "Melvin Jones Lions Dialysis, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Nephrologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 365,
+    "availability": "Immediate",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for Nephrologist",
+    "location": {
+      "lat": 14.431746270858156,
+      "lng": 80.37292326277912
+    }
+  },
+  {
+    "id": 74,
+    "external_id": "11247",
+    "name": "Mothers Special School, ID,Autism, Chengalpet, TN. ",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 326,
+    "availability": "Immediate",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.459952668648626,
+      "lng": 80.62480852010735
+    }
+  },
+  {
+    "id": 75,
+    "external_id": "11286",
+    "name": "One Health hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 738,
+    "availability": "10-20 mins wait",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.516385277499456,
+      "lng": 80.73518106286329
+    }
+  },
+  {
+    "id": 76,
+    "external_id": "11270",
+    "name": "Parvathy Ortho Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Orthopedic Surgeon"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 507,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for Orthopedic Surgeon",
+    "location": {
+      "lat": 13.14773502740099,
+      "lng": 80.59820089744319
+    }
+  },
+  {
+    "id": 77,
+    "external_id": "11295",
+    "name": "RKP Hospital Pvt Ltd., Chengalpet, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 409,
+    "availability": "10-20 mins wait",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.074550400177758,
+      "lng": 81.04034151666433
+    }
+  },
+  {
+    "id": 78,
+    "external_id": "11298",
+    "name": "Rotary club Maraimalainagar, Chengalpattu, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 532,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.978029428725526,
+      "lng": 81.81801699626509
+    }
+  },
+  {
+    "id": 79,
+    "external_id": "11282",
+    "name": "Sai Fertility Centre and Hospital,Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 345,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.368834209176047,
+      "lng": 81.24872381894293
+    }
+  },
+  {
+    "id": 80,
+    "external_id": "11257",
+    "name": "Sankara Eye Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Ophthalmologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 661,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for Ophthalmologist",
+    "location": {
+      "lat": 13.40002893747713,
+      "lng": 80.51091922362441
+    }
+  },
+  {
+    "id": 81,
+    "external_id": "11275",
+    "name": "Shadithya Health Care, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 442,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.224986351800196,
+      "lng": 81.56372738990632
+    }
+  },
+  {
+    "id": 82,
+    "external_id": "11261",
+    "name": "Shri Sathya Sai Medical College, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 353,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.265796851914228,
+      "lng": 80.24272867428421
+    }
+  },
+  {
+    "id": 83,
+    "external_id": "11252",
+    "name": "Shrimpex Biotech Services Pvt Ltd, Chengalpet, DC.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 395,
+    "availability": "Immediate",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.569785677700906,
+      "lng": 80.48491330714809
+    }
+  },
+  {
+    "id": 84,
+    "external_id": "11262",
+    "name": "Sree Renga Nursing Home, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 792,
+    "availability": "10-20 mins wait",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.766497072523267,
+      "lng": 80.31166544837917
+    }
+  },
+  {
+    "id": 85,
+    "external_id": "11263",
+    "name": "Sri Balaji Medical Coll and Hosp, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 341,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.302422968772012,
+      "lng": 81.4547104651855
+    }
+  },
+  {
+    "id": 86,
+    "external_id": "11272",
+    "name": "Sri Chakara Multi Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Physician",
+      "Cardiologist",
+      "Orthopedic"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 516,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Physician",
+    "location": {
+      "lat": 14.984959042366672,
+      "lng": 80.21560200517784
+    }
+  },
+  {
+    "id": 87,
+    "external_id": "11297",
+    "name": "Sri Kauvery Medical Care Ltd, Chengalpattu, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 590,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.742565652770807,
+      "lng": 80.8427246771787
+    }
+  },
+  {
+    "id": 88,
+    "external_id": "11294",
+    "name": "Sringeri Sharada Equitas Hospital, Chengalpet, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 408,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.372747375054436,
+      "lng": 81.41027043306354
+    }
+  },
+  {
+    "id": 89,
+    "external_id": "11264",
+    "name": "SRM Medical College Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 616,
+    "availability": "10-20 mins wait",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.717773113462775,
+      "lng": 80.91366933805656
+    }
+  },
+  {
+    "id": 90,
+    "external_id": "11273",
+    "name": "St. Thomas Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 596,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.364380002437624,
+      "lng": 80.08101035817842
+    }
+  },
+  {
+    "id": 91,
+    "external_id": "11258",
+    "name": "Sugam Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 494,
+    "availability": "Immediate",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.577251019180817,
+      "lng": 81.07343794284867
+    }
+  },
+  {
+    "id": 92,
+    "external_id": "11265",
+    "name": "Tagore Medical Coll And Hosp, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 581,
+    "availability": "10-20 mins wait",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.05799272304543,
+      "lng": 80.72910033549263
+    }
+  },
+  {
+    "id": 93,
+    "external_id": "11288",
+    "name": "Tagore Specialty Hospital, Chengalpet TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 518,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.785667697758328,
+      "lng": 80.8426407428839
+    }
+  },
+  {
+    "id": 94,
+    "external_id": "11285",
+    "name": "Unittas Multi Speciality Hospital,chenglapattu TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "General Physician",
+      "Cardiologist",
+      "Orthopedic"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 403,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Physician",
+    "location": {
+      "lat": 13.934218128571642,
+      "lng": 80.94316887783911
+    }
+  },
+  {
+    "id": 95,
+    "external_id": "11299",
+    "name": "Vasan Eye Care Hospital, Chengalpattu, TN.",
+    "city": "Chengalpet",
+    "specialists": [
+      "Ophthalmologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 691,
+    "availability": "10-20 mins wait",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for Ophthalmologist",
+    "location": {
+      "lat": 14.688764874311651,
+      "lng": 81.8840662682369
+    }
+  },
+  {
+    "id": 96,
+    "external_id": "11362",
+    "name": "Aarthi Scans kilpauk, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 317,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 13.68829906010933,
+      "lng": 81.25962011902676
+    }
+  },
+  {
+    "id": 97,
+    "external_id": "11360",
+    "name": "Aarthi Scans, Alwarpet, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 325,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 14.736866017079517,
+      "lng": 81.99796654433759
+    }
+  },
+  {
+    "id": 98,
+    "external_id": "11377",
+    "name": "Aarthi Scans, Vadapalani,Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 645,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 14.822646929776191,
+      "lng": 80.58954128448828
+    }
+  },
+  {
+    "id": 99,
+    "external_id": "11363",
+    "name": "Aarthi Scans,Tondiarpet Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 487,
+    "availability": "Immediate",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 13.525197512689388,
+      "lng": 81.57292613155555
+    }
+  },
+  {
+    "id": 100,
+    "external_id": "11461",
+    "name": "Adambakkam Sudar Hospital, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 791,
+    "availability": "10-20 mins wait",
+    "rating": 3.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.378601754099309,
+      "lng": 80.24335567332565
+    }
+  },
+  {
+    "id": 101,
+    "external_id": "11366",
+    "name": "Advanced Nuclear Research,Chennai DC",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 656,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.95945395963144,
+      "lng": 80.30584528852836
+    }
+  },
+  {
+    "id": 102,
+    "external_id": "11436",
+    "name": "Adyar PM Hospital,Adyar,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 723,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.714854963702496,
+      "lng": 81.90719913768311
+    }
+  },
+  {
+    "id": 103,
+    "external_id": "11444",
+    "name": "Amma Hospital, Chennai TN",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 317,
+    "availability": "Immediate",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.095447722616571,
+      "lng": 80.84772950405575
+    }
+  },
+  {
+    "id": 104,
+    "external_id": "11454",
+    "name": "AN-NOOR Eye hospital,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Ophthalmologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 334,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for Ophthalmologist",
+    "location": {
+      "lat": 13.303559034533128,
+      "lng": 81.12595328076108
+    }
+  },
+  {
+    "id": 105,
+    "external_id": "11480",
+    "name": "Anchibai Hemraj Katariya Dialysis, Chennai TN. ",
+    "city": "Chennai",
+    "specialists": [
+      "Nephrologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 308,
+    "availability": "Immediate",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for Nephrologist",
+    "location": {
+      "lat": 13.996502943923607,
+      "lng": 81.66131856586613
+    }
+  },
+  {
+    "id": 106,
+    "external_id": "11373",
+    "name": "Anderson Diagnostic Services,Nungamb , Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 564,
+    "availability": "10-20 mins wait",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.672882559885087,
+      "lng": 81.80005039169943
+    }
+  },
+  {
+    "id": 107,
+    "external_id": "11376",
+    "name": "Anderson Diagnostic sevices, Purasai, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 763,
+    "availability": "Immediate",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.675314781185264,
+      "lng": 81.9244981811492
+    }
+  },
+  {
+    "id": 108,
+    "external_id": "11442",
+    "name": "Annai multi speciality,Virugambakkam,Chennai TN",
+    "city": "Chennai",
+    "specialists": [
+      "General Physician",
+      "Cardiologist",
+      "Orthopedic"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 334,
+    "availability": "Immediate",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Physician",
+    "location": {
+      "lat": 13.361162478889568,
+      "lng": 80.23046676320912
+    }
+  },
+  {
+    "id": 109,
+    "external_id": "11390",
+    "name": "Apollo Childrens Hospital,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 422,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.273520408316651,
+      "lng": 80.18265962459421
+    }
+  },
+  {
+    "id": 110,
+    "external_id": "11392",
+    "name": "Apollo Greams,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 396,
+    "availability": "10-20 mins wait",
+    "rating": 3.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.226107773137976,
+      "lng": 80.26062839516443
+    }
+  },
+  {
+    "id": 111,
+    "external_id": "11394",
+    "name": "APOLLO SPECIALTY HOSPITAL, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 597,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.71392499277198,
+      "lng": 81.84837993802905
+    }
+  },
+  {
+    "id": 112,
+    "external_id": "11439",
+    "name": "Apollo Spectra Hospital, R.A Puram, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 480,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.23122650947442,
+      "lng": 80.6112969544442
+    }
+  },
+  {
+    "id": 113,
+    "external_id": "11416",
+    "name": "Appasamy Hospitals,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 725,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.545150779160924,
+      "lng": 81.1255574617612
+    }
+  },
+  {
+    "id": 114,
+    "external_id": "11401",
+    "name": "TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 748,
+    "availability": "Immediate",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.040278311463037,
+      "lng": 81.26476670561924
+    }
+  },
+  {
+    "id": 115,
+    "external_id": "11378",
+    "name": "Balaji Medical Centre, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 644,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.629200089681934,
+      "lng": 81.189126323362
+    }
+  },
+  {
+    "id": 116,
+    "external_id": "11372",
+    "name": "Bharat Scans Royapettah, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 619,
+    "availability": "10-20 mins wait",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 14.56438117708529,
+      "lng": 80.43739419848477
+    }
+  },
+  {
+    "id": 117,
+    "external_id": "11405",
+    "name": "Bharathirajaa Speciality Hospital, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 747,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.304494040729459,
+      "lng": 80.73010029389657
+    }
+  },
+  {
+    "id": 118,
+    "external_id": "11407",
+    "name": "Billroth Hospitals Shenoy Nagar, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 763,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.670810586085475,
+      "lng": 81.61914549934356
+    }
+  },
+  {
+    "id": 119,
+    "external_id": "11412",
+    "name": "Billroth,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 663,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.397819494165308,
+      "lng": 80.50024259740978
+    }
+  },
+  {
+    "id": 120,
+    "external_id": "11398",
+    "name": "Bloom Health Care, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 373,
+    "availability": "10-20 mins wait",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.664018175064038,
+      "lng": 81.07766317198768
+    }
+  },
+  {
+    "id": 121,
+    "external_id": "11397",
+    "name": "Cancer Institute Adyar,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Oncologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 383,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for Oncologist",
+    "location": {
+      "lat": 14.31549172068832,
+      "lng": 81.11723991686279
+    }
+  },
+  {
+    "id": 122,
+    "external_id": "11306",
+    "name": "CCH, Adyar, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 776,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.736299543879902,
+      "lng": 80.20201576169026
+    }
+  },
+  {
+    "id": 123,
+    "external_id": "11303",
+    "name": "CCH, Ayanavaram, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 355,
+    "availability": "10-20 mins wait",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.597992329257956,
+      "lng": 81.73638997041213
+    }
+  },
+  {
+    "id": 124,
+    "external_id": "11305",
+    "name": "CCH, Kodambakkam, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 639,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.873696444354291,
+      "lng": 80.07471280680421
+    }
+  },
+  {
+    "id": 125,
+    "external_id": "11311",
+    "name": "CCH, Nungambakkam, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 661,
+    "availability": "Immediate",
+    "rating": 3.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.315615839943469,
+      "lng": 81.95691438210498
+    }
+  },
+  {
+    "id": 126,
+    "external_id": "11312",
+    "name": "CCH, Perambur, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 605,
+    "availability": "10-20 mins wait",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.945652836189904,
+      "lng": 80.34798984409404
+    }
+  },
+  {
+    "id": 127,
+    "external_id": "11307",
+    "name": "CCH, Perumalpet, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 652,
+    "availability": "Immediate",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.719649542623491,
+      "lng": 81.18644775123035
+    }
+  },
+  {
+    "id": 128,
+    "external_id": "11301",
+    "name": "CCH, Royapuram, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 674,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.418403992181013,
+      "lng": 81.7357451755295
+    }
+  },
+  {
+    "id": 129,
+    "external_id": "11309",
+    "name": "CCH, Saidapet, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 759,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.149062820637358,
+      "lng": 80.95126320793246
+    }
+  },
+  {
+    "id": 130,
+    "external_id": "11308",
+    "name": "CCH, Shenoynagar, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 519,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.565921089871676,
+      "lng": 80.89131769057158
+    }
+  },
+  {
+    "id": 131,
+    "external_id": "11304",
+    "name": "CCH, Teynampet, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 432,
+    "availability": "Immediate",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.793449268584254,
+      "lng": 81.62055456262848
+    }
+  },
+  {
+    "id": 132,
+    "external_id": "11302",
+    "name": "CCH, TVK Nagar, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 575,
+    "availability": "10-20 mins wait",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.60341413000971,
+      "lng": 80.59526252921802
+    }
+  },
+  {
+    "id": 133,
+    "external_id": "11300",
+    "name": "CCH,Tondiarpet, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 411,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.245483742745579,
+      "lng": 81.36166684231553
+    }
+  },
+  {
+    "id": 134,
+    "external_id": "11471",
+    "name": "Chennai  Health Foundation Hospital, Chennai, TN.",
+    "city": "CHENNAI",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 430,
+    "availability": "Immediate",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.335170535066954,
+      "lng": 80.68146409915309
+    }
+  },
+  {
+    "id": 135,
+    "external_id": "11462",
+    "name": "Chennai Breast Centre, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 444,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.953297777436703,
+      "lng": 81.8035600862124
+    }
+  },
+  {
+    "id": 136,
+    "external_id": "11429",
+    "name": "Chennai National Hospital, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 654,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.281787596936287,
+      "lng": 81.01980962042583
+    }
+  },
+  {
+    "id": 137,
+    "external_id": "11450",
+    "name": "Chennai Orthopedic Centre, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Orthopedic Surgeon"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 611,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for Orthopedic Surgeon",
+    "location": {
+      "lat": 13.323378952939299,
+      "lng": 80.98774163026444
+    }
+  },
+  {
+    "id": 138,
+    "external_id": "13090",
+    "name": "Chennai",
+    "city": "GOI",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.67545899568889,
+      "lng": 81.26606659647793
+    }
+  },
+  {
+    "id": 139,
+    "external_id": "11310",
+    "name": "Communicable Disease Hos,Tondiarpet, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 344,
+    "availability": "10-20 mins wait",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.38432677711464,
+      "lng": 81.7895974853323
+    }
+  },
+  {
+    "id": 140,
+    "external_id": "11391",
+    "name": "CSI KALYANI GENERAL HOSPITAL, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Physician",
+      "Cardiologist",
+      "Orthopedic"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 390,
+    "availability": "10-20 mins wait",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Physician",
+    "location": {
+      "lat": 14.72163869627638,
+      "lng": 80.08792719844811
+    }
+  },
+  {
+    "id": 141,
+    "external_id": "11319",
+    "name": "DEIC ,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 776,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.61846185718473,
+      "lng": 80.78874737410412
+    }
+  },
+  {
+    "id": 142,
+    "external_id": "11467",
+    "name": "Devraj Manickchand Maternity Hospital, Chennai,TN.",
+    "city": "CHENNAI",
+    "specialists": [
+      "Gynecologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 456,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for Gynecologist",
+    "location": {
+      "lat": 14.286300790188454,
+      "lng": 81.39568730182825
+    }
+  },
+  {
+    "id": 143,
+    "external_id": "11317",
+    "name": "District Diff. Abled Welfare Off,North Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 719,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.79953658108689,
+      "lng": 80.25292572954
+    }
+  },
+  {
+    "id": 144,
+    "external_id": "11315",
+    "name": "District Diff. abled welfare office,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 319,
+    "availability": "Immediate",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.351221256520184,
+      "lng": 81.99495948141362
+    }
+  },
+  {
+    "id": 145,
+    "external_id": "11374",
+    "name": "DOC Medical Services PVT LTD,Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 469,
+    "availability": "Immediate",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.901184229491214,
+      "lng": 80.58942588152917
+    }
+  },
+  {
+    "id": 146,
+    "external_id": "11406",
+    "name": "Dr Mehtas Hospitals Chetpet,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 646,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.363379742050256,
+      "lng": 81.56059845997477
+    }
+  },
+  {
+    "id": 147,
+    "external_id": "11404",
+    "name": "Dr Rai Memorial Cancer Institute,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Oncologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 357,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for Oncologist",
+    "location": {
+      "lat": 13.709918507577727,
+      "lng": 80.96439576534551
+    }
+  },
+  {
+    "id": 148,
+    "external_id": "11411",
+    "name": "Dr. Agarwals Eye Hospital,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Ophthalmologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 555,
+    "availability": "Immediate",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for Ophthalmologist",
+    "location": {
+      "lat": 13.984689329525613,
+      "lng": 80.86184762188292
+    }
+  },
+  {
+    "id": 149,
+    "external_id": "11418",
+    "name": "Faith Multispecialty Hospital,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Physician",
+      "Cardiologist",
+      "Orthopedic"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 612,
+    "availability": "Immediate",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Physician",
+    "location": {
+      "lat": 13.427653925836822,
+      "lng": 81.57868330677246
+    }
+  },
+  {
+    "id": 150,
+    "external_id": "11456",
+    "name": "FIRM Hospitals, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 447,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.716495178916126,
+      "lng": 81.82185976610289
+    }
+  },
+  {
+    "id": 151,
+    "external_id": "11445",
+    "name": "Fortis Health Care ltd,Vadapalani Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 699,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.185027750904993,
+      "lng": 80.47311014116505
+    }
+  },
+  {
+    "id": 152,
+    "external_id": "11446",
+    "name": "Fortis Health Care ltd,Vadapalani Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 778,
+    "availability": "10-20 mins wait",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.458697916754323,
+      "lng": 80.1759645815235
+    }
+  },
+  {
+    "id": 153,
+    "external_id": "11375",
+    "name": "Gemini Scans Pvt Ltd,Vadapalani,Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "Radiologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 410,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for Radiologist",
+    "location": {
+      "lat": 13.879416607240323,
+      "lng": 80.55965823695668
+    }
+  },
+  {
+    "id": 154,
+    "external_id": "11459",
+    "name": "GKM Hospital, Purasaiwakam, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 580,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.917182461784321,
+      "lng": 80.69489130796848
+    }
+  },
+  {
+    "id": 155,
+    "external_id": "11334",
+    "name": "Government Dental College, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Dentist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for Dentist",
+    "location": {
+      "lat": 14.72493811026663,
+      "lng": 81.70369599918472
+    }
+  },
+  {
+    "id": 156,
+    "external_id": "11338",
+    "name": "Government Peripheral Hosp,KK Nagar,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.758634097357989,
+      "lng": 81.69629056110281
+    }
+  },
+  {
+    "id": 157,
+    "external_id": "11337",
+    "name": "Government Peripheral Hosp,Periyar Ngr,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.025207140494857,
+      "lng": 81.64767818888636
+    }
+  },
+  {
+    "id": 158,
+    "external_id": "11328",
+    "name": "Government Peripheral Hosp,Tondiarpet,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.389096634177882,
+      "lng": 80.82843468417593
+    }
+  },
+  {
+    "id": 159,
+    "external_id": "11351",
+    "name": "Govt Alandur UPHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.986948257369622,
+      "lng": 80.11961029092845
+    }
+  },
+  {
+    "id": 160,
+    "external_id": "11347",
+    "name": "Govt Ayanavaram UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.366395061023471,
+      "lng": 81.21872865629638
+    }
+  },
+  {
+    "id": 161,
+    "external_id": "11343",
+    "name": "Govt CHC Adayar,  Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.328808510248031,
+      "lng": 81.87448683174027
+    }
+  },
+  {
+    "id": 162,
+    "external_id": "11344",
+    "name": "Govt CHC RK Nagar,  Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.974416129453505,
+      "lng": 81.59483000726445
+    }
+  },
+  {
+    "id": 163,
+    "external_id": "11341",
+    "name": "Govt Hospital,Ayanavaram ESI, Chennai TN. ",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.636036703712168,
+      "lng": 81.20466616280788
+    }
+  },
+  {
+    "id": 164,
+    "external_id": "11353",
+    "name": "Govt INJAMBAKKAM UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.70309399791026,
+      "lng": 80.35677892040603
+    }
+  },
+  {
+    "id": 165,
+    "external_id": "11339",
+    "name": "Govt Institute of mental health, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.75367659224706,
+      "lng": 80.86326450991655
+    }
+  },
+  {
+    "id": 166,
+    "external_id": "11333",
+    "name": "Govt Kalaignar Centenary Spr Spl Hosp, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.481564423429457,
+      "lng": 81.71185129053853
+    }
+  },
+  {
+    "id": 167,
+    "external_id": "11348",
+    "name": "Govt Manjambakkam UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.260056226815724,
+      "lng": 80.33905644545789
+    }
+  },
+  {
+    "id": 168,
+    "external_id": "11358",
+    "name": "Govt Mirsahibpet UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.914916785612704,
+      "lng": 81.96694918371972
+    }
+  },
+  {
+    "id": 169,
+    "external_id": "11331",
+    "name": "Govt Opthomology Hospital,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.705943927656584,
+      "lng": 81.24747792845488
+    }
+  },
+  {
+    "id": 170,
+    "external_id": "11355",
+    "name": "Govt PADI UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.133000224589177,
+      "lng": 80.36086183817514
+    }
+  },
+  {
+    "id": 171,
+    "external_id": "11340",
+    "name": "Govt Peripheral Hospital, Saidapet,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.137116022456366,
+      "lng": 80.62398601972953
+    }
+  },
+  {
+    "id": 172,
+    "external_id": "11350",
+    "name": "Govt Perungudi UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.830156681585356,
+      "lng": 81.612546376356
+    }
+  },
+  {
+    "id": 173,
+    "external_id": "11354",
+    "name": "Govt PORUR UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.670809907667936,
+      "lng": 80.78802163516099
+    }
+  },
+  {
+    "id": 174,
+    "external_id": "11345",
+    "name": "Govt Pulianthope CHC,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.036682554789406,
+      "lng": 81.19999850026169
+    }
+  },
+  {
+    "id": 175,
+    "external_id": "11349",
+    "name": "Govt Puzhal CHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.5107796122129,
+      "lng": 80.8984637339118
+    }
+  },
+  {
+    "id": 176,
+    "external_id": "11357",
+    "name": "Govt Sanjeevarayanpet UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.414278204185665,
+      "lng": 80.00536409928675
+    }
+  },
+  {
+    "id": 177,
+    "external_id": "11356",
+    "name": "Govt Thiruvottiyur UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.185118519128102,
+      "lng": 80.40036154950386
+    }
+  },
+  {
+    "id": 178,
+    "external_id": "11352",
+    "name": "Govt VADAPALANI UCHC, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.606818512657028,
+      "lng": 81.61064551563103
+    }
+  },
+  {
+    "id": 179,
+    "external_id": "11314",
+    "name": "Govt Vyasarpadi UPHC TANKER Foundation,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 610,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.955540712491345,
+      "lng": 81.98684359831239
+    }
+  },
+  {
+    "id": 180,
+    "external_id": "11332",
+    "name": "Govt. Omandhurar Medical coll and hosp,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.31695339730243,
+      "lng": 81.28992180373943
+    }
+  },
+  {
+    "id": 181,
+    "external_id": "11318",
+    "name": "Govt. OSTC, Kannagi Nagar, Chennai, TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 530,
+    "availability": "10-20 mins wait",
+    "rating": 4.4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.136394230636082,
+      "lng": 80.30139723987267
+    }
+  },
+  {
+    "id": 182,
+    "external_id": "11329",
+    "name": "Govt. Royapettah Hospital, Royapetta,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 3.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.492250858430763,
+      "lng": 81.05744972783911
+    }
+  },
+  {
+    "id": 183,
+    "external_id": "11322",
+    "name": "Govt. Stanley Medical College Hospital,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.548166269112203,
+      "lng": 80.54804748195927
+    }
+  },
+  {
+    "id": 184,
+    "external_id": "11323",
+    "name": "Govt.Kilpauk Medical CollegeHospitalChennai,TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.1,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.763463871347444,
+      "lng": 81.48560291161144
+    }
+  },
+  {
+    "id": 185,
+    "external_id": "11321",
+    "name": "Govt.Super Speciality Hospital,Omandur Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.014211356486499,
+      "lng": 81.98665827386891
+    }
+  },
+  {
+    "id": 186,
+    "external_id": "11336",
+    "name": "GOVT.TB HOSPITAL OTTERI , CHENNAI TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.021559852191892,
+      "lng": 81.41579294273397
+    }
+  },
+  {
+    "id": 187,
+    "external_id": "11342",
+    "name": "Govt.UPHC Kondithop ,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 4.2,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.147405585711299,
+      "lng": 80.87647380965619
+    }
+  },
+  {
+    "id": 188,
+    "external_id": "11381",
+    "name": "Healthcare global enterprises Ltd, Chennai DC. ",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 547,
+    "availability": "10-20 mins wait",
+    "rating": 3.9,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.696413019239742,
+      "lng": 80.33213751445699
+    }
+  },
+  {
+    "id": 189,
+    "external_id": "11443",
+    "name": "Hycare Super Speciality Hospital, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 752,
+    "availability": "10-20 mins wait",
+    "rating": 3.6,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.293823488147959,
+      "lng": 81.40318930689963
+    }
+  },
+  {
+    "id": 190,
+    "external_id": "11326",
+    "name": "ICH,Egmore,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4.7,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.410779295688867,
+      "lng": 80.47142476970068
+    }
+  },
+  {
+    "id": 191,
+    "external_id": "11325",
+    "name": "IOG,Egmore,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "Immediate",
+    "rating": 4,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.79442603653067,
+      "lng": 81.53667365876555
+    }
+  },
+  {
+    "id": 192,
+    "external_id": "11452",
+    "name": "Iswarya Fertility, Adyar, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 720,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.064996148166921,
+      "lng": 80.66381154781337
+    }
+  },
+  {
+    "id": 193,
+    "external_id": "11379",
+    "name": "Jeenomics Laboratory Private Ltd, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 707,
+    "availability": "Immediate",
+    "rating": 3.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.846575895201738,
+      "lng": 80.74028492077036
+    }
+  },
+  {
+    "id": 194,
+    "external_id": "11371",
+    "name": "Jeevan Stem Cell Foundation, Chennai DC.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 550,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.729640128425629,
+      "lng": 80.45496329814452
+    }
+  },
+  {
+    "id": 195,
+    "external_id": "11438",
+    "name": "Kanchi Kamakoti Child Trust Hospital ,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 789,
+    "availability": "Immediate",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.418594947433022,
+      "lng": 80.31384200429274
+    }
+  },
+  {
+    "id": 196,
+    "external_id": "11400",
+    "name": "Kauvery Hospital Chennai,TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 310,
+    "availability": "10-20 mins wait",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.909627810089,
+      "lng": 80.9371076854924
+    }
+  },
+  {
+    "id": 197,
+    "external_id": "11466",
+    "name": "Kauvery Hospital, Vadapalani, Chennai, TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 795,
+    "availability": "Immediate",
+    "rating": 3.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 14.871297630824113,
+      "lng": 80.17837356833591
+    }
+  },
+  {
+    "id": 198,
+    "external_id": "11478",
+    "name": "Kewalchand Mohanabai Dialysis Centr, Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "Nephrologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 319,
+    "availability": "10-20 mins wait",
+    "rating": 4.8,
+    "reviews": "Processed via AI: Highly recommended for Nephrologist",
+    "location": {
+      "lat": 13.773370205420784,
+      "lng": 80.25459352533625
+    }
+  },
+  {
+    "id": 199,
+    "external_id": "11324",
+    "name": "KGH,Chennai TN.",
+    "city": "Chennai",
+    "specialists": [
+      "General Medicine"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife",
+      "CMCHIS (Govt Scheme)"
+    ],
+    "fee": 0,
+    "availability": "10-20 mins wait",
+    "rating": 3.5,
+    "reviews": "Processed via AI: Highly recommended for General Medicine",
+    "location": {
+      "lat": 13.996293387591184,
+      "lng": 81.39585418845208
+    }
+  },
+  {
+    "id": 200,
+    "external_id": "11479",
+    "name": "Khivraj Chordia Memorial Dialysis, Chennai TN. ",
+    "city": "Chennai",
+    "specialists": [
+      "Nephrologist"
+    ],
+    "insurance": [
+      "Star Health",
+      "PNB MetLife"
+    ],
+    "fee": 420,
+    "availability": "Immediate",
+    "rating": 4.3,
+    "reviews": "Processed via AI: Highly recommended for Nephrologist",
+    "location": {
+      "lat": 14.43145772839995,
+      "lng": 81.49341857957991
+    }
+  }
+]
