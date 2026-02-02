@@ -127,9 +127,17 @@ const MainApp = () => {
     window.scrollTo({ top: 600, behavior: 'smooth' });
   };
 
-  const handleRadiusChange = (radius) => {
+  const handleRadiusChange = async (radius) => {
     setSearchRadius(radius);
-    // Filtering happens in useEffect
+    if (currentQuery) {
+      setLoading(true);
+      let results = await searchHospitalsByIssue(currentQuery, userLocation);
+      if (radius && userLocation) {
+        results = results.filter(h => h.distance <= radius);
+      }
+      setHospitals(results);
+      setLoading(false);
+    }
   };
 
   const handleConsult = () => {

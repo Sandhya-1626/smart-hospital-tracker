@@ -32,14 +32,36 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
     const processInput = (text) => {
         const lowerText = text.toLowerCase();
 
-        // Check for distance/radius mentions
+        // 1. Check for distance/radius mentions
         const kmMatch = lowerText.match(/(\d+)\s*km/);
-        if (kmMatch) {
+
+        // 2. Extract potential symptoms (anything that isn't the distance)
+        let potentialSymptom = lowerText.replace(/(\d+)\s*km/, '').replace(/within|under|less than|near/g, '').trim();
+
+        if (kmMatch && potentialSymptom.length > 3) {
+            // BOTH provided at once
             const radius = parseInt(kmMatch[1]);
+            setPendingSearch(potentialSymptom);
             setTimeout(() => {
                 setMessages(prev => [...prev, {
                     id: Date.now(),
-                    text: `Perfect! Searching for "${pendingSearch || 'hospitals'}" within exactly ${radius}km. I will ensure they are strictly near you and NOT far away.`,
+                    text: `Excellent! I'm suggesting hospitals for "${potentialSymptom}" within ${radius}km.`,
+                    sender: 'bot'
+                }]);
+                onRadiusChange(radius);
+                onSearch(potentialSymptom);
+            }, 600);
+            return;
+        }
+
+        if (kmMatch) {
+            // ONLY distance provided
+            const radius = parseInt(kmMatch[1]);
+            setTimeout(() => {
+                const searchName = pendingSearch || 'hospitals';
+                setMessages(prev => [...prev, {
+                    id: Date.now(),
+                    text: `Got it. Filtering results for "${searchName}" to strictly within ${radius}km.`,
                     sender: 'bot'
                 }]);
                 onRadiusChange(radius);
@@ -53,7 +75,7 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
             setTimeout(() => {
                 setMessages(prev => [...prev, {
                     id: Date.now(),
-                    text: `Showing all nearby hospitals regardless of distance limits.`,
+                    text: `Showing all nearby hospitals for "${pendingSearch || 'your needs'}" without distance limits.`,
                     sender: 'bot'
                 }]);
                 onRadiusChange(null);
@@ -62,12 +84,12 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
             return;
         }
 
-        // If it looks like a health issue, wait for KM confirmation
+        // ONLY Symptom provided
         setPendingSearch(text);
         setTimeout(() => {
             setMessages(prev => [...prev, {
                 id: Date.now(),
-                text: `I can help find the best care for "${text}". To make sure results are ONLY nearby and NOT far away, how many KM range should I look in?`,
+                text: `I've found hospitals for "${text}". To give you the closest suggestions (not far away), what is your preferred distance in KM?`,
                 sender: 'bot'
             }]);
         }, 800);
