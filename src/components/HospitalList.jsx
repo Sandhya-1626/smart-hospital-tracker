@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { aiService } from '../services/aiService';
-import { Star, Clock, Heart, ArrowRight, ShieldCheck, CreditCard, MapPin } from 'lucide-react';
+import { Star, Clock, Heart, ArrowRight, ShieldCheck, CreditCard, MapPin, ShieldAlert } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const HospitalCard = ({ hospital, onConsult }) => {
@@ -79,12 +79,20 @@ const HospitalCard = ({ hospital, onConsult }) => {
                 <button onClick={onConsult} className="secondary-button" style={{ flex: 1 }}>
                     {t.bookAppointment}
                 </button>
+                <button
+                    onClick={(e) => { e.stopPropagation(); hospital.onPanic(hospital); }}
+                    className="primary-button"
+                    style={{ background: 'var(--error)', padding: '0.5rem', minWidth: '48px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    title="Panic Mode"
+                >
+                    <ShieldAlert size={20} />
+                </button>
             </div>
         </motion.div>
     );
 };
 
-const HospitalList = ({ hospitals, loading, onConsult }) => {
+const HospitalList = ({ hospitals, loading, onConsult, onPanic }) => {
     const { t } = useLanguage();
 
     if (loading) {
@@ -119,7 +127,7 @@ const HospitalList = ({ hospitals, loading, onConsult }) => {
                 </div>
             ) : (
                 hospitals.map(h => (
-                    <HospitalCard key={h.id} hospital={h} onConsult={onConsult} />
+                    <HospitalCard key={h.id} hospital={{ ...h, onPanic }} onConsult={onConsult} />
                 ))
             )}
         </div>

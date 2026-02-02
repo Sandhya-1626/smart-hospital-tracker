@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import HospitalList from './components/HospitalList';
 import AuthModal from './components/AuthModal';
 import Chatbot from './components/Chatbot';
+import PanicModal from './components/PanicModal';
 import { getHospitals, searchHospitalsByIssue } from './services/dataService';
 import { CheckCircle, CreditCard, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -96,6 +97,8 @@ const MainApp = () => {
   const [userLocation, setUserLocation] = useState(null);
   const [searchRadius, setSearchRadius] = useState(null); // in KM
   const [currentQuery, setCurrentQuery] = useState('');
+  const [showPanic, setShowPanic] = useState(false);
+  const [panicHospital, setPanicHospital] = useState(null);
 
   // Initial fetch (randomized until location is found)
   useEffect(() => {
@@ -148,6 +151,11 @@ const MainApp = () => {
     }
   };
 
+  const handleTriggerPanic = (hospital = null) => {
+    setPanicHospital(hospital || hospitals[0]);
+    setShowPanic(true);
+  };
+
   return (
     <div className="app-container">
       <Navbar onLoginClick={() => setShowAuth(true)} isLogged={isAuthenticated} userName={user?.name} />
@@ -180,6 +188,7 @@ const MainApp = () => {
             hospitals={hospitals}
             loading={loading}
             onConsult={handleConsult}
+            onPanic={handleTriggerPanic}
           />
         </section>
       </main>
@@ -207,7 +216,11 @@ const MainApp = () => {
           </div>
           <div>
             <h4 style={{ marginBottom: '1rem' }}>Emergency</h4>
-            <button className="primary-button" style={{ background: 'var(--error)', width: '100%', border: 'none' }}>
+            <button
+              onClick={() => handleTriggerPanic()}
+              className="primary-button"
+              style={{ background: 'var(--error)', width: '100%', border: 'none' }}
+            >
               Call 108 Emergency
             </button>
           </div>
@@ -220,6 +233,13 @@ const MainApp = () => {
       <Chatbot
         onRadiusChange={handleRadiusChange}
         onSearch={handleSearch}
+      />
+
+      <PanicModal
+        isOpen={showPanic}
+        onClose={() => setShowPanic(false)}
+        hospital={panicHospital}
+        userLocation={userLocation}
       />
     </div>
   );
