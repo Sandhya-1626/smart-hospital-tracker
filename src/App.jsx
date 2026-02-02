@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HospitalList from './components/HospitalList';
 import AuthModal from './components/AuthModal';
+import Chatbot from './components/Chatbot';
 import { getHospitals, searchHospitalsByIssue } from './services/dataService';
 import { CheckCircle, CreditCard, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -93,29 +94,42 @@ const MainApp = () => {
   const [showAuth, setShowAuth] = useState(false);
   const [showPayment, setShowPayment] = useState(false);
   const [userLocation, setUserLocation] = useState(null);
+  const [searchRadius, setSearchRadius] = useState(null); // in KM
+  const [currentQuery, setCurrentQuery] = useState('');
 
   // Initial fetch (randomized until location is found)
   useEffect(() => {
     const fetchDefault = async () => {
-      const data = await getHospitals(userLocation);
+      let data = await getHospitals(userLocation);
+      if (searchRadius && userLocation) {
+        data = data.filter(h => h.distance <= searchRadius);
+      }
       setHospitals(data);
       setLoading(false);
     };
     fetchDefault();
-  }, [userLocation]); // Re-fetch when location is updated
+  }, [userLocation, searchRadius]);
 
   const handleLocationUpdate = (location) => {
     console.log("Location updated:", location);
     setUserLocation(location);
-    // The useEffect will trigger automatically
   };
 
   const handleSearch = async (issue) => {
     setLoading(true);
-    const results = await searchHospitalsByIssue(issue, userLocation);
+    setCurrentQuery(issue);
+    let results = await searchHospitalsByIssue(issue, userLocation);
+    if (searchRadius && userLocation) {
+      results = results.filter(h => h.distance <= searchRadius);
+    }
     setHospitals(results);
     setLoading(false);
     window.scrollTo({ top: 600, behavior: 'smooth' });
+  };
+
+  const handleRadiusChange = (radius) => {
+    setSearchRadius(radius);
+    // Filtering happens in useEffect
   };
 
   const handleConsult = () => {
@@ -194,6 +208,11 @@ const MainApp = () => {
           © 2026 TN Health AI Platform. Built for excellence in healthcare.
         </div>
       </footer>
+
+      <Chatbot
+        onRadiusChange={handleRadiusChange}
+        onSearch={handleSearch}
+      />
     </div>
   );
 };

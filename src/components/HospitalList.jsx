@@ -110,9 +110,13 @@ const HospitalList = ({ hospitals, loading, onConsult }) => {
                     <Clock color="var(--primary)" /> {t.nearbyHospitals}
                 </h2>
                 {hospitals[0]?.distance && (
-                    <div style={{ fontSize: '0.8rem', color: 'var(--success)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
-                        <div style={{ width: '8px', height: '8px', background: 'var(--success)', borderRadius: '50%' }}></div>
-                        Sorting by Proximity
+                    <div style={{ display: 'flex', gap: '8px' }}>
+                        {hospitals.some(h => h.distance) && (
+                            <div style={{ fontSize: '0.8rem', color: 'var(--success)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px', background: '#ECFDF5', padding: '4px 12px', borderRadius: 'var(--radius-full)' }}>
+                                <div style={{ width: '8px', height: '8px', background: 'var(--success)', borderRadius: '50%' }}></div>
+                                Sorting by Proximity
+                            </div>
+                        )}
                     </div>
                 )}
             </div>
