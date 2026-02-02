@@ -20,23 +20,15 @@ const AuthModal = ({ isOpen, onClose }) => {
     const validateForm = () => {
         if (!isLogin) {
             if (!formData.name || !formData.email || !formData.mobile || !formData.emergencyContact || !formData.password) {
-                setError("All fields are required.");
+                setError("Please fill in all safety fields.");
                 return false;
             }
             if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
-                setError("Please enter a valid email address.");
+                setError("Invalid email format.");
                 return false;
             }
-            if (!/^\d{10}$/.test(formData.mobile)) {
-                setError("Mobile number must be 10 digits.");
-                return false;
-            }
-            if (!/^\d{10}$/.test(formData.emergencyContact)) {
-                setError("Emergency contact must be 10 digits.");
-                return false;
-            }
-            if (formData.password.length < 6) {
-                setError("Password must be at least 6 characters.");
+            if (!/^\d{10}$/.test(formData.mobile) || !/^\d{10}$/.test(formData.emergencyContact)) {
+                setError("Phone numbers must be 10 digits.");
                 return false;
             }
         } else {
@@ -46,6 +38,22 @@ const AuthModal = ({ isOpen, onClose }) => {
             }
         }
         return true;
+    };
+
+    const handleGoogleLogin = async () => {
+        setIsLoading(true);
+        // Simulating Google Login
+        setTimeout(async () => {
+            try {
+                // We'll use a dummy account for the Google simulation
+                await login("guest@google.com", "googlepass");
+                onClose();
+            } catch (err) {
+                setError("Google entry failed. Please try manual login.");
+            } finally {
+                setIsLoading(false);
+            }
+        }, 1000);
     };
 
     const handleSubmit = async (e) => {
@@ -69,12 +77,11 @@ const AuthModal = ({ isOpen, onClose }) => {
                     formData.emergencyContact,
                     formData.password
                 );
-                setSuccess('Account created! Sign in to continue.');
+                setSuccess('Account Secured! Switching to login...');
                 setTimeout(() => {
                     setIsLogin(true);
                     setSuccess('');
-                    setFormData(prev => ({ ...prev, password: '' }));
-                }, 1500);
+                }, 2000);
             }
         } catch (err) {
             setError(err.message);
@@ -91,175 +98,191 @@ const AuthModal = ({ isOpen, onClose }) => {
 
     return (
         <AnimatePresence>
-            <div style={{ position: 'fixed', inset: 0, zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
+            <div style={{ position: 'fixed', inset: 0, zIndex: 3000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     onClick={onClose}
-                    style={{ position: 'absolute', inset: 0, background: 'rgba(2, 6, 23, 0.4)', backdropFilter: 'blur(8px)' }}
+                    style={{ position: 'absolute', inset: 0, background: 'rgba(2, 6, 23, 0.6)', backdropFilter: 'blur(10px)' }}
                 />
                 <motion.div
-                    initial={{ scale: 0.95, opacity: 0, y: 20 }}
+                    initial={{ scale: 0.9, opacity: 0, y: 30 }}
                     animate={{ scale: 1, opacity: 1, y: 0 }}
-                    exit={{ scale: 0.95, opacity: 0, y: 20 }}
+                    exit={{ scale: 0.9, opacity: 0, y: 30 }}
                     className="glass-card"
                     style={{
                         position: 'relative',
                         width: '100%',
-                        maxWidth: '440px',
-                        maxHeight: '90vh',
-                        padding: '2.5rem',
+                        maxWidth: '420px',
+                        maxHeight: '85vh',
+                        padding: '2rem',
                         background: 'white',
                         border: '1px solid var(--glass-border)',
                         overflowY: 'auto',
-                        borderRadius: 'var(--radius-lg)',
-                        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+                        borderRadius: '24px',
+                        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)'
                     }}
                 >
-                    <button onClick={onClose} style={{ position: 'absolute', top: '1.25rem', right: '1.25rem', color: 'var(--text-muted)' }}>
-                        <X size={20} />
+                    <button onClick={onClose} style={{ position: 'absolute', top: '1rem', right: '1rem', color: 'var(--text-muted)', padding: '8px' }}>
+                        <X size={24} />
                     </button>
 
-                    <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                        <h2 style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '0.5rem', color: 'var(--text-primary)' }}>
-                            {isLogin ? 'Welcome Back' : 'Secure Onboarding'}
+                    <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+                        <div style={{ width: '48px', height: '48px', background: 'var(--primary)', color: 'white', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem' }}>
+                            <ShieldAlert size={28} />
+                        </div>
+                        <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-primary)' }}>
+                            {isLogin ? 'Sign In' : 'Safety Registration'}
                         </h2>
-                        <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-                            {isLogin ? 'Access your healthcare dashboard' : 'Join TN Health for smart emergency support'}
+                        <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                            {isLogin ? 'Welcome back to TN Health AI' : 'Complete onboarding for emergency support'}
                         </p>
                     </div>
 
                     <button
+                        onClick={handleGoogleLogin}
+                        disabled={isLoading}
                         style={{
                             width: '100%',
                             padding: '12px',
                             background: 'white',
                             border: '1px solid #E2E8F0',
-                            borderRadius: 'var(--radius-md)',
+                            borderRadius: '12px',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
                             gap: '10px',
-                            fontSize: '0.95rem',
+                            fontSize: '0.9rem',
                             fontWeight: 600,
                             color: 'var(--text-primary)',
-                            marginBottom: '1.5rem',
-                            cursor: 'pointer'
+                            marginBottom: '1rem',
+                            cursor: 'pointer',
+                            opacity: isLoading ? 0.7 : 1
                         }}
-                        onClick={() => alert("Google Login simulation activated.")}
                     >
-                        <Chrome size={20} color="#EA4335" /> Continue with Google
+                        <Chrome size={18} color="#EA4335" /> Continue with Google
                     </button>
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
                         <div style={{ flex: 1, height: '1px', background: '#E2E8F0' }}></div>
-                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>OR MANUAL {isLogin ? 'LOGIN' : 'SIGNUP'}</span>
+                        <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)', fontWeight: 700 }}>OR MANUAL ENTRY</span>
                         <div style={{ flex: 1, height: '1px', background: '#E2E8F0' }}></div>
                     </div>
 
-                    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                         {!isLogin && (
                             <div style={{ position: 'relative' }}>
-                                <User size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
+                                <User size={16} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
                                 <input
                                     type="text"
                                     name="name"
                                     placeholder="Full Name"
                                     value={formData.name}
                                     onChange={handleChange}
-                                    style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.9rem' }}
+                                    style={{ width: '100%', padding: '12px 12px 12px 38px', borderRadius: '12px', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.85rem' }}
                                 />
                             </div>
                         )}
 
                         <div style={{ position: 'relative' }}>
-                            <Mail size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
+                            <Mail size={16} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
                             <input
                                 type="email"
                                 name="email"
                                 placeholder="Email Address"
                                 value={formData.email}
                                 onChange={handleChange}
-                                style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.9rem' }}
+                                style={{ width: '100%', padding: '12px 12px 12px 38px', borderRadius: '12px', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.85rem' }}
                             />
                         </div>
 
                         {!isLogin && (
                             <div style={{ position: 'relative' }}>
-                                <Phone size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
+                                <Phone size={16} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
                                 <input
                                     type="tel"
                                     name="mobile"
-                                    placeholder="Mobile Number"
+                                    placeholder="Your Mobile Number"
                                     value={formData.mobile}
                                     onChange={handleChange}
-                                    style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.9rem' }}
+                                    style={{ width: '100%', padding: '12px 12px 12px 38px', borderRadius: '12px', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.85rem' }}
                                 />
                             </div>
                         )}
 
                         {!isLogin && (
                             <div style={{ position: 'relative' }}>
-                                <ShieldAlert size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--error)' }} />
+                                <ShieldAlert size={16} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--error)' }} />
                                 <input
                                     type="tel"
                                     name="emergencyContact"
-                                    placeholder="Emergency Contact (Capregiver)"
+                                    placeholder="Emergency Contact (Guardian)"
                                     value={formData.emergencyContact}
                                     onChange={handleChange}
-                                    style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #FEE2E2', outline: 'none', fontSize: '0.9rem' }}
+                                    style={{ width: '100%', padding: '12px 12px 12px 38px', borderRadius: '12px', border: '1px solid #FEE2E2', outline: 'none', fontSize: '0.85rem', background: '#FFFBFB' }}
                                 />
                             </div>
                         )}
 
                         <div style={{ position: 'relative' }}>
-                            <Lock size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
+                            <Lock size={16} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--text-muted)' }} />
                             <input
                                 type="password"
                                 name="password"
                                 placeholder="Password"
                                 value={formData.password}
                                 onChange={handleChange}
-                                style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.9rem' }}
+                                style={{ width: '100%', padding: '12px 12px 12px 38px', borderRadius: '12px', border: '1px solid #E2E8F0', outline: 'none', fontSize: '0.85rem' }}
                             />
                         </div>
 
                         {!isLogin && (
-                            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', background: '#F8FAFC', padding: '10px', borderRadius: 'var(--radius-sm)', borderLeft: '3px solid var(--primary)' }}>
-                                <strong>Safety Consent:</strong> Your emergency contact is mandatory. It will ONLY be used to send your location during Panic Mode.
+                            <div style={{ fontSize: '0.7rem', color: '#0369A1', background: '#F0F9FF', padding: '10px', borderRadius: '8px', borderLeft: '3px solid #0EA5E9' }}>
+                                <strong>Privacy:</strong> We only use your emergency contact during Panic Mode alerts.
                             </div>
                         )}
 
                         {error && (
-                            <div style={{ padding: '10px', background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 'var(--radius-sm)', color: '#DC2626', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                <AlertCircle size={16} /> {error}
+                            <div style={{ padding: '10px', background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: '8px', color: '#DC2626', fontSize: '0.75rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <AlertCircle size={14} /> {error}
                             </div>
                         )}
 
                         {success && (
-                            <div style={{ padding: '10px', background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 'var(--radius-sm)', color: '#059669', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                <CheckCircle size={16} /> {success}
+                            <div style={{ padding: '10px', background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: '8px', color: '#059669', fontSize: '0.75rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <CheckCircle size={14} /> {success}
                             </div>
                         )}
 
                         <button
                             type="submit"
                             className="primary-button"
-                            style={{ width: '100%', marginTop: '0.5rem', opacity: isLoading ? 0.7 : 1, padding: '14px' }}
+                            style={{
+                                width: '100%',
+                                marginTop: '0.5rem',
+                                padding: '14px',
+                                opacity: isLoading ? 0.7 : 1,
+                                borderRadius: '12px',
+                                border: 'none',
+                                background: 'var(--primary)',
+                                color: 'white',
+                                fontWeight: 700,
+                                cursor: 'pointer'
+                            }}
                             disabled={isLoading}
                         >
-                            {isLoading ? 'Wait a moment...' : (isLogin ? 'Enter Platform' : 'Secure My Account')}
+                            {isLoading ? 'Processing...' : (isLogin ? 'Enter App' : 'Secure My Account')}
                         </button>
                     </form>
 
-                    <div style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-                        {isLogin ? "New to the platform? " : "Joined us before? "}
+                    <div style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                        {isLogin ? "New user? " : "Already registered? "}
                         <button
                             onClick={() => { setIsLogin(!isLogin); setError(''); setSuccess(''); }}
-                            style={{ fontWeight: 700, color: 'var(--primary)' }}
+                            style={{ fontWeight: 800, color: 'var(--primary)', cursor: 'pointer' }}
                         >
-                            {isLogin ? 'Start Onboarding' : 'Sign In'}
+                            {isLogin ? 'Sign Up' : 'Log In'}
                         </button>
                     </div>
                 </motion.div>
