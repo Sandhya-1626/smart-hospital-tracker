@@ -7,10 +7,10 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
     const { t } = useLanguage();
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { id: 1, text: "Hi! I'm your TN Health Assistant. How can I help you today?", sender: 'bot' },
-        { id: 2, text: "You can ask for symptoms or tell me how far you can travel (e.g., 'within 5km').", sender: 'bot' }
+        { id: 1, text: "Hi! I'm your TN Health Assistant. What symptoms are you experiencing?", sender: 'bot' }
     ]);
     const [input, setInput] = useState('');
+    const [pendingSearch, setPendingSearch] = useState(null);
     const scrollRef = useRef(null);
 
     useEffect(() => {
@@ -39,10 +39,11 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
             setTimeout(() => {
                 setMessages(prev => [...prev, {
                     id: Date.now(),
-                    text: `Got it! Filtering hospitals within ${radius}km.`,
+                    text: `Perfect! Searching for "${pendingSearch || 'hospitals'}" within exactly ${radius}km. I will ensure they are strictly near you and NOT far away.`,
                     sender: 'bot'
                 }]);
                 onRadiusChange(radius);
+                if (pendingSearch) onSearch(pendingSearch);
             }, 600);
             return;
         }
@@ -52,22 +53,23 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
             setTimeout(() => {
                 setMessages(prev => [...prev, {
                     id: Date.now(),
-                    text: `Showing all nearby hospitals regardless of distance.`,
+                    text: `Showing all nearby hospitals regardless of distance limits.`,
                     sender: 'bot'
                 }]);
                 onRadiusChange(null);
+                if (pendingSearch) onSearch(pendingSearch);
             }, 600);
             return;
         }
 
-        // Otherwise treat as a search query
+        // If it looks like a health issue, wait for KM confirmation
+        setPendingSearch(text);
         setTimeout(() => {
             setMessages(prev => [...prev, {
                 id: Date.now(),
-                text: `Searching for hospitals related to your issue: "${text}"...`,
+                text: `I can help find the best care for "${text}". To make sure results are ONLY nearby and NOT far away, how many KM range should I look in?`,
                 sender: 'bot'
             }]);
-            onSearch(text);
         }, 800);
     };
 
@@ -125,8 +127,8 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
                         <div style={{ background: 'var(--primary)', color: 'white', padding: '1.25rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <Compass size={24} className="animate-pulse" />
                             <div>
-                                <div style={{ fontWeight: 700, fontSize: '1rem' }}>Health AI Assistant</div>
-                                <div style={{ fontSize: '0.75rem', opacity: 0.8 }}>Online • Radius: Interactive</div>
+                                <div style={{ fontWeight: 700, fontSize: '1rem' }}>Proximity Assistant</div>
+                                <div style={{ fontSize: '0.75rem', opacity: 0.8 }}>Online • Strictly Nearby Support</div>
                             </div>
                         </div>
 
@@ -157,18 +159,18 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
 
                         {/* Quick Distance Buttons */}
                         <div style={{ display: 'flex', gap: '8px', padding: '8px 1.5rem', background: '#F8FAFC', borderTop: '1px solid #E2E8F0' }}>
-                            {[5, 10, 20].map(dist => (
+                            {[2, 5, 10, 20].map(dist => (
                                 <button
                                     key={dist}
                                     onClick={() => processInput(`${dist}km`)}
-                                    style={{ fontSize: '0.75rem', padding: '4px 10px', borderRadius: 'var(--radius-full)', background: 'white', border: '1px solid #E2E8F0', color: 'var(--primary)', fontWeight: 600 }}
+                                    style={{ fontSize: '0.75rem', padding: '4px 10px', borderRadius: 'var(--radius-full)', background: 'white', border: '1px solid #E2E8F0', color: 'var(--primary)', fontWeight: 600, cursor: 'pointer' }}
                                 >
                                     {dist}km
                                 </button>
                             ))}
                             <button
                                 onClick={() => processInput(`any distance`)}
-                                style={{ fontSize: '0.75rem', padding: '4px 10px', borderRadius: 'var(--radius-full)', background: 'white', border: '1px solid #E2E8F0', color: 'var(--text-muted)' }}
+                                style={{ fontSize: '0.75rem', padding: '4px 10px', borderRadius: 'var(--radius-full)', background: 'white', border: '1px solid #E2E8F0', color: 'var(--text-muted)', cursor: 'pointer' }}
                             >
                                 Reset
                             </button>
@@ -178,7 +180,7 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
                         <div style={{ padding: '1rem', background: 'white', borderTop: '1px solid #E2E8F0', display: 'flex', gap: '8px' }}>
                             <input
                                 type="text"
-                                placeholder="Type symptoms or '10km'..."
+                                placeholder="e.g. '5km' or 'chest pain'..."
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyPress={(e) => e.key === 'Enter' && handleSend()}
@@ -186,7 +188,7 @@ const Chatbot = ({ onRadiusChange, onSearch }) => {
                             />
                             <button
                                 onClick={handleSend}
-                                style={{ background: 'var(--primary)', color: 'white', width: '36px', height: '36px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: 'none' }}
+                                style={{ background: 'var(--primary)', color: 'white', width: '36px', height: '36px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: 'none', cursor: 'pointer' }}
                             >
                                 <Send size={18} />
                             </button>
