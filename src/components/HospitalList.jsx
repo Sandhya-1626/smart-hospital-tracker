@@ -27,18 +27,22 @@ const HospitalCard = ({ hospital, onConsult }) => {
             style={{ padding: '1.5rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}
         >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                <div>
+                <div style={{ flex: 1 }}>
                     <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)', marginBottom: '0.25rem' }}>{hospital.name}</h3>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '4px' }}>
                         {hospital.city} • <Star size={14} fill="var(--warning)" color="var(--warning)" /> {hospital.rating}
                         {hospital.distance && (
-                            <span style={{ marginLeft: '12px', display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--primary)', fontWeight: 600 }}>
+                            <span style={{ marginLeft: '8px', display: 'flex', alignItems: 'center', gap: '4px', color: hospital.distance < 10 ? 'var(--success)' : 'var(--primary)', fontWeight: 700 }}>
                                 <MapPin size={14} /> {hospital.distance} km away
                             </span>
                         )}
                     </p>
                 </div>
-
+                {hospital.distance && hospital.distance < 10 && (
+                    <div style={{ background: 'var(--success)', color: 'white', padding: '4px 12px', borderRadius: 'var(--radius-full)', fontSize: '0.7rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                        Closest Facility
+                    </div>
+                )}
             </div>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -101,9 +105,17 @@ const HospitalList = ({ hospitals, loading, onConsult }) => {
 
     return (
         <div style={{ maxWidth: '800px', margin: '2rem auto', paddingBottom: '4rem' }}>
-            <h2 style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <Clock color="var(--primary)" /> {t.nearbyHospitals}
-            </h2>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
+                <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: 0 }}>
+                    <Clock color="var(--primary)" /> {t.nearbyHospitals}
+                </h2>
+                {hospitals[0]?.distance && (
+                    <div style={{ fontSize: '0.8rem', color: 'var(--success)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
+                        <div style={{ width: '8px', height: '8px', background: 'var(--success)', borderRadius: '50%' }}></div>
+                        Sorting by Proximity
+                    </div>
+                )}
+            </div>
             {hospitals.length === 0 ? (
                 <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-muted)' }}>
                     No hospitals found for your search. Try describing your symptoms differently.
