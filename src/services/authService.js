@@ -11,13 +11,7 @@ const STORAGE_KEY_SESSION = 'tn_health_session';
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 export const authService = {
-    /**
-     * Register a new user
-     * @param {string} name 
-     * @param {string} email 
-     * @param {string} password 
-     */
-    register: async (name, email, password) => {
+    register: async (name, email, mobile, emergencyContact, password) => {
         await delay(800);
 
         // 1. Get existing users
@@ -28,20 +22,21 @@ export const authService = {
             throw new Error("User with this email already exists.");
         }
 
-        // 3. Hash password (Simulated - use bcrypt in backend)
-        // In real app: const hashedPassword = await bcrypt.hash(password, 10);
-        const hashedPassword = btoa(password); // Simple encoding for demo purposes
+        // 3. Hash password (Simulated)
+        const hashedPassword = btoa(password);
 
         // 4. Create User Object
         const newUser = {
             id: Date.now(),
             name,
             email,
+            mobile,
+            emergencyContact,
             password: hashedPassword,
             createdAt: new Date().toISOString()
         };
 
-        // 5. Save to DB (LocalStorage)
+        // 5. Save to DB
         users.push(newUser);
         localStorage.setItem(STORAGE_KEY_USERS, JSON.stringify(users));
 
@@ -61,8 +56,7 @@ export const authService = {
         // 1. Find user
         const user = users.find(u => u.email === email);
 
-        // 2. Validate password (Simulated)
-        // In real app: const match = await bcrypt.compare(password, user.password);
+        // 2. Validate password
         if (!user || user.password !== btoa(password)) {
             throw new Error("Invalid email or password.");
         }
@@ -72,6 +66,7 @@ export const authService = {
             id: user.id,
             name: user.name,
             email: user.email,
+            emergencyContact: user.emergencyContact,
             token: "mock-jwt-token-" + Date.now()
         };
 
