@@ -19,10 +19,10 @@ function deg2rad(deg) {
 
 import hospitalsData from './hospitalsData.json';
 
-// Use the imported data instead of the hardcoded mock array
+// Use the imported data
 const hospitals = hospitalsData;
 
-// Default search center (Center of Tamil Nadu roughly) if no location provided
+// Default search center
 const DEFAULT_LAT = 11.1271;
 const DEFAULT_LNG = 78.6569;
 
@@ -36,11 +36,9 @@ export const getHospitals = async (userLocation = null) => {
                 distance: calculateDistance(userLocation.lat, userLocation.lng, h.location.lat, h.location.lng)
             })).sort((a, b) => a.distance - b.distance);
         } else {
-            // Randomize slightly to not always show the same top 20
             sortedHospitals = sortedHospitals.sort(() => Math.random() - 0.5);
         }
 
-        // Return top 20 relevant results
         setTimeout(() => resolve(sortedHospitals.slice(0, 20)), 800);
     });
 };
@@ -64,6 +62,9 @@ export const searchHospitalsByIssue = async (issue, userLocation = null) => {
         ent: ["ear", "nose", "throat", "sinus", "tonsils"]
     };
 
+    const urgentSymptoms = ["chest pain", "heart", "stroke", "paralysis", "breathing", "breathless", "accident", "trauma", "fracture", "severe"];
+    const isUrgent = urgentSymptoms.some(s => lowerIssue.includes(s));
+
     let results = hospitals.filter(h => {
         // 1. Direct Name/Specialist Match
         if (h.name.toLowerCase().includes(lowerIssue)) return true;
@@ -72,7 +73,7 @@ export const searchHospitalsByIssue = async (issue, userLocation = null) => {
         // 2. Map Symptoms to Specialists
         for (const [specialist, symptoms] of Object.entries(symptomRegistry)) {
             if (symptoms.some(symptom => lowerIssue.includes(symptom))) {
-                if (h.specialists.some(s => s.toLowerCase().includes(specialist))) {
+                if (h.specialists.some(s => s.toLowerCase().includes(specialist.toLowerCase()))) {
                     return true;
                 }
             }
@@ -85,7 +86,14 @@ export const searchHospitalsByIssue = async (issue, userLocation = null) => {
         results = results.map(h => ({
             ...h,
             distance: calculateDistance(userLocation.lat, userLocation.lng, h.location.lat, h.location.lng)
-        })).sort((a, b) => a.distance - b.distance);
+        })).sort((a, b) => {
+            // Prioritize Emergency if Urgent
+            if (isUrgent) {
+                if (a.hasEmergency && !b.hasEmergency) return -1;
+                if (!a.hasEmergency && b.hasEmergency) return 1;
+            }
+            return a.distance - b.distance;
+        });
     }
 
     return results;

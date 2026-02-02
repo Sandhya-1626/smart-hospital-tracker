@@ -28,6 +28,34 @@ const HospitalCard = ({ hospital, onConsult }) => {
         >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                 <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                        <span style={{
+                            fontSize: '0.7rem',
+                            fontWeight: 700,
+                            padding: '2px 8px',
+                            borderRadius: '4px',
+                            background: hospital.type === 'Government Hospital' ? '#F0F9FF' : '#F5F3FF',
+                            color: hospital.type === 'Government Hospital' ? '#0369A1' : '#6D28D9',
+                            textTransform: 'uppercase'
+                        }}>
+                            {hospital.type}
+                        </span>
+                        {hospital.hasEmergency && (
+                            <span style={{
+                                fontSize: '0.7rem',
+                                fontWeight: 700,
+                                padding: '2px 8px',
+                                borderRadius: '4px',
+                                background: '#FEF2F2',
+                                color: '#DC2626',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '4px'
+                            }}>
+                                <ShieldAlert size={12} /> Emergency Available
+                            </span>
+                        )}
+                    </div>
                     <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)', marginBottom: '0.25rem' }}>{hospital.name}</h3>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '4px' }}>
                         {hospital.city} • <Star size={14} fill="var(--warning)" color="var(--warning)" /> {hospital.rating}
@@ -38,9 +66,9 @@ const HospitalCard = ({ hospital, onConsult }) => {
                         )}
                     </p>
                 </div>
-                {hospital.distance && hospital.distance < 10 && (
+                {hospital.distance && hospital.distance < 5 && (
                     <div style={{ background: 'var(--success)', color: 'white', padding: '4px 12px', borderRadius: 'var(--radius-full)', fontSize: '0.7rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                        Closest Facility
+                        In Your Area
                     </div>
                 )}
             </div>
@@ -129,6 +157,14 @@ const HospitalList = ({ hospitals, loading, onConsult, onPanic }) => {
                 hospitals.map(h => (
                     <HospitalCard key={h.id} hospital={{ ...h, onPanic }} onConsult={onConsult} />
                 ))
+            )}
+
+            {hospitals.length > 0 && (
+                <div style={{ marginTop: '3rem', padding: '1.5rem', background: '#F8FAFC', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', textAlign: 'center' }}>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontStyle: 'italic' }}>
+                        “This suggestion is for hospital discovery only and not a medical diagnosis.”
+                    </p>
+                </div>
             )}
         </div>
     );
