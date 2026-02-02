@@ -62,9 +62,7 @@ const HospitalCard = ({ hospital, onConsult }) => {
                     <span>{t.consultationFee}: ₹{hospital.fee}</span>
                 </div>
 
-                {loading ? (
-                    <div style={{ height: '40px', background: '#F8FAFC', borderRadius: '4px' }} className="animate-pulse"></div>
-                ) : (
+                {loading ? null : (
                     <div style={{ background: 'rgba(0, 98, 255, 0.05)', padding: '0.75rem', borderRadius: 'var(--radius-md)', borderLeft: '3px solid var(--primary)' }}>
                         <p style={{ fontSize: '0.85rem', color: 'var(--primary)', fontWeight: 600, marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '4px' }}>
                             <Heart size={14} /> {t.aiInsight}
@@ -91,14 +89,9 @@ const HospitalList = ({ hospitals, loading, onConsult }) => {
 
     if (loading) {
         return (
-            <div style={{ maxWidth: '800px', margin: '2rem auto' }}>
-                {[1, 2, 3].map(i => (
-                    <div key={i} className="glass-card" style={{ height: '200px', marginBottom: '1.5rem', padding: '1.5rem' }}>
-                        <div style={{ height: '24px', width: '40%', background: '#F1F5F9', borderRadius: '4px', marginBottom: '1rem' }} className="animate-pulse"></div>
-                        <div style={{ height: '16px', width: '20%', background: '#F1F5F9', borderRadius: '4px', marginBottom: '2rem' }} className="animate-pulse"></div>
-                        <div style={{ height: '40px', width: '100%', background: '#F1F5F9', borderRadius: '8px' }} className="animate-pulse"></div>
-                    </div>
-                ))}
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '4rem 0', gap: '1rem' }}>
+                <div className="animate-spin" style={{ width: '40px', height: '40px', border: '3px solid var(--glass-border)', borderTopColor: 'var(--primary)', borderRadius: '50%' }}></div>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Searching for the best care...</p>
             </div>
         );
     }
