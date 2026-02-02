@@ -55,23 +55,30 @@ for (let i = 1; i < lines.length; i++) {
     const district = matches[5]?.replace(/"/g, '').trim() || "Tamil Nadu";
     const pvt_govt = matches[8] || "Private";
 
+    const hName = hospital_name.toLowerCase();
     const specialists = [];
-    if (hospital_name.toLowerCase().includes("multi") || hospital_name.toLowerCase().includes("general")) {
-        specialists.push("General Physician", "Cardiologist", "Orthopedic");
-    } else if (hospital_name.toLowerCase().includes("eye")) {
+    if (hName.includes("multi") || hName.includes("general")) {
+        specialists.push("General Physician", "Cardiologist", "Orthopedic Surgeon");
+    } else if (hName.includes("eye")) {
         specialists.push("Ophthalmologist");
-    } else if (hospital_name.toLowerCase().includes("imaging") || hospital_name.toLowerCase().includes("scan")) {
+    } else if (hName.includes("imaging") || hName.includes("scan") || hName.includes("x-ray")) {
         specialists.push("Radiologist");
-    } else if (hospital_name.toLowerCase().includes("ortho")) {
+    } else if (hName.includes("ortho") || hName.includes("bone")) {
         specialists.push("Orthopedic Surgeon");
-    } else if (hospital_name.toLowerCase().includes("cancer") || hospital_name.toLowerCase().includes("onco")) {
+    } else if (hName.includes("cancer") || hName.includes("onco")) {
         specialists.push("Oncologist");
-    } else if (hospital_name.toLowerCase().includes("dental")) {
+    } else if (hName.includes("dental") || hName.includes("tooth")) {
         specialists.push("Dentist");
-    } else if (hospital_name.toLowerCase().includes("kidney") || hospital_name.toLowerCase().includes("dialysis")) {
+    } else if (hName.includes("kidney") || hName.includes("dialysis") || hName.includes("nephro")) {
         specialists.push("Nephrologist");
-    } else if (hospital_name.toLowerCase().includes("maternity") || hospital_name.toLowerCase().includes("women")) {
-        specialists.push("Gynecologist");
+    } else if (hName.includes("maternity") || hName.includes("women") || hName.includes("child") || hName.includes("pediatric")) {
+        specialists.push("Gynecologist", "Pediatrician");
+    } else if (hName.includes("skin") || hName.includes("derma")) {
+        specialists.push("Dermatologist");
+    } else if (hName.includes("neuro") || hName.includes("brain") || hName.includes("stroke")) {
+        specialists.push("Neurologist");
+    } else if (hName.includes("ent") || hName.includes("ear") || hName.includes("nose") || hName.includes("throat")) {
+        specialists.push("ENT Specialist");
     } else {
         specialists.push("General Medicine");
     }

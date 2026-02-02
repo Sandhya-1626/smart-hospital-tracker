@@ -48,22 +48,35 @@ export const getHospitals = async (userLocation = null) => {
 export const searchHospitalsByIssue = async (issue, userLocation = null) => {
     const lowerIssue = issue.toLowerCase();
 
+    // Comprehensive Symptom to Specialist Mapping
+    const symptomRegistry = {
+        cardiologist: ["heart", "chest pain", "palpitation", "breathless", "cardiac", "blood pressure", "bp"],
+        "orthopedic surgeon": ["bone", "fracture", "joint pain", "knee", "spine", "back pain", "ortho", "accident"],
+        ophthalmologist: ["eye", "vision", "cataract", "blur", "optics", "spectacles"],
+        nephrologist: ["kidney", "dialysis", "urine", "renal"],
+        oncologist: ["cancer", "tumor", "chemo", "radiation", "onco"],
+        gynecologist: ["pregnant", "delivery", "women", "periods", "maternity", "baby"],
+        radiologist: ["scan", "x-ray", "mri", "ct scan", "ultrasound", "imaging"],
+        neurologist: ["headache", "brain", "stroke", "paralysis", "nerves", "migraine"],
+        dentist: ["tooth", "teeth", "gum", "cavity", "dental", "extraction"],
+        dermatologist: ["skin", "rash", "itching", "acne", "hair fall"],
+        pediatrician: ["child", "infant", "newborn", "peds"],
+        ent: ["ear", "nose", "throat", "sinus", "tonsils"]
+    };
+
     let results = hospitals.filter(h => {
-        // 1. Check if hospital name matches
+        // 1. Direct Name/Specialist Match
         if (h.name.toLowerCase().includes(lowerIssue)) return true;
+        if (h.specialists.some(s => s.toLowerCase().includes(lowerIssue))) return true;
 
-        // 2. Check if specialist matches
-        const specialistMatch = h.specialists.some(s => s.toLowerCase().includes(lowerIssue));
-        if (specialistMatch) return true;
-
-        // 3. Symptom to Specialist Mapping
-        if ((lowerIssue.includes("heart") || lowerIssue.includes("chest")) && h.specialists.includes("Cardiologist")) return true;
-        if ((lowerIssue.includes("bone") || lowerIssue.includes("fracture") || lowerIssue.includes("pain")) && h.specialists.includes("Orthopedic Surgeon")) return true;
-        if ((lowerIssue.includes("eye") || lowerIssue.includes("vision")) && h.specialists.includes("Ophthalmologist")) return true;
-        if ((lowerIssue.includes("kidney") || lowerIssue.includes("dialysis")) && h.specialists.includes("Nephrologist")) return true;
-        if (lowerIssue.includes("cancer") && h.specialists.includes("Oncologist")) return true;
-        if ((lowerIssue.includes("pregnant") || lowerIssue.includes("delivery")) && h.specialists.includes("Gynecologist")) return true;
-        if ((lowerIssue.includes("scan") || lowerIssue.includes("x-ray")) && h.specialists.includes("Radiologist")) return true;
+        // 2. Map Symptoms to Specialists
+        for (const [specialist, symptoms] of Object.entries(symptomRegistry)) {
+            if (symptoms.some(symptom => lowerIssue.includes(symptom))) {
+                if (h.specialists.some(s => s.toLowerCase().includes(specialist))) {
+                    return true;
+                }
+            }
+        }
 
         return false;
     });
