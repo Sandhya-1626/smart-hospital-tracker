@@ -1,0 +1,62 @@
+[
+  {
+    "id": "INS-1",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-2",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-3",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-4",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-5",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-6",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-7",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-8",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-9",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  },
+  {
+    "id": "INS-10",
+    "policyName": "Standard Health Cover",
+    "coverageAmount": "500000",
+    "type": "Individual"
+  }
+]

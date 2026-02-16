@@ -1,0 +1,58 @@
+[
+    {
+        "policy_id": "POL_001",
+        "policy_name": "New Health Insurance Scheme",
+        "eligible_staff_type": "Government Staff",
+        "coverage_type": "Comprehensive",
+        "provider_match_string": "New Health Insurance Scheme",
+        "description": "Comprehensive coverage for state government employees."
+    },
+    {
+        "policy_id": "POL_000",
+        "policy_name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+        "eligible_staff_type": "Low Income Households",
+        "coverage_type": "State Sponsored",
+        "provider_match_string": "CMCHIS",
+        "description": "State insurance scheme for low-income families."
+    },
+    {
+        "policy_id": "POL_002",
+        "policy_name": "Star Health Comprehensive",
+        "eligible_staff_type": "General Public",
+        "coverage_type": "Health & Accident",
+        "provider_match_string": "Star Health",
+        "description": "Covers hospitalization, surgery, and critical illness."
+    },
+    {
+        "policy_id": "POL_003",
+        "policy_name": "MDIndia Health Service",
+        "eligible_staff_type": "Corporate & Retail",
+        "coverage_type": "TPA Service",
+        "provider_match_string": "MA",
+        "description": "Third Party Administrator for various insurance providers."
+    },
+    {
+        "policy_id": "POL_004",
+        "policy_name": "Vidal Health TPA",
+        "eligible_staff_type": "Corporate",
+        "coverage_type": "TPA Service",
+        "provider_match_string": "Vidal",
+        "description": "Cashless hospitalization network."
+    },
+    {
+        "policy_id": "POL_005",
+        "policy_name": "Heritage Health TPA",
+        "eligible_staff_type": "General Public",
+        "coverage_type": "TPA Service",
+        "provider_match_string": "HI TPA",
+        "description": "Insurance claim processing and cashless support."
+    },
+    {
+        "policy_id": "POL_006",
+        "policy_name": "PMJAY Ayushman Bharat",
+        "eligible_staff_type": "Low Income Households",
+        "coverage_type": "Govt Sponsored",
+        "provider_match_string": "PMJAY",
+        "description": "National health protection scheme."
+    }
+]

@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const csvPath = 'c:/Users/sandh/OneDrive/Desktop/smart hospital tracker/tpa-hospitals-2026-01-30.csv';
+const csvPath = './tpa-hospitals-2026-01-30.csv';
 const data = fs.readFileSync(csvPath, 'utf8');
 
 const lines = data.split('\n');
@@ -51,6 +51,8 @@ for (let i = 1; i < lines.length; i++) {
     if (!matches) continue;
 
     const id = matches[0];
+    const s_no = matches[1]; // unused
+    const tpa = matches[2]?.replace(/"/g, '') || "Unknown TPA";
     const hospital_name = matches[4]?.replace(/"/g, '') || "Unknown Hospital";
     const district = matches[5]?.replace(/"/g, '').trim() || "Tamil Nadu";
     const pvt_govt = matches[8] || "Private";
@@ -83,8 +85,14 @@ for (let i = 1; i < lines.length; i++) {
         specialists.push("General Medicine");
     }
 
-    const insurance = ["Star Health", "PNB MetLife"];
-    if (pvt_govt.toLowerCase().includes("govt")) insurance.push("CMCHIS (Govt Scheme)");
+    const insurance = [];
+    if (tpa && tpa !== "Unknown TPA") insurance.push(tpa);
+
+    // Add common government schemes for Govt hospitals
+    if (pvt_govt.toLowerCase().includes("govt")) {
+        insurance.push("CMCHIS (Govt Scheme)");
+        insurance.push("PMJAY");
+    }
 
     // Get coords from mapping or fallback to random
     const baseCoord = districtCoords[district] || { lat: 11.1271, lng: 78.6569 };
@@ -105,6 +113,6 @@ for (let i = 1; i < lines.length; i++) {
     });
 }
 
-const outputPath = 'c:/Users/sandh/OneDrive/Desktop/smart hospital tracker/src/services/hospitalsData.json';
+const outputPath = './src/services/hospitalsData.json';
 fs.writeFileSync(outputPath, JSON.stringify(hospitals, null, 2));
 console.log(`Converted ${hospitals.length} hospitals with accurate District coordinates.`);

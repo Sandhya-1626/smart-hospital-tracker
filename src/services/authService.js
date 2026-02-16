@@ -16,8 +16,10 @@ export const authService = {
      * @param {string} name 
      * @param {string} email 
      * @param {string} password 
+     * @param {string} mobile 
+     * @param {string} emergencyContact 
      */
-    register: async (name, email, password) => {
+    register: async (name, email, password, mobile, emergencyContact) => {
         await delay(800);
 
         // 1. Get existing users
@@ -29,8 +31,7 @@ export const authService = {
         }
 
         // 3. Hash password (Simulated - use bcrypt in backend)
-        // In real app: const hashedPassword = await bcrypt.hash(password, 10);
-        const hashedPassword = btoa(password); // Simple encoding for demo purposes
+        const hashedPassword = btoa(password); // Simple encoding
 
         // 4. Create User Object
         const newUser = {
@@ -38,6 +39,8 @@ export const authService = {
             name,
             email,
             password: hashedPassword,
+            mobile,
+            emergencyContact,
             createdAt: new Date().toISOString()
         };
 
@@ -72,6 +75,8 @@ export const authService = {
             id: user.id,
             name: user.name,
             email: user.email,
+            mobile: user.mobile,
+            emergencyContact: user.emergencyContact,
             token: "mock-jwt-token-" + Date.now()
         };
 
@@ -92,5 +97,36 @@ export const authService = {
     getCurrentUser: () => {
         const session = localStorage.getItem(STORAGE_KEY_SESSION);
         return session ? JSON.parse(session) : null;
+    },
+
+    /**
+     * Update user profile
+     * @param {number} userId 
+     * @param {object} updates { name, mobile, emergencyContact }
+     */
+    updateProfile: async (userId, updates) => {
+        await delay(500);
+
+        const users = JSON.parse(localStorage.getItem(STORAGE_KEY_USERS) || '[]');
+        const userIndex = users.findIndex(u => u.id === userId);
+
+        if (userIndex === -1) {
+            throw new Error("User not found.");
+        }
+
+        // Update User in DB
+        const updatedUser = { ...users[userIndex], ...updates };
+        users[userIndex] = updatedUser;
+        localStorage.setItem(STORAGE_KEY_USERS, JSON.stringify(users));
+
+        // Update Session if it matches current user
+        const session = JSON.parse(localStorage.getItem(STORAGE_KEY_SESSION));
+        if (session && session.id === userId) {
+            const updatedSession = { ...session, ...updates };
+            localStorage.setItem(STORAGE_KEY_SESSION, JSON.stringify(updatedSession));
+            return updatedSession;
+        }
+
+        return null;
     }
 };

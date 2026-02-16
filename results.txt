@@ -1,0 +1,35 @@
+Found 675 hospitals supporting CMCHIS.
+Displaying the first 5 results:
+
+Hospital Name: Dhanalakshmi Srinivas Hospital
+District, State: Tamil Nadu, 7094466464
+Specialist: Burns, Plastic & Reconstructive Surgery, Nephrology
+Contact Number: Not Available
+Email: Not Available
+------------------------------
+Hospital Name: Lakshmi Nursing Home
+District, State: Tamil Nadu, 9486584194
+Specialist: Orthopaedics, Nephrology, General Surgery
+Contact Number: Not Available
+Email: Not Available
+------------------------------
+Hospital Name: Niranjan Nursing Home
+District, State: Tamil Nadu, 9677963100
+Specialist: General Medicine, General Surgery, Genitourinary Surgery
+Contact Number: Not Available
+Email: Not Available
+------------------------------
+Hospital Name: Govt. Peripheral Hospital
+District, State: Anna Nagar, Chennai
+Specialist: Ices.Com,
+Contact Number: Not Available
+Email: Not Available
+------------------------------
+Hospital Name: Padmini Nursing Home
+District, State: Chetpet, Chennai
+Specialist: Mahekanch@Gmail.Com, Gynaecology,Orthopaedics,Ophthalmology,Nephrology,Polytrauma
+Contact Number: Not Available
+Email: Not Available
+------------------------------
+
+... and 670 more hospitals.

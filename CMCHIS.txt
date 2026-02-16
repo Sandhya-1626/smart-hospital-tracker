@@ -1,0 +1,887 @@
+S.No,Hospital Name,District,State,Contact,Email,Specialties
+1,A.S Imaging Centre Pvt Ltd,ARIYALUR,TAMIL NADU,9159160609,m,Nephrology
+2,Ariyalur Golden Hospital Pvt.Ltd,ARIYALUR,TAMIL NADU,9842368480,ponmani77@yahoo.com,Nephrology,General Medicine,Orthopaedics
+3,District Diff. abled welfare office,ARIYALUR,TAMIL NADU,1111111111,ndia.com,
+4,Govt. Head Quarters Hospital,ARIYALUR,TAMIL NADU,9994883617,ices.com,
+5,Jayakondam Hospital,ARIYALUR,TAMIL NADU,0,ices.com,
+6,MM Hospital,ARIYALUR,TAMIL NADU,9840119993,madanmm@hotmail.com,Nephrology
+7,AMBUJA DENTAL CLINIC AND IMPLANT CENTRE,CHENNAI,TAMIL NADU,9791672330,sheethalan1991@gmail.com,
+8,ANDERSON DIAGNOSTIC SERVICES PRIVATE LIMITED,CHENNAI,TAMIL NADU,7305990474,om,
+9,ANNANAGAR,CHENNAI,TAMIL NADU,9841819666,om,
+10,APOLLO SPECIALTY HOSPITAL,CHENNAI,TAMIL NADU,442829333,om,General Medicine,Radiation Oncology
+11,AVS Cardiac Center,CHENNAI,TAMIL NADU,9840116363,drsuyambu@gmail.com,Surgery
+12,Adyar PM Hospital,CHENNAI,TAMIL NADU,9444640599,md.apmh@gmail.com,Gynaecology,Polytrauma,ENT,Ophthalmology
+13,Apollo Childrens Hospital,CHENNAI,TAMIL NADU,7339070748,ls.com,Neuro Surgery,Cardiology,General Medicine,Cardio Thoracic Surgery
+14,Apollo Greams,CHENNAI,TAMIL NADU,4428293333,om,General Medicine,Neuro Surgery,Cardio Thoracic Surgery
+15,Appasamy Hospitals,CHENNAI,TAMIL NADU,9003041035,om,General Medicine,Nephrology
+16,Aysha Hospital Kilpauk,CHENNAI,TAMIL NADU,9381060941,ayshahospitals@yahoo.co.in,Nephrology,General Medicine
+17,BILLROTH HOSPITAL,CHENNAI,TAMIL NADU,9840787090,s.com,
+18,Bharathirajaa Speciality Hospital,CHENNAI,TAMIL NADU,9840671047,brsh.insurance@gmail.com,Medicine
+19,Billoroth Hospitals Shenoi Nagar,CHENNAI,TAMIL NADU,7299104050,m,Oncology,Neonatology,Neuro Surgery
+20,Billroth,CHENNAI,TAMIL NADU,9840533667,om,Genitourinary Surgery,Cardiology,Nephrology,Cardio Thoracic Surgery
+21,Bloom Health Care,CHENNAI,TAMIL NADU,9600011115,drsigas@yahoo.co.in,Surgery,Nephrology
+22,CCH,Tondiarpet,CHENNAI,TAMIL NADU,1111111111,ndia.com,
+23,CHENNAI NOBLEHOSPITALS PRIVATE LIMITED,CHENNAI,TAMIL NADU,8608589888,.IN,
+24,CSI KALYANI GENERAL HOSPITAL,CHENNAI,TAMIL NADU,9962971537,m,
+25,CSI KALYANI GENERAL HOSPITAL,CHENNAI,TAMIL NADU,9840411877,ail.com,Surgery
+26,CSI RAINY MULTI SPEICLAITY HOSPITAL,CHENNAI,TAMIL NADU,9941415544,cghs@csirainyhospital.com,
+27,Cancer Institute Adyar,CHENNAI,TAMIL NADU,8220234081,caninstwia@gmail.com,General Medicine,Medical Oncology,Radiation Oncology,Surgical Oncology
+28,Chennai National Hospital,CHENNAI,TAMIL NADU,9543591388,insurance.cnh@gmail.com,Surgery,Neurology
+29,Chennai Port Trust Hospital,CHENNAI,TAMIL NADU,9444860807,cmo@chennaiport.gov.in,medicine(Pulmonology),ENT,Orthopaedics,Ophthalmology
+30,Chennai Urology and Robotics Inst. OMR,CHENNAI,TAMIL NADU,9841076078,pbs@curi.co.in,Nephrology,Genitourinary Surgery
+31,DEIC,CHENNAI,TAMIL NADU,1111111111,ndia.com,
+32,DR AGARWALS HEALTH CARE LTD TAMBARAM,CHENNAI,TAMIL NADU,9444964237,tambaram@dragarwal.com,
+33,DR GUPTA'S DENTAL SPECIALITIES CENTRE,CHENNAI,TAMIL NADU,9884588713,gmail.com,
+34,DR RIMO MULTISPECIALITY DENTAL CLINIC,CHENNAI,TAMIL NADU,9840456635,m,
+35,DR. AGARWALS EYE HOSPITAL LIMITED,CHENNAI,TAMIL NADU,9444379179,m,
+36,DR.RAI MEMORIAL MEDICAL CENTRE,CHENNAI,TAMIL NADU,9841731370,drrmmc18@gmail.com,
+37,DRR EYE CARE & OCULOPLASTY HOSPITAL,CHENNAI,TAMIL NADU,9600096288,drreyecare@gmail.com,
+38,District Diff. abled welfare office,CHENNAI,TAMIL NADU,9442484543,chennai@endolite.in,
+39,Dr Agarwals Eye Hospital Ltd,CHENNAI,TAMIL NADU,9444449915,rajesh.s@dragarwal.com,
+40,Dr Agarwals Eye Hospital. TTK Road,CHENNAI,TAMIL NADU,9444218053,om,
+41,Dr Mehtas Hospitals Chetpet,CHENNAI,TAMIL NADU,9600701634,billing@mehtahospital.com,Gynaecology,Neurology
+42,Dr Rai Memorial Cancer Institute,CHENNAI,TAMIL NADU,9698947125,drrmmc18@gmail.com,Medical Oncology,Surgical Oncology,Radiation Oncology
+43,Dr. Agarwals Eye Hospital,CHENNAI,TAMIL NADU,6380511978,tpa@dragarwal.com,Ophthalmology
+44,Faith Multispecialty Hospital,CHENNAI,TAMIL NADU,9500170383,enquiry@faithhospitals.com,Surgery,ENT,General Medicine
+45,Fortis Malar Hospital,CHENNAI,TAMIL NADU,9962000500,are.com,Cardio Thoracic Surgery,Orthopaedics,Neuro Surgery
+46,Fortisheathcare.ltd,CHENNAI,TAMIL NADU,9384801085,om,
+47,GOVT.TB HOSPITAL OTTERI,CHENNAI,TAMIL NADU,8825964015,boobalan.sathya@gmail.com,
+48,Gem Hospital and Research Ctr Pvt.Ltd,CHENNAI,TAMIL NADU,9840322977,drasokans@geminstitute.in,General Medicine,General Surgery
+49,Government Peripheral Hosp,KK Nagar,CHENNAI,TAMIL NADU,9444219729,govtphkknagar@gmail.com,
+50,Government Peripheral Hosp,Periyar Ngr,CHENNAI,TAMIL NADU,7904898304,.com,
+51,Government Peripheral Hosp,Tondiarpet,CHENNAI,TAMIL NADU,7667164373,cmchisgph@gmail.com,
+52,Govt Institute of mental health,CHENNAI,TAMIL NADU,9840109347,subneels.1969@gmail.com,
+53,Govt Opthomology Hospital,CHENNAI,TAMIL NADU,9952308318,m,
+54,Govt. Omandhurar Medical coll and hosp,CHENNAI,TAMIL NADU,9443789221,gmcomandurar@gmail.com,
+55,Govt. Peripheral Hospital,Anna Nagar,CHENNAI,TAMIL NADU,8888888888,ices.com,
+56,Govt. Royapettah Hospital, Royapetta,CHENNAI,TAMIL NADU,9840240856,om,
+57,Govt. Stanley Medical College Hospital,CHENNAI,TAMIL NADU,9841043213,om,
+58,Govt.Kilpauk Medical College Hospital,CHENNAI,TAMIL NADU,9444296152,om,
+59,Hycare Super Speciality Hospital,CHENNAI,TAMIL NADU,9566961379,om,
+60,ICH,Egmore,CHENNAI,TAMIL NADU,8825879164,om,
+61,IOG,Egmore,CHENNAI,TAMIL NADU,9840512362,egmoreiog@yahoo.co.in,
+62,Jays Dental Care,CHENNAI,TAMIL NADU,9940196936,drjay@jaysdental.com,
+63,K.V.T SPECIALITY HOSPITAL,CHENNAI,TAMIL NADU,9444408237,M,"Surgery,Obstetrics & Gynaecology,General Medicine"
+64,KAUVERY HCG CANCER CENTRE - CHENNAI,CHENNAI,TAMIL NADU,9840876715,m,
+65,KGH Pediatric Surgery,CHENNAI,TAMIL NADU,999999999999999,m,
+66,KGH,CHENNAI,TAMIL NADU,9884567673,directorkgh@gmail.com,
+67,KHM Hospital,CHENNAI,TAMIL NADU,9884049046,khmhospital@gmail.com,"General Medicine,General Surgery,Nephrology"
+68,KKR ENT HOSPITAL AND RESEARCH INSTITUTE PVT LTD,CHENNAI,TAMIL NADU,9962121020,kkrenthospital@gmail.com,
+69,KKR ENT Hospital And Institute,CHENNAI,TAMIL NADU,9884291020,rsvarun@gmail.com,ENT
+70,Kanchi Kamakoti Child Trust Hospital,CHENNAI,TAMIL NADU,9840339666,ceo@kkcth.org,"Cardio Thoracic Surgery,Paediatric surgery"
+71,Kavery Hospital,CHENNAI,TAMIL NADU,8144938757,are.com,"Surgery,Neurology,Neuro Surgery"
+72,Kumaran Hospital Kilpauk,CHENNAI,TAMIL NADU,9940054344,samritz2010@yahoo.co.in,"Surgery,Paediatric surgery,General Surgery,General Medicine,Nephrology"
+73,LTD,CHENNAI,TAMIL NADU,6383781011,itals.com,
+74,Laksha Hospital,CHENNAI,TAMIL NADU,9500054797,M,"Surgery,Neurology,Orthopaedics,General Medicine,Nephrology"
+75,Life Med Hospitals, Gopalapuram,CHENNAI,TAMIL NADU,9444132006,mail.com,"Gynaecology,Orthopaedics,Cardiology,Surgical Oncology"
+76,M R Hospital,CHENNAI,TAMIL NADU,9381006488,m,"Nephrology,General Medicine"
+77,M.N Eye Hospital,CHENNAI,TAMIL NADU,9842340409,nishimadhi@gmail.com,Ophthalmology
+78,MAHALAKSHMI MULTISPECIALITY HOSPITAL,CHENNAI,TAMIL NADU,8939821983,il.com,
+79,MGM HOSPITAL,CHENNAI,TAMIL NADU,9600048805,are.in,"Cardiology,Cardio Thoracic Surgery,Paediatric surgery"
+80,MK Speciality Clinic,CHENNAI,TAMIL NADU,9444020102,osmvasugi@gmail.com,"Nephrology,General Medicine"
+81,Madras ENT Research Foundation,CHENNAI,TAMIL NADU,9840733366,merfmk30@yahoo.com,ENT
+82,Madras Medical College,CHENNAI,TAMIL NADU,9444461185,m,
+83,Medical Research Foundation,CHENNAI,TAMIL NADU,9367455055,kumarr@snmail.org,Ophthalmology
+84,Medway Hospital,CHENNAI,TAMIL NADU,7299057836,s.com,"Surgery,Neonatology,Neurology,Surgical Oncology"
+85,Murugan Hospital kilpauk,CHENNAI,TAMIL NADU,9080687080,m,"Medicine,Nephrology,Orthopaedics,Obstetrics & Gynaecology"
+86,Muthu Hospital,CHENNAI,TAMIL NADU,8925413494,muthuhospital@ymail.com,"Surgery,Orthopaedics"
+87,New Hope Medical Center,CHENNAI,TAMIL NADU,9092967547,riyasrockzz94@gmail.com,"Thoracic Surgery,Orthopaedics,General Surgery"
+88,Nichani Hospital Royapuram,CHENNAI,TAMIL NADU,9444461597,nichanishospital@gmail.com,"Neuro Surgery,General Surgery,Orthopaedics,General Medicine,Nephrology"
+89,Noble Hospital,CHENNAI,TAMIL NADU,8508999999,OM,"Oncology,General Medicine,Genitourinary Surgery,General Surgery"
+90,PARVATHY ORTHO HOSPITAL PRIVATE LIMITED,CHENNAI,TAMIL NADU,7299003752,com,
+91,Padmini Nursing Home,Chetpet,CHENNAI,TAMIL NADU,9791023518,MAHEKANCH@GMAIL.COM,"Gynaecology,Orthopaedics,Ophthalmology,Nephrology,Polytrauma"
+92,Pavithra Hospitals Pvt Ltd,CHENNAI,TAMIL NADU,9840399993,pavithrahospital@gmail.com,Nephrology
+93,Prashanth Hospital Velachery,CHENNAI,TAMIL NADU,9840844668,m,"Oncology,Nephrology,Neurology,General Medicine"
+94,Prime Indian Hospitals Pvt Ltd,CHENNAI,TAMIL NADU,9941011686,il.com,Surgery
+95,Public Health And Welfare Society,CHENNAI,TAMIL NADU,442489310,phc.ins2014@gmail.com,"Surgery,Obstetrics & Gynaecology,Orthopaedics,Paediatric surgery"
+96,RETTERI SRI KUMARAN HOSPITAL, CHENNAI,TAMIL NADU,7904561925,com,"General Medicine,Nephrology,Obstetrics & Gynaecology,General Surgery"
+97,RSRM,Tondiarpet,CHENNAI,TAMIL NADU,9940263287,nicursrm@gmail.com,
+98,Radhatri Nethralaya T Nagar,CHENNAI,TAMIL NADU,9442631370,drvasumathy@gmail.com,Ophthalmology
+99,S.G Hospital,CHENNAI,TAMIL NADU,7299935712,l.com,Nephrology
+100,SANKARA LABORATORIES (UNIT OF KALIAPPA RENAL CENTR,CHENNAI,TAMIL NADU,9600058694,om,
+101,SIMS, Vadapalani,CHENNAI,TAMIL NADU,9677715247,om,Nephrology
+102,Arun Hospital Pollachi,Coimbatore,TAMIL NADU,9345509500,m,"Surgery,Neurology,Cardiology,Surgical Oncology"
+103,Ashwin Polyclinic,Coimbatore,TAMIL NADU,9787730400,il.in,"Gynaecology,Neonatology,Neurology,Neuro Surgery,Radiation Oncology"
+104,Bragathi Hospital,Siddhapudur,Coimbatore,TAMIL NADU,9750600500,bragathihospital@gmail.com,"General Surgery,General Medicine,Orthopaedics"
+105,Coimbatore Bone and Joint Foundation Pvt Ltd,Coimbatore,TAMIL NADU,9788060000,cbjresearch@gmail.com,Orthopaedics
+106,Coimbatore Govt Med. College,DEIC,Coimbatore,TAMIL NADU,784956333333333,cmchs_pm@mdindia.com,
+107,Coimbatore Govt Medical College,Coimbatore,TAMIL NADU,1111111111,deancmchcbe@yahoo.com,
+108,Deepam Hospital,Coimbatore,TAMIL NADU,9443144415,com,"Reconstructive Surgery,Orthopaedics,General Medicine"
+109,District Diff. abled welfare office,Coimbatore,TAMIL NADU,245896333333333,cmchs_pm@mdindia.com,
+110,Dr.Agarwals Health Care Limited,Coimbatore,TAMIL NADU,9444449689,prabhu.p@dragarwal.com,
+111,Dr.Muthus Hospital,Coimbatore,TAMIL NADU,8012914000,com,Orthopaedics
+112,G.Kuppuswamy Naidu Memorial Hosp,Coimbatore,TAMIL NADU,9600866692,insurance@gknmh.org,"Cardiology,Cardio Thoracic Surgery,Radiation Oncology,Medical Oncology"
+113,Ganga Medical Center and Hospital,Coimbatore,TAMIL NADU,9943673613,gmchaccounts@gmail.com,"Orthopaedics,Neuro Surgery,Burns,Plastic & Reconstructive Surgery"
+114,Gem Hospital And Research Center,Coimbatore,TAMIL NADU,9894333999,claim@gemhospital.net,Medical Oncology
+115,Govt CMC Cardiology,Coimbatore,TAMIL NADU,125896333333333,cmchs_pm@mdindia.com,
+116,Govt CMC Cardiothoracic Surgery,Coimbatore,TAMIL NADU,1111111111111,ndia.com,
+117,Govt hospital Annur,Coimbatore,TAMIL NADU,111111111111111,ndia.com,
+118,Govt hospital Mettupalayam,Coimbatore,TAMIL NADU,9786042352,cmchismtp@gmail.com,
+119,Govt. Dist. Head Quarters Hospital,Coimbatore,TAMIL NADU,9843071104,cmopollachi@gmail.com,
+120,Govt. Hospital, Kinathukadavu,Coimbatore,TAMIL NADU,125896333333333,cmchs_pm@mdindia.com,
+121,Govt. Hospital, Kolarpatti,Pollachi,Coimbatore,TAMIL NADU,124589666666666,cmchs_pm@mdindia.com,
+122,Govt. Hospital, Madukkarai,Coimbatore,TAMIL NADU,125896333333333,cmchs_pm@mdindia.com,
+123,Govt. Hospital, Sundakkamuthur,Coimbatore,TAMIL NADU,148956666666666,cmchs_pm@mdindia.com,
+124,Govt. Hospital, Thondamuthur,Coimbatore,TAMIL NADU,158963333333333,cmchs_pm@mdindia.com,
+125,Govt. Hospital,Periyanaickenpalayam,Coimbatore,TAMIL NADU,124589633333333,cmchs_pm@mdindia.com,
+126,Gowtham Hospital, Kuniamuthur,Coimbatore,TAMIL NADU,9443754050,com,"Surgery,Neurology,Orthopaedics"
+127,K.G.M Hopital Pollachi,Coimbatore,TAMIL NADU,9442419850,kgmpollachi@gmail.com,"Surgery,General Surgery"
+128,K.G.M.Hospital,Coimbatore,TAMIL NADU,9047037876,kgminsurance@gmail.com,"Medicine,Cardiology,Obstetrics & Gynaecology,Orthopaedics,Neurology"
+129,K.R.Health Care,Coimbatore,TAMIL NADU,9842112408,krhealthcarepnp@gmail.com,"Surgery,Genitourinary Surgery"
+130,KG Hospital,Coimbatore,TAMIL NADU,9842928833,jeyakumar@kghospital.com,
+131,KG Hospital,Coimbatore,TAMIL NADU,6380086693,m,"Diseases and Respiratory Medicine (Pulmonology),Paediatric Surgery,Ophthalmology"
+132,KM Hospital,Coimbatore,TAMIL NADU,9976857673,drralli@yahoo.com,"General Medicine,Medical Oncology"
+133,KMCH City Centre, Ram Nagar,Coimbatore,TAMIL NADU,7358021864,om,Cardiology
+134,KMCH Sulur centre, Sulur,Coimbatore,TAMIL NADU,9944433441,om,"Respiratory Medicine (Pulmonology),Paediatrics"
+135,Kalpana Medical Ctr Kavundampalayam,Coimbatore,TAMIL NADU,9095909090,accountskmc@yahoo.in,"Reconstructive Surgery,Orthopaedics,Genitourinary Surgery,Neuro Surgery"
+136,Karpagam Hospital Mandapam,Coimbatore,TAMIL NADU,9443738257,mail.com,Thoracic Surgery
+137,Kongunad Hospital,Coimbatore,TAMIL NADU,9944412222,kongunad@gmail.com,"Oncology,Radiation Oncology,Neuro Surgery,Burns,Plastic & Reconstructive Surgery"
+138,Kongunad Kidney Centre, Tatabad,Coimbatore,TAMIL NADU,9003774888,kongunadkc@gmail.com,"Nephrology,Genitourinary Surgery"
+139,Kovai Medical Center and Hospital,Coimbatore,TAMIL NADU,9789782111,kmchbilling@gmail.com,"Surgery,Surgical Oncology,Ophthalmology,Neurology"
+140,Kurinji Hospital Udayapalayam Road,Coimbatore,TAMIL NADU,9361694437,kurunjihospital@gmail.com,"Medicine,Medical Oncology,Neurology,Paediatric Cancer,Genitourinary Surgery"
+141,Lotus Eye Care Civil Aerodrome Post,Coimbatore,TAMIL NADU,9944972824,insurancelotus@gmail.com,Ophthalmology
+142,MCV Memorial ENT Trust Hospital,Coimbatore,TAMIL NADU,9943840666,ao@entanand.com,ENT
+143,MRS Hospital,Coimbatore,TAMIL NADU,9443748025,om,Obstetrics & Gynaecology
+144,Manu Hospital Sungam Byepass Road,Coimbatore,TAMIL NADU,9789324445,manunabh@gmail.com,"Surgery,Neurology,Cardiology"
+145,Masonic Medical Centre For Children,Coimbatore,TAMIL NADU,9842216615,L.COM,General Medicine
+146,N.G Hospital Singanallur,Coimbatore,TAMIL NADU,984295568,nghospitals@gmail.com,"Gynaecology,Cardiology,General Surgery"
+147,N.M.Hospital,Coimbatore,TAMIL NADU,9443390263,nmhospital@gmail.com,"Surgery,ENT,Medical Oncology,Surgical Oncology,Obstetrics & Gynaecology"
+148,Nataraj Medical Care Ctr Madukkarai,Coimbatore,TAMIL NADU,9865999890,om,"Surgery,General Medicine"
+149,Nehru Urology Centre, Peelamedu,Coimbatore,TAMIL NADU,9442103420,nuccbe@gmail.com,Genitourinary Surgery
+150,One Care Medical Centre,Coimbatore,TAMIL NADU,7502431010,ocmc.insurance@gmail.com,Orthopaedics
+151,PSG Hospitals,Coimbatore,TAMIL NADU,9442577641,hoo.in,Oncology
+152,Pills Hospital Pollachi,Coimbatore,TAMIL NADU,9843013886,pillshospital@gmail.com,"Reconstructive Surgery,Obstetrics & Gynaecology,Genitourinary Surgery"
+153,Preethi Medical Centre,Coimbatore,TAMIL NADU,9442645544,.com,"Gynaecology,Neurology,General Surgery"
+154,Ram Polyclinic,Coimbatore,TAMIL NADU,9443209596,kumar@rampolyclinic.com,"Gynaecology,Cardiology,Orthopaedics"
+155,Rex Ortho Hospital Poomarket,Coimbatore,TAMIL NADU,9940525442,rexchandrabose@gmail.com,Orthopaedics
+156,Richmond Hospital Trichy Road,Coimbatore,TAMIL NADU,9842212121,SPITAL@GMAIL.COM,"Neurology,Burns,Plastic & Reconstructive Surgery,Orthopaedics"
+157,Royal Care Super Specialty Hospital,Coimbatore,TAMIL NADU,9585899599,m,"Surgery,Burns,Plastic & Reconstructive Surgery,Nephrology,Cardio Thoracic Surgery"
+158,S.P.T Hospital Ramnagar,Coimbatore,TAMIL NADU,9842203932,carespthospitals@gmail.com,"Surgery,General Medicine,Neurology"
+159,SMF Hospital,Annur,Coimbatore,TAMIL NADU,9943443405,sathishbaboo@gmail.com,"General Medicine,General Surgery"
+160,Sangeetha Super Specialilty Hosp,Coimbatore,TAMIL NADU,7373001743,pshardhame@gmail.com,General Medicine
+161,Sathya Medical Center,Coimbatore,TAMIL NADU,8925208880,com,"Obstetrics & Gynaecology,ENT"
+162,Sathyam Kidney Care Centre,Coimbatore,TAMIL NADU,9442234646,mail.com,"Nephrology,Genitourinary Surgery"
+163,Sathyan Eye Care Hospital and CGF,Coimbatore,TAMIL NADU,9489859148,admin@sathyaneye.com,Ophthalmology
+164,Shankara Eye Hospital,Coimbatore,TAMIL NADU,9965511027,com,Ophthalmology
+165,Shree Sivaa Hospital,Coimbatore,TAMIL NADU,9362293344,m,"Gynaecology,Orthopaedics"
+166,Shree Vetrivel Hospital,Mettupalayam,Coimbatore,TAMIL NADU,9843028096,svcortho@gmail.com,Orthopaedics
+167,Shri Andavar Eye Care Retina centre,Coimbatore,TAMIL NADU,8248770877,andavareyecare@gmail.com,Ophthalmology
+168,Sowmiya Hospital Karamadai,Coimbatore,TAMIL NADU,9845416054,sowmiclinic@yahoo.co.in,"Genitourinary Surgery,General Surgery,General Medicine,ENT"
+169,Sri Bala Medical Ctr Ramanathapuram,Coimbatore,TAMIL NADU,9942824624,sribalahospital@yahoo.in,"Surgery,General Surgery,Surgical Oncology,Obstetrics & Gynaecology"
+170,Sri Ramakrishna Hospital,Coimbatore,TAMIL NADU,9994412152,varatharajuvvv@gmail.com,"Surgery,Neuro Surgery"
+171,The Eye Foundation RS Puram,Coimbatore,TAMIL NADU,9442217798,n.com,Ophthalmology
+172,VGM Hospital,Coimbatore,TAMIL NADU,7373032717,drvgm@rediffmail.com,"Medical Oncology,General Surgery"
+173,Vela Hospital Pvt Ltd Singanallur,Coimbatore,TAMIL NADU,9442278178,m,Nephrology
+174,Aravind Eye Hospital,Pondicherry,TAMIL NADU,9952636427,pondy.aravind@gmail.com,
+175,EAST COAST HOSPITAL,Pondicherry,TAMIL NADU,4312297800,ices.com,Surgery,Neonatology
+176,Global Trust Differently Abled,Autism,Cuddalore,TAMIL NADU,9786334741,in,
+177,Govt Hospital Kurinjipadi,Cuddalore,TAMIL NADU,8825641277,m,
+178,Govt Hospital Panruti,Cuddalore,TAMIL NADU,9486836132,panrutigh@gmail.com,
+179,Govt Hospital Parangipetai,Cuddalore,TAMIL NADU,8220732372,ghparangipettai@gmail.com,
+180,Govt Hospital Tittakudi,Cuddalore,TAMIL NADU,9003349507,imdrbalaji@gmail.com,
+181,Govt Hospital Kattumannarkudi,Cuddalore,TAMIL NADU,9944797762,m,
+182,Govt. Chidambaram Hospital,Cuddalore,TAMIL NADU,9487584637,m,
+183,Govt. Virudhachalam Hospital,Cuddalore,TAMIL NADU,9444138468,viruthachalamgh@gmail.om,
+184,Govt.DDWO,Cuddalore,TAMIL NADU,9898989898,pa.com,
+185,Govt.Head Quarters Hospital,Cuddalore,TAMIL NADU,9443529034,ghcud.cmchis@gmail.com,
+186,Govt.Head Quarters Hospital,DEIC,Cuddalore,TAMIL NADU,9898989898,pa.com,
+187,Jyoshna Hospital,Cuddalore,TAMIL NADU,9894435581,balamu26@gmail.com,
+188,KRISHNA HOSPITAL,Cuddalore,TAMIL NADU,9367613974,khrfcud@gmail.com,
+189,Krishna Cancer Institute,Cuddalore,TAMIL NADU,9894036777,kcicud@gmail.com,Surgical Oncology,Medical Oncology,Radiation Oncology
+190,Mahatma Gandhi Medical College,Pondicherry,TAMIL NADU,9443437826,dmo@mgmcri.ac.in,Surgery,Orthopaedics,Nephrology,Cardiology,Paediatric surgery
+191,Rajah Muthiah Med Coll And Hospital,Cuddalore,TAMIL NADU,8888888888,s.com,Medicine,Paediatric surgery,Ophthalmology,Orthopaedics,Cardiology
+192,Rajah Muthiah Med Coll And Hospital,Cuddalore,TAMIL NADU,9994361273,msrmch@gmail.com,
+193,Subha Anandham Medical Centre,Cuddalore,TAMIL NADU,9600301268,insurance.samc@gmail.com,
+194,DR.K.K.SURGICAL AND PAEDIATRIC CENTRE PRIVATE LIMITED,CHENGALPATTU,TAMIL NADU,9381053695,drkkspcentre2@gmail.com,
+195,Kattankulathur,CHENGALPATTU,TAMIL NADU,9789852203,om,
+196,BGR Hospital,Dharmapuri,TAMIL NADU,9842857177,grajesh1977@gmail.com,General Medicine,Genitourinary Surgery,General Surgery
+197,DNV Ortho Care,Dharampuri,TAMIL NADU,8825942231,pushortho@gmail.com,
+198,DNV Polyclinic,Dharmapuri,TAMIL NADU,9443365081,dvmanimaran@gmail.com,Gynaecology,Paediatrics,Genitourinary Surgery,Paediatric surgery
+199,District Diff. abled welfare office,Dharmapuri,TAMIL NADU,124589633333333,cmchs_pm@mdindia.com,
+200,Govt DMC Dentistry,Dharmapuri,TAMIL NADU,8680090809,dmodpi833@gmail.com,
+201,Govt Hospital Harur,Dharmapuri,TAMIL NADU,9597240678,harur.dms@gmail.com,
+202,Govt. Dharmapuri Med. College,DEIC,Dharmapuri,TAMIL NADU,8680090809,dmodpi833@gmail.com,
+203,Govt. Dharmapuri Medical College,Dharmapuri,TAMIL NADU,8680090809,dmodpi833@gmail.com,
+204,Govt. Head Quarters Hospital,Dharmapuri,TAMIL NADU,9655473439,m,
+205,Jothi Laser Eye hospital,Dharmapuri,TAMIL NADU,9245146646,com,Ophthalmology
+206,K.S.Hospital,Dharmapuri,TAMIL NADU,9842760418,kshospitaldpi@gmail.com,Gynaecology,Orthopaedics,Genitourinary Surgery
+207,KV Hospital,Dharmapuri,TAMIL NADU,9952100998,mohansen2012@yahoo.com,Surgery,Nephrology,Orthopaedics
+208,Kamalam Hospital,Dharmapuri,TAMIL NADU,9865307744,l.com,Nephrology,General Medicine,Genitourinary Surgery,Medical Oncology
+209,Krishna Eye Foundation,Dharmapuri,TAMIL NADU,9994020625,.com,Ophthalmology
+210,Om Sakthi Hospital,Dharmapuri,TAMIL NADU,9366611583,m,Gynaecology
+211,Supa Hospital,Dharmapuri,TAMIL NADU,8925266600,drpsiva@rediffmail.com,Cardiology,Obstetrics & Gynaecology,General Surgery,General Medicine
+212,Thangam Hospital,Dharmapuri,TAMIL NADU,9715199993,om,Genitourinary Surgery,General Surgery,General Medicine,Obstetrics & Gynaecology
+213,Vasan Eye Care,Dharmapuri,TAMIL NADU,9585548920,.com,Ophthalmology
+214,Vijaya multi specialty hospital,Dharmapuri,TAMIL NADU,9486845065,ail.com,
+215,ARVI special school,Autism,Dindigul,TAMIL NADU,9843160475,arvitrust@gmail.com,
+216,Christian Fellow Community Centr,Dindigul,TAMIL NADU,7598001644,chafellowship@gmail.com,Surgical Oncology,Medical Oncology,Radiation Oncology
+217,Christian Fellowship Hospital,Dindigul,TAMIL NADU,8903569984,cminsurancecf@gmail.com,Gynaecology,Neonatology
+218,City Hospital,Dindigul,TAMIL NADU,9360930003,logucityhospital@gmail.com,Neuro Surgery,Orthopaedics
+219,D.S Hospital,Dindigul,TAMIL NADU,9150202941,dskbalaji@yahoo.co.in,Obstetrics & Gynaecology,General Surgery
+220,DEVADOSS KHMS HOSPITAL,Dindigul,TAMIL NADU,9677884230,devadoshospital@gmail.com,
+221,DMS Hospital,Dindigul,TAMIL NADU,9442571500,dmsbtl2017@gmail.com,Surgery,Orthopaedics,Obstetrics & Gynaecology
+222,Govt Hospital, Kodaikkanal,Dindigul,TAMIL NADU,9942918729,gh.kodaikanal@gmail.com,
+223,Govt Hospital, Palani,Dindigul,TAMIL NADU,9787905508,cmoghpalani@gmail.com,
+224,Govt Hospital, Vedachandur,Dindigul,TAMIL NADU,9597254913,infanta1924@gmail.com,
+225,Govt. Head Quarters Hospital,Dindigul,TAMIL NADU,9080942463,.com,
+226,Govt. Head Quarters Hospital,DEIC,Dindigul,TAMIL NADU,9898989898,pa.com,
+227,Govt.DDWO,Dindigul,TAMIL NADU,9499933474,ddawodgl@gmail.com,
+228,J C B Hospital,Dindigul,TAMIL NADU,9150758413,jcbhospitals@gmail.com,Medicine,Obstetrics & Gynaecology,General Surgery
+229,J J Arul Hospital,Dindigul,TAMIL NADU,9629733733,samuvel.mpt@gmail.com,Neurology,Orthopaedics,Neuro Surgery,General Surgery
+230,K G Hospital,Dindigul,TAMIL NADU,DINDIGUL,9894526196,kghospitalpalani@gmail.com,"ENT,Obstetrics & Gynaecology,General Surgery"
+231,K R Hospital,Dindigul,TAMIL NADU,DINDIGUL,2222222222,krhospital.odc@gmail.com,"General Surgery,Obstetrics & Gynaecology,Orthopaedics,General Medicine"
+232,KT Hospital,Dindigul,TAMIL NADU,DINDIGUL,9750522202,kthospiyalodc@gmail.com,"Orthopaedics,Polytrauma"
+233,Kamakshi Pandarinathan Trust,Autism,Dindigul,TAMIL NADU,DINDIGUL,9514507000,sugumarot@gmail.com,
+234,Kanna Hospital,Dindigul,TAMIL NADU,DINDIGUL,7339019818,kannahospital10@gmail.com,"General Surgery,Obstetrics & Gynaecology"
+235,Leonard Hospital,Dindigul,TAMIL NADU,DINDIGUL,9841806901,leo.audits@gmail.com,Medicine
+236,Malar Hospital, Oddanchatram,Dindigul,TAMIL NADU,DINDIGUL,9843829441,m,"Orthopaedics,Polytrauma"
+237,NP Hospital,Dindigul,TAMIL NADU,DINDIGUL,9159262254,nphospitals2009@gmil.com,"Obstetrics & Gynaecology,Orthopaedics,Genitourinary Surgery,General Surgery"
+238,Priya Hospital,Dindigul,TAMIL NADU,DINDIGUL,9500014531,priyahospital@gmail.com,"Obstetrics & Gynaecology,Orthopaedics,General Medicine,General Surgery"
+239,R K Cardiacare Centre,Dindigul,TAMIL NADU,DINDIGUL,9600800862,rkcathcare@gmail.com,Cardiology
+240,Raja Rajeswari Nursing Home P Ltd,Dindigul,TAMIL NADU,DINDIGUL,9790348888,rrnhdindigul@gmail.com,"Medicine,Orthopaedics,Genitourinary Surgery,Nephrology"
+241,Sanjay Surgical Hospital,Dindigul,TAMIL NADU,DINDIGUL,9943261717,sanjayhospital@yahoo.com,"Surgery,Obstetrics & Gynaecology"
+242,Shifa Hospital,Dindigul,TAMIL NADU,DINDIGUL,9952495710,shifahospitaldgl@gmail.com,"Surgery,Paediatrics,ENT"
+243,Shree Sathya Subha Hospital,Dindigul,TAMIL NADU,DINDIGUL,9842133302,srisshospitaldgl@gmail.com,"Surgery,Orthopaedics,ENT,Paediatric surgery"
+244,Soba General Hospital,Dindigul,TAMIL NADU,DINDIGUL,9842134232,rsokkaiyan@gmail.com,"General Surgery,Obstetrics & Gynaecology,Genitourinary Surgery"
+245,Sree Kumaran Hospital,Dindigul,TAMIL NADU,DINDIGUL,9750946555,hrskhodc@gmail.com,"Surgery,Orthopaedics"
+246,Sri Amman Hospital,Dindigul,TAMIL NADU,DINDIGUL,7708891192,om,"General Surgery,Obstetrics & Gynaecology"
+247,Sri Sakthi Vinayakar Multispec Hosp,Dindigul,TAMIL NADU,DINDIGUL,9965534490,drpalaniappen@yahoo.com,Nephrology
+248,St Joseph Hospital,Dindigul,TAMIL NADU,DINDIGUL,9629812229,stjhinsurance@gmail.com,"Gynaecology,Nephrology,Chest diseases and respiratory medicine(Pulmonology)"
+249,Van Allen Hospital,Dindigul,TAMIL NADU,DINDIGUL,6374042759,VANALLENKODI@gmail.com,Orthopaedics
+250,Vel Multispeciality Hospital,Dindugul,TAMIL NADU,DINDIGUL,9942466002,m,"Thoracic Surgery,Nephrology"
+251,Vijaya Hospital,Dindigul,TAMIL NADU,DINDIGUL,9750743340,m,Orthopaedics
+252,Abirami Kidney Care Dr Thangavelu Hosp,Erode,TAMIL NADU,ERODE,9789451995,m,Nephrology
+253,Acchutha Eye Care,Erode,TAMIL NADU,ERODE,9940455322,m,Ophthalmology
+254,Annai ENT, Head And Neck Care Centre,Erode,TAMIL NADU,ERODE,9095027277,com,ENT
+255,Arasan Eye Hospital, Royal Theatre,Erode,TAMIL NADU,ERODE,9965522270,om,Ophthalmology
+256,Ashok Krishna Hospital,Erode,TAMIL NADU,ERODE,9443027819,mediashok@gmail.com,"Medicine,Neurology,Orthopaedics,Genitourinary Surgery,Cardiology"
+257,Ashwin Hospital,Erode,TAMIL NADU,ERODE,9344077123,ashwinerode@gmail.com,"General Medicine,Orthopaedics,General Surgery,Obstetrics & Gynaecology"
+258,Bharani Paventhan Multispeciality Hosp,Erode,TAMIL NADU,ERODE,9842399798,l.com,Orthopaedics
+259,Bharathi Heart and Maternity Hospital,Erode,TAMIL NADU,ERODE,9842164747,com,"Medicine,Paediatrics,Cardio Thoracic Surgery,General Surgery"
+260,CK Hospital,Erode,TAMIL NADU,ERODE,9443326515,cksaraswathierd@gmail.com,"Surgery,Paediatrics,Genitourinary Surgery,Neonatology"
+261,Care24 Medical Centre and Hospital,Erode,TAMIL NADU,ERODE,8883311644,com,"surgery,Medical Oncology,Orthopaedics"
+262,City Hospital,Erode,TAMIL NADU,ERODE,9843025300,m,"Medicine,Orthopaedics,General Surgery"
+263,Dakshin Trauma Center,Erode,TAMIL NADU,ERODE,9442209695,ndsruk@yahoo.com,Medicine
+264,District Differently abled welfare office,Erode,TAMIL NADU,ERODE,123646666666666,cmchs_pm@mdindia.com,
+265,Dr Loganathan Orthopaedic Hospital,Erode,TAMIL NADU,ERODE,9842799864,drloguortho@yahgoo.co.in,Orthopaedics
+266,Dr.K.M.Nallaswamy Hospital,Erode,TAMIL NADU,ERODE,9842725917,dryogi63@yahoo.com,"General Medicine,Orthopaedics,General Surgery,Genitourinary Surgery,Nephrology"
+267,Erode Cancer Center,Erode,TAMIL NADU,ERODE,9842822443,om,"Medical Oncology,Radiation Oncology,Surgical Oncology"
+268,Erode Emergency Care Center,Thindal,Erode,TAMIL NADU,ERODE,8883864188,eecherode@gmail.com,"General Medicine,Cardiology"
+269,Erode Kidneys Center,Erode,TAMIL NADU,ERODE,9443356434,goldoferode@gmail.com,Genitourinary Surgery
+270,Erode Ortho Center,Erode,TAMIL NADU,ERODE,9952427620,m,Orthopaedics
+271,Govt Hospital Bhavani,Erode,TAMIL NADU,ERODE,9443040298,moghbvn.erd@gmail.com,
+272,Govt. Hospital Gobichettipalayam,Erode,TAMIL NADU,ERODE,1111111111,gobigh@gmail.com,
+273,Govt. Hospital,Anthiyur,Erode,TAMIL NADU,ERODE,785933333333333,cmchs_pm@mdindia.com,
+274,Govt. Hospital,Perundurai,Erode,TAMIL NADU,ERODE,548653333333333,cmchs_pm@mdindia.com,
+275,Govt. Hospital,Sathyamangalam,Erode,TAMIL NADU,ERODE,245893633333333,cmchs_pm@mdindia.com,
+276,Govt. IRT Perundurai Medical College,Erode DC,TAMIL NADU,ERODE,125895633333333,cmchs_pm@mdindia.com,
+277,Govt.Head Quarters Hospital,Erode,TAMIL NADU,ERODE,2333445566,ragurs169@gmail.com,
+278,K.B.N Nursing Home,Krishna Theatre Road,Erode,TAMIL NADU,ERODE,9843093333,m,"Cardiology,General Medicine,Cardio Thoracic Surgery"
+279,KGR Surgical Nursing Home,Erode,TAMIL NADU,ERODE,9443320587,rangasurgery@yahoo.com,"Medicine,Neurology"
+280,KMCH Speciality Hospital,Palaniyappa St,Erode,TAMIL NADU,ERODE,9788823222,.com,Nephrology
+281,Kalyani Kidney Care Centre,Erode,TAMIL NADU,ERODE,9750461255,nethajikkcc@gmail.com,"Nephrology,Genitourinary Surgery"
+282,Kongu Hospital, Perundurai,Erode,TAMIL NADU,ERODE,9894110011,om,Orthopaedics
+283,Kumarasamy,Erode,TAMIL NADU,ERODE,9842725722,krishnaa0983@gmail.com,Genitourinary Surgery
+284,L.V.S Eye Hospital, Palaniappa Street,Erode,TAMIL NADU,ERODE,8220007131,drlvs@yahoo.com,Ophthalmology
+285,LKM Hospital,Erode,TAMIL NADU,ERODE,9842766933,drnatesan@rediffmail.com,Orthopaedics
+286,Lotus Hospitals Research Centre Ltd,Erode,TAMIL NADU,ERODE,9842766666,lotusgm@rediffmail.com,reconstructive Surgery
+287,MS Childrens Hospital,Gobichettipalayam,Erode,TAMIL NADU,ERODE,9600660146,msch1958.gobi@gmail.com,"Paediatric surgery,Neonatology,Paediatrics"
+288,Maaruthi Mediccal Center And Hospitals,Erode,TAMIL NADU,ERODE,9362799990,ail.com,"Surgery,Obstetrics & Gynaecology"
+289,National Hospital,EVN Road,Erode,TAMIL NADU,ERODE,9843075750,l.com,Orthopaedics
+290,Ortho Life Hospital,Erode,TAMIL NADU,ERODE,9942233996,drkasprakash@gmail.com,Orthopaedics
+291,P K Hospital,Erode,TAMIL NADU,ERODE,7373185599,pkh_kvp@yahoo.in,Obstetrics & Gynaecology
+292,PGR Hospital,Erode,TAMIL NADU,ERODE,9791305050,pgrillam@gmail.com,General Medicine
+293,RANM Malathy Vijayakumar Hospital,Erode,TAMIL NADU,ERODE,9443020674,ranmdrvijay@yahoo.com,Nephrology
+294,S.K Hospital, E.V.N Road,Erode,TAMIL NADU,ERODE,9750551409,skhospitalerode@gmail.com,Orthopaedics
+295,SCS Hospital and Urology Clinic,Erode,TAMIL NADU,ERODE,9843093077,scshospital@gmail.com,Genitourinary Surgery
+296,Senthil Multi Speciality Hospital,Erode,TAMIL NADU,ERODE,9443074444,hrsms_erode@yahoo.com,"Medicine,Orthopaedics,General Surgery,Obstetrics & Gynaecology"
+297,Sri Balaji Hospital, Anthiyur,Erode,TAMIL NADU,ERODE,9788906958,ksundar77@gmail.com,Orthopaedics
+298,Sri Chakra Hospital,Erode,TAMIL NADU,ERODE,7373022540,m,"Obstetrics & Gynaecology,General Surgery"
+299,TPN Hospital,Perundurai Main Road,Erode,TAMIL NADU,ERODE,9487377000,tpnhospitalerd@gmail.com,Orthopaedics
+300,Udayam Hospital,Erode,TAMIL NADU,ERODE,9443020634,drkudayakumar@gmail.com,ENT
+301,ABCD HOSPITAL,KANCHEEPURAM,TAMIL NADU,KANCHIPURAM,9444380697,m,"General Medicine,Nephrology"
+302,Annai Arul Hospital,Kanchipuram,TAMIL NADU,9841725445,drsjoseph@hotmail.com,Orthopaedics,General Medicine,General Surgery,Nephrology
+303,Annaii Medical College Hospital,Kanchipuram,TAMIL NADU,9443338869,om,Nephrology
+304,Apollo Speciality Hosptials, OMR,Kanchipuram,TAMIL NADU,8637632215,corporateomr@gmail.com,Cardio Thoracic Surgery
+305,B.M Hospital, Nanganallur,Kancheepuram,TAMIL NADU,9841084048,tpa@hospitals.com,
+306,Balaji Hospital,Kancheepuram,TAMIL NADU,9443711860,govindharaj73@gmail.com,reconstructive Surgery
+307,C-DOT HOSPITAL,Kancheepuram,TAMIL NADU,9677540003,orthodocnavin@gmail.com,Orthopaedics,General Surgery,Polytrauma
+308,CCH, Porur,Kanchipuram,TAMIL NADU,1111111111,ndia.com,
+309,CSI HOSPITAL,Kancheepuram,TAMIL NADU,8939842612,csi_hospital@yahoo.com,Nephrology,General Surgery,General Medicine
+310,CSI RAINY MULTISPECIALITY HOSP,Kanchipuram,TAMIL NADU,9840411877,jjjayanth@gmail.com,General Surgery,General Medicine,Nephrology
+311,Chengalpattu Medical College,Kancheepuram,TAMIL NADU,9840457041,cmchiscpt@gmail.com,
+312,Chettinad Super Speciality Hosp,Kancheepuram,TAMIL NADU,9941303000,m,reconstructive Surgery
+313,DEIC,Kanchipuram,TAMIL NADU,1111111111,ndia.com,
+314,District Diff.abled welfare office,Kanchipuram,TAMIL NADU,9841705069,ddawokpm@gmail.com,
+315,Dr Kamakshi Memorial Hospital,Kancheepuram,TAMIL NADU,9790961522,leovmalaise@drkmh.com,Oncology,Neonatology,General Surgery,Medical Oncology,Cardio Thoracic Surgery
+316,Dr. Rela Inst. and Medical Centre,Kancheepuram,TAMIL NADU,9677901012,e.com,Cardio Thoracic Surgery
+317,GOVT. HOSPITAL CHEYYUR,Kanchipuram,TAMIL NADU,7639084075,drkalai1984@gmail.com,
+318,Gleneagles Global Health City,Kanchipuram,TAMIL NADU,8220103913,alsindia.com,Radiation Oncology,Cardio Thoracic Surgery
+319,Govt Hospital, Sriperambudur,Kanchipuram,TAMIL NADU,9443995268,cmchs_pm1@mdindia.com,
+320,Govt Sanatorium,Kanchipuram,TAMIL NADU,9843155344,senthildr82@yahoo.in,
+321,Govt. Hospital, Thiruporur,Kanchipuram,TAMIL NADU,8778634244,drkabilan20@gmail.com,Procedure Dental Procedures,Cardio Thoracic Surgery,Nephrology
+322,Govt. Madhurandaham Hospital,Kanchipuram,TAMIL NADU,9840836795,drindumathi91@gmail.com,
+323,Govt. Tambaram Hosital,Kanchipuram,TAMIL NADU,0,ices.com,
+324,Govt. karapattu cancer institute,Kanchipuram,TAMIL NADU,4427261246,govt.cancer@gmail.com,
+325,HARIHARAN DIABETES,Kancheepuram,TAMIL NADU,9840793091,o.in,Cardiology,Nephrology,Cardio Thoracic Surgery
+326,Hindu Mission Health Services, Chennai,Kancheepuram,TAMIL NADU,9444000676,hmhs61@yahoo.co.in,Nephrology,General Medicine
+327,Hindu Mission Hospital,Kancheepuram,TAMIL NADU,8754591111,hmhoffice@gmail.com,Oncology,Genitourinary Surgery
+328,Karpaga Vinyaga Institute,Kancheepuram,TAMIL NADU,9842966224,annuregu@yahoo.com,Surgery,Medical Oncology,Nephrology
+329,Kiddos Rehab Centre, Autism,Kanchipuram,TAMIL NADU,9841544004,arunbot@rediffmail.com,
+330,Lifeline Multispeciality Hospl,Kancheepuram,TAMIL NADU,9840633331,ckr@llh.bz,General Medicine,Orthopaedics,General Surgery
+331,Madha Medical College,Kancheepuram,TAMIL NADU,9688819777,mdmmcri@gmail.com,Surgery,Nephrology,Orthopaedics
+332,Mahalakshmi Multi Spec Hospital,Kancheepuram,TAMIL NADU,9042363085,aruchidam@gmail.com,Surgery,Nephrology,Neurology,General Medicine,Orthopaedics
+333,Meenakshi Medical College,Kancheepuram,TAMIL NADU,9443006299,com,diseases and respiratory medicine(Pulmonology)
+334,Melmaruvathur Adhiparsakthi Inst,Kancheepuram,TAMIL NADU,9842323330,drtrmd@yahoo.co.in,Medicine
+335,Melvin Jones Lions Chart. Dialysis,Kanchipuram,TAMIL NADU,9176306469,m,Nephrology
+336,Miot Hospital,Chennai,Kanchipuram,TAMIL NADU,4422492288,chief@miothospitals.com,& reconstructive Surgery,Radiation Oncology,Medical Oncology,Neuro Surgery
+337,Parvathy Ortho Hospital,Kancheepuram,TAMIL NADU,9551993332,spital.com,Orthopaedics
+338,SAVEETHA MEDICAL COLLEGE,Chennai,Kancheepuram,TAMIL NADU,9884128734,quality.smc@saveetha.com,medicine(Pulmonology),Neonatology,Neurology,Ophthalmology
+339,SREE RENGA NURSING HOME,KANCHEEPURAM,TAMIL NADU,9443226736,kppdr@yahoo.com,Nephrology,General Medicine
+340,SRI BALAJI HOSPITAL,KANCHEEPURAM,TAMIL NADU,9444044546,sbmc_h@yahoo.com,Surgery,Obstetrics & Gynaecology,Nephrology,General Surgery,Paediatrics
+341,SRM Medical College Hospital,Kancheepuram,TAMIL NADU,9940036038,ms.ktr@srmist.edu.in,Surgery,Cardiology
+342,Sai fertility centre and hospital,Kancheepuram,TAMIL NADU,9965060210,gm@saimultispecality.com,
+343,Sankara Eye Hospital,Kancheepuram,TAMIL NADU,9444391710,info@kannoli.net,Ophthalmology
+344,Sayee Hospitals,Padappai,Kancheepuram,TAMIL NADU,9551090914,sayeehospitals@gmail.com,Medicine
+345,Shadithya Health Care,Kancheepuram,TAMIL NADU,8939729999,drsreeprathap@hotmail.com,General Medicine,General Surgery
+346,Shri Gangadhareshwarar Hth Ser Pvt,Kanchipuram,TAMIL NADU,9444046115,m,Orthopaedics
+347,Shri Sathya Sai Medical College,Kancheepuram,TAMIL NADU,9448130159,dean@sssmcri.ac.in,Nephrology
+348,Sri Muthukumaran Med Colg Kancheepuram,Chennai,TAMIL NADU,9500077372,smmchri@yahoo.com,Medicine
+349,Sri Ne medical foundation,Kanchipuram,TAMIL NADU,9884222383,ail.com,Gynaecology,Genitourinary Surgery,Orthopaedics,General Surgery,Cardiology
+350,Sri Ramachandra Medical Center,Kancheepuram,TAMIL NADU,9884888193,du.in,Oncology,ENT,Genitourinary Surgery
+351,St. Thomas Hospital,Chennai,Kancheepuram,TAMIL NADU,9840382652,stthospital@gmail.com,Surgery,Ophthalmology,Nephrology
+352,Sugam Hospital,Kancheepuram,TAMIL NADU,7823955908,Sugaminsurance@gmail.com,
+353,Tagore medical college and hospitals,Kancheepuram,TAMIL NADU,9894195485,insurance@tagoremch.com,
+354,Aarthy Eye Hospital,Karur,TAMIL NADU,7373004213,m,Ophthalmology
+355,Abirami Hospital,Karur,TAMIL NADU,9894995997,m,Genitourinary Surgery,Obstetrics & Gynaecology,Nephrology,General Surgery
+356,Abishek Ortho Clinic,Karur,TAMIL NADU,9790555151,aockarur@gmail.com,Orthopaedics
+357,Amaravathi Hospital,Karur,TAMIL NADU,9585111073,m,Paediatric surgery,Neuro Surgery,ENT
+358,Apollo Logo Hospital,Karur,TAMIL NADU,4234241900,om,Orthopaedics,Nephrology,Cardiology,Genitourinary Surgery,General Medicine
+359,ERS Hospital,Karur,TAMIL NADU,8888888888,ers.elamathi@gmail.com,General Surgery,Obstetrics & Gynaecology
+360,G.C.Hospital,Karur,TAMIL NADU,8888888888,gchospital@gmail.com,Obstetrics & Gynaecology,General Surgery,Orthopaedics
+361,Govt Hospital Manmangalam,Karur,TAMIL NADU,9443461417,m,
+S.No,Hospital Name,City,District,State,Contact,Email,Specialties
+362,Abhiman Kidney Centre,Madurai,MADURAI,TAMIL NADU,9003083750,akcmdu9@gamail.com,Genitourinary Surgery
+363,Apollo Speciality Hospital,Madurai,MADURAI,TAMIL NADU,9698944211,tals.com,Medicine,Genitourinary Surgery,General Surgery,Cardiology,Radiation Oncology
+364,Aravind Eye Hospital Madurai,Madurai,MADURAI,TAMIL NADU,9500339950,sunytha@aravind.org,Ophthalmology
+365,Aristo speciality Hospital,Madurai,MADURAI,TAMIL NADU,9894211131,aristohospital@gmail.com,General Surgery,Nephrology,Orthopaedics,General Medicine
+366,Aroma Hospital,Madurai,MADURAI,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,General Medicine,ENT,Obstetrics & Gynaecology,Orthopaedics,General Surgery
+367,Ashirvatha Speciality Hospital,Madurai,MADURAI,TAMIL NADU,9629308286,om,Surgery,Obstetrics & Gynaecology
+368,BGM Hospital,Madurai,MADURAI,TAMIL NADU,9047075211,bgmhmdu@yahoo.in,Oncology,Obstetrics & Gynaecology
+369,Bala Hospitals,Usilampatti,MADURAI,TAMIL NADU,8122773966,m,Surgery,Obstetrics & Gynaecology,Genitourinary Surgery
+370,Bharathi Hospital,Madurai,MADURAI,TAMIL NADU,9080426170,com,General Surgery,General Medicine,Obstetrics & Gynaecology,Nephrology
+371,Bright Hospital,Madurai,MADURAI,TAMIL NADU,9840145835,om,Nephrology,Genitourinary Surgery
+372,Devadoss Multispeciality Hospital,Madurai,MADURAI,TAMIL NADU,9790023695,cmchs_pm@mdindia.com,Medicine,General Surgery,Orthopaedics,Obstetrics & Gynaecology
+373,Devaki Speciality Hospital,Madurai,MADURAI,TAMIL NADU,9381702047,ail.com,Cardiology,Nephrology,Medical Oncology,Radiation Oncology,Surgical Oncology
+374,Dr Agarwal Eye Hospital,Madurai,MADURAI,TAMIL NADU,2222222222,m,Ophthalmology
+375,Dr Agarwal Eye Hospital,KK Nagar,Madurai,MADURAI,TAMIL NADU,9840230020,com,Ophthalmology
+376,Easvara Hospital,Madurai,MADURAI,TAMIL NADU,9003397555,easvarahospital@gmail.com,Orthopaedics,Obstetrics & Gynaecology
+377,Govt Hospital Thirumangalam,Madurai,MADURAI,TAMIL NADU,9597242936,rprabhu939@gmail.com,
+378,Govt Hospital Tiruparankundram,Madurai,MADURAI,TAMIL NADU,9894894842,ghtpkmdu@gmail.com,
+379,Govt Hospital Vadipatti,Madurai,MADURAI,TAMIL NADU,7010023987,gh.t.vadipatti@gmail.com,
+380,Govt hospital,Melur,Madurai,MADURAI,TAMIL NADU,2323232323,m,
+381,Govt. Head Quarters Hospital,Madurai,MADURAI,TAMIL NADU,9865420652,m,
+382,Govt. Rajaji Hospital,Madurai,MADURAI,TAMIL NADU,8681000277,com,
+383,Govt. Rajaji Hospital. DEIC,Madurai,MADURAI,TAMIL NADU,9898989898,pa.com,
+384,Govt.DDWO,Madurai,MADURAI,TAMIL NADU,9898989898,pa.com,
+385,Gowsri Kidney Centre,Madurai,MADURAI,TAMIL NADU,9486141868,om,Nephrology
+386,Guru Multispeciality Hospital,Madurai,MADURAI,TAMIL NADU,9944485353,info@guruhospitals.com,medicine(Pulmonology),Radiation Oncology,General Medicine,Neurology
+387,Harley RRam Nursing Home,Madurai,MADURAI,TAMIL NADU,2222222222,harleyram_tn@airtelmail.in,Surgery,General Medicine
+388,Harshitha Hospitals PVT LTD,Madurai,MADURAI,TAMIL NADU,9865015729,m,Oncology,Medical Oncology
+389,Iswarya Womens Hospital,Madurai,MADURAI,TAMIL NADU,2222222222,iswaryamdu@gmail.com,Obstetrics & Gynaecology
+390,JC Ganesan Hospital,Madurai,MADURAI,TAMIL NADU,9842103579,m,
+391,Jayam Hospital,Madurai,MADURAI,TAMIL NADU,8124785732,l.com,Orthopaedics
+392,Karunai Multispeciality Hospital,Madurai,MADURAI,TAMIL NADU,9443830249,karunaihospital@yahoo.com,Surgery,Orthopaedics,Surgical Oncology,Medical Oncology,General Medicine
+393,Lakshmana Multispeciality Hospital,Madurai,MADURAI,TAMIL NADU,7373072104,lakshosp@gmail.com,Oncology
+394,Lee Kidney Care,Madurai,MADURAI,TAMIL NADU,9443322243,lkch2014@gmail.com,Nephrology
+395,Madurai Kidney and Transplant Res Inst,Madurai,MADURAI,TAMIL NADU,9366723868,com,Nephrology,Genitourinary Surgery
+396,Meenakshi Mission Hosp and Rsrch Centr,Madurai,MADURAI,TAMIL NADU,7373747938,qualitynabh@mmhrc.in,medicine(Pulmonology),Neurology,Paediatric surgery,ENT
+397,Mohans Medicity Hospital,Madurai,MADURAI,TAMIL NADU,8870134204,mail.com,Gynaecology,Orthopaedics,General Surgery
+398,NTC Hospitals and Inst of Medi Science,Madurai,MADURAI,TAMIL NADU,9894208601,ntchospitals@gmail.com,Genitourinary Surgery,General Surgery,Obstetrics & Gynaecology,Orthopaedics
+399,Pandian Heart Institute,Madurai,MADURAI,TAMIL NADU,986666666666666,.com,Medicine,Cardiology,Nephrology,Cardio Thoracic Surgery
+400,Ponni Hospital,Madurai,MADURAI,TAMIL NADU,9894142696,ail.com,
+401,Poobathiammal Hospital,Madurai,MADURAI,TAMIL NADU,9361510650,ail.com,reconstructive Surgery,Surgical Oncology,General Surgery,Medical Oncology
+402,Preethi Hospital PVT Ltd,Madurai,MADURAI,TAMIL NADU,9361806347,com,
+403,R R Hospital,Madurai,MADURAI,TAMIL NADU,9842107108,rrmj1985@gmail.com,Gynaecology,Nephrology,General Medicine
+404,RAILWAY HOSPITAL MADURAI,Madurai,MADURAI,TAMIL NADU,9003862517,drkgpvv@gmail.com,Surgery,Obstetrics & Gynaecology,Ophthalmology
+405,Rahavendhar Hospital,Madurai,MADURAI,TAMIL NADU,8220044609,o.com,Cardiology,Nephrology,General Surgery
+406,Raks Hospital Pvt Ltd,Madurai,MADURAI,TAMIL NADU,9994999514,drrajmdu136@gmail.com,Medicine,Chest diseases and respiratory medicine(Pulmonology)
+407,SKG Hospital,Madurai,MADURAI,TAMIL NADU,7339555269,skghospital@gmail.com,Surgery,Burns,Plastic & reconstructive Surgery,Neurology,Nephrology,ENT
+408,SUGAM HOSPITAL,Madurai,MADURAI,TAMIL NADU,2222222222,com,Genitourinary Surgery,Neurology,Orthopaedics,Obstetrics & Gynaecology
+409,Santhya Hospital,Madurai,MADURAI,TAMIL NADU,8825888823,m,ENT
+410,Saravana Hospital,Madurai,MADURAI,TAMIL NADU,8888888888,shmc.1992@gmail.com,medicine(Pulmonology),Ophthalmology
+411,Shastha Kidney and Multispeciality Hosp,Madurai,MADURAI,TAMIL NADU,4522422587,shasthadialysis@gmail.com,General Medicine,Orthopaedics,Neuro Surgery,General Surgery
+412,Shenbagam Hospitals Pvt Ltd,Madurai,MADURAI,TAMIL NADU,22222222222,shenhosp@yahoo.com,Medical Oncology,Nephrology
+413,Sri Lakshmi Hospital,Madurai,MADURAI,TAMIL NADU,9443270177,srilakshmihpl@gmail.com,General Surgery,Orthopaedics,Obstetrics & Gynaecology,Neurology,Neuro Surgery
+414,Sri Rajan Ortho Hospital,Madurai,MADURAI,TAMIL NADU,9626547647,com,Orthopaedics
+415,Srivatsav Healthcare Raksha Hospitals,Madurai,MADURAI,TAMIL NADU,9578112555,com,Neuro Surgery,Orthopaedics
+416,St.Antony’s Hospital,Madurai,MADURAI,TAMIL NADU,8838149437,.com,Obstetrics & Gynaecology,General Medicine,Orthopaedics,General Surgery
+417,TNMSC Govt. Head Quarters Hospital,Madurai,MADURAI,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+418,Taj Hospital,Madurai,MADURAI,TAMIL NADU,9944206188,info.tajhospital@gmail.com,Orthopaedics,General Surgery,Obstetrics & Gynaecology
+419,Tanker Foundation,Madurai,MADURAI,TAMIL NADU,9940374680,tankermadurai@gmail.com,Nephrology
+420,The Christian Mission Hospital,Madurai,MADURAI,TAMIL NADU,2222222222,cmhmdu@gmail.com,General Surgery,ENT,Obstetrics & Gynaecology,Orthopaedics
+421,Thiru Senthil Andavar Speciality Hosp,Madurai,MADURAI,TAMIL NADU,9843706598,shineesuba@gmail.com,General Surgery,General Medicine,Paediatric surgery
+422,VMC Speciality Hospital,Madurai,MADURAI,TAMIL NADU,9962572425,alcollege.edu.in,Obstetrics & Gynaecology,Cardiology,Cardio Thoracic Surgery,Orthopaedics
+423,Vadamalayan Hospital,Madurai,MADURAI,TAMIL NADU,9788920500,claims@vadamalayan.org,Surgery,Burns,Plastic & reconstructive Surgery,Cardio Thoracic Surgery
+424,Velammal MC Hosp and Research Institute,Madurai,MADURAI,TAMIL NADU,9962572425,alcollege.edu.in,Oncology
+425,Vikram Multi Speciality Hospital,Madurai,MADURAI,TAMIL NADU,9150891207,m,Medicine,Cardio Thoracic Surgery,Nephrology,ENT,General Surgery
+426,Arun Priya Nursing Home,Nagapattinam,NAGAPATTINAM,TAMIL NADU,1111111111,o.com,Obstetrics & Gynaecology,General Medicine
+427,GOVT. HOSPITAL,VAITHEESWARANKOVIL,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,bmk@vidalhealthtpa.com,
+428,GOVT. HOSPITAL,VEDARANYAM,Nagapattinam,NAGAPATTINAM,TAMIL NADU,9999999999999,ices.com,
+429,Govt Hospital Karuppampulam,Nagapattinam,NAGAPATTINAM,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+430,Govt Hospital Kuthalam,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,bmk@vidalhealthtpa.com,
+431,Govt Hospital Nagore Andavar,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,bmk@vidalhealthtpa.com,
+432,Govt Hospital Poraiyar,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,bmk@vidalhealthtpa.com,
+433,Govt Hospital Tharangambadi,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,bmk@vidalhealthtpa.com,
+434,Govt. Mayiladuthurai Hospital,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,ices.com,
+435,Govt. Srikazhi Hospital,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,ices.com,
+436,Govt.DDWO,Nagapattinam,NAGAPATTINAM,TAMIL NADU,9898989898,pa.com,
+437,Govt.Head Quarters Hospital,DEIC,Nagapattinam,NAGAPATTINAM,TAMIL NADU,9898989898,pa.com,
+438,Govt.Head Quarters Hospital,Nagapattinam,NAGAPATTINAM,TAMIL NADU,9843048418,ices.com,
+439,Ram Bone And Joint Hospial,Nagapattinam,NAGAPATTINAM,TAMIL NADU,8888888888,pawanks@healthsprint.net,Orthopaedics
+440,Shanthi Nursing Home,Nagapattinam,NAGAPATTINAM,TAMIL NADU,8888888888,pawanks@healthsprint.net,Medical Oncology
+441,VISHNU HOSPITAL,Nagapattinam,NAGAPATTINAM,TAMIL NADU,0,ices.com,Orthopaedics,General Surgery,Obstetrics & Gynaecology,General Medicine
+442,Adhithya Nursing Home,Namakkal,NAMAKKAL,TAMIL NADU,9443321084,m,Ophthalmology
+443,Aravinth Hospital,Rangar Sannadhi Str,Namakkal,NAMAKKAL,TAMIL NADU,9443221491,arvinth_hospital@yahoo.com,Gynaecology,Genitourinary Surgery,Orthopaedics,Nephrology
+444,CM Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9487594465,sudharangeys@gmail.com,Gynaecology,Orthopaedics,Nephrology,General Surgery
+445,DEIC,Namakkal,NAMAKKAL,TAMIL NADU,1111111111,ndia.com,
+446,District Diff.abled welfare office,Namakkal,NAMAKKAL,TAMIL NADU,9843032088,ddawonmk@gmail.com,
+447,Govt Hospital Kumarapalayam,Namakkal,NAMAKKAL,TAMIL NADU,9442335163,com.komar@gmail.com,
+448,Govt Hospital Rasipuram,Namakkal,NAMAKKAL,TAMIL NADU,9443048443,senn99k@gmail.com,
+449,Govt Hospital Thiruchengodu,Namakkal,NAMAKKAL,TAMIL NADU,9443292073,cmo.tgode@gmail.com,
+450,Govt Hospital, Sendamangalam,Namakkal,NAMAKKAL,TAMIL NADU,9865539262,sendaigh@gmail.com,
+451,Govt hospital Paramathyvelur,Namakkal,NAMAKKAL,TAMIL NADU,9994762459,drmuralidharan8@gmail.com,
+452,Govt.Head Quarters Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9585796397,mohi7887@gmail.com,
+453,Kathir Eye Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9787841466,kathireye@gmail.com,Ophthalmology
+454,Krishna Hospital Thiruchengodu,Namakkal,NAMAKKAL,TAMIL NADU,9442191999,ssvanan66@gmail.com,Gynaecology
+455,M.M.Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9865233334,docsivakumar@yahoo.com,Surgery,Nephrology,Genitourinary Surgery
+456,Maharaja Speciality Hosp Mohanur Road,Namakkal,NAMAKKAL,TAMIL NADU,9894323464,m,Neurology
+457,Malar Hospital Subramaniapuram,Namakkal,NAMAKKAL,TAMIL NADU,9443204206,om,General Surgery,Genitourinary Surgery,Obstetrics & Gynaecology
+458,Manickam Hospital,Rasipuram,Namakkal,NAMAKKAL,TAMIL NADU,9047333555,m,Medicine
+459,Maruthi Hopsital Salem Rd,Namakkal,NAMAKKAL,TAMIL NADU,9842729579,om,Surgery,Neurology,Neonatology,Orthopaedics,Neuro Surgery
+460,SPM Medical Centre,Namakkal,NAMAKKAL,TAMIL NADU,9894299199,il.com,Orthopaedics,General Medicine,Obstetrics & Gynaecology
+461,Sakthi Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9715180099,sakthiinba@gmail.com,Orthopaedics,General Medicine,General Surgery
+462,Santhi Hospital Rasipuram,Namakkal,NAMAKKAL,TAMIL NADU,7373005226,dr.mrsanthi@yahoo.com,Obstetrics & Gynaecology,General Surgery
+463,Saravana Hospital,Namakkal,NAMAKKAL,TAMIL NADU,8270886478,in,
+464,Shree Akhshaya Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9629492325,m,General Surgery,Nephrology,Orthopaedics,Genitourinary Surgery,General Medicine
+465,Shri Vigneshwaran Hosp Sendamangalam,Namakkal,NAMAKKAL,TAMIL NADU,9443371734,dr.shanmugamr@gmail.com,Obstetrics & Gynaecology,General Surgery
+466,Soorya Multispechiality hospitals,Namakkal,NAMAKKAL,TAMIL NADU,9842575086,sooryahospitals@gmail.com,Cardiology,Obstetrics & Gynaecology,Surgical Oncology,General Medicine
+467,Sugam Hospital,Rasipuram,Namakkal,NAMAKKAL,TAMIL NADU,9443566987,drsugavanan@gmail.com,Medicine,Obstetrics & Gynaecology,General Surgery,Orthopaedics
+468,Thangam Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9843030685,dr.r.kulandaivel@gmail.com,Gynaecology,Neurology,Medical Oncology
+469,Thirukumaran Hospitals,Namakkal,NAMAKKAL,TAMIL NADU,9487503985,.com,Surgery,Orthopaedics,General Medicine
+470,Velavan Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9750081864,velavanhospital@gmail.com,
+471,Vivekanandha Medical Care Hospital,Namakkal,NAMAKKAL,TAMIL NADU,9442552953,arthashan@gmail.com,Medicine,Orthopaedics,Nephrology,Cardiology
+472,Ashwini Gudalur Tribal Hospital,Nilgiris,NILGIRIS,TAMIL NADU,8270294112,ashwinigudalur@gmail.com,medicine(Pulmonology)
+473,District Diff. abled welfare office,Nilgiris,NILGIRIS,TAMIL NADU,125896333333333,cmchs_pm@mdindia.com,
+474,Govt Hospital Connoor,Nilgiris,NILGIRIS,TAMIL NADU,11111111111111,ghcoonoor@gmail.com,
+475,Govt Hospital Gudalur,Nilgiris,NILGIRIS,TAMIL NADU,111111111111111,empanellement@gmail.com,
+476,Govt Hospital, Gudalur,Nilgiris,NILGIRIS,TAMIL NADU,235966666666666,cmchs_pm@mdindia.com,
+477,Govt Hospital, Kothagiri,Nilgiris,NILGIRIS,TAMIL NADU,125689666666666,cmchs_pm@mdindia.com,
+478,Govt.Head Quarters Hospital, DEIC,Nilgiris,NILGIRIS,TAMIL NADU,123458963333333,cmchs_pm@mdindia.com,
+479,Govt.Head Quarters Hospital,Nilgiris,NILGIRIS,TAMIL NADU,9443131285,om,
+480,KIMS AL Shifa Healthcare Pvt Ltd,Kerala,NILGIRIS,TAMIL NADU,4933299399,@alshifahospital.com,Orthopaedics,Neuro Surgery,Paediatric surgery,Ophthalmology,General Medicine
+481,Nankam Hospital,Nilgiris,NILGIRIS,TAMIL NADU,9443235084,nankemnkc@yahoo.com,Gynaecology,Neurology,General Surgery
+482,Sagayamatha Hospital,Nilgiris,NILGIRIS,TAMIL NADU,9486921351,.com,General Surgery,General Medicine,Obstetrics & Gynaecology
+483,Arputhaa Medical Care Hospital,Perambalur,PERAMBALUR,TAMIL NADU,9443154364,m,Oncology
+484,DEIC,Perambalur,TAMIL NADU,1111111111,ndia.com,
+485,Dhanalakshmi Srinivas Hospital,Perambalur,TAMIL NADU,7094466464,m,Orthopaedics,Burns,Plastic & reconstructive Surgery,Nephrology
+486,Dhanalakshmi Srinivasa Spr Spl Hos,Perambalur,TAMIL NADU,9750774997,dssshpblr@gmail.com,Cardio Thoracic Surgery
+487,District Diff.abled welfare office,Perambalur,TAMIL NADU,1111111111,ndia.com,
+488,Govt.Head Quarters Hospital,Perambalur,TAMIL NADU,9443952993,ices.com,
+489,Lakshmi Nursing Home,Perambalur,TAMIL NADU,9486584194,lnh_health@Rediffmail.com,Gynaecology,Orthopaedics,Nephrology,General Surgery
+490,Niranjan Nursing Home,Perambalur,TAMIL NADU,9677963100,drpaulraj2006@gmail.com,Orthopaedics,General Medicine,General Surgery,Genitourinary Surgery
+491,SKS HOSPITAL, PERAMBULUR,Perambalur,TAMIL NADU,9443453822,hospitalsks@gmail.com,Gynaecology,General Medicine,Orthopaedics,Genitourinary Surgery
+492,DR Muthuraja Multi speciality Hospt,Pudukottai,TAMIL NADU,9486840860,.com,
+493,Dr.Muthulakshmi Memorial Distt HQ,Pudukkottai,TAMIL NADU,9965747397,kasthuribai99@gmail.com,
+494,Govt Hospital Alangudi, Pudukkottai,Pudukkottai,TAMIL NADU,9442982215,cmo.alangudi@gmail.com,
+495,Govt Hospital Annavasal,Pudukottai,Pudukkottai,TAMIL NADU,9865797779,cmo.annavasal@gmail.com,
+496,Govt Hospital Avudayar Kovil, Pudhukottai,Pudukkottai,TAMIL NADU,9843194579,m,Oncology,Neurology,Neonatology
+497,Govt Hospital Gandarvakottai,Pudukottai,Pudukkottai,TAMIL NADU,9443586965,com,
+498,Govt Hospital Karambakudi, Pudhukottai,Pudukkottai,TAMIL NADU,9629555739,m,
+499,Govt Hospital Keeranur ,Pudhukottai,Pudukkottai,TAMIL NADU,9442115685,drtheertham15@gmail.com,Surgery
+500,Govt Hospital Valayapatti, Pudhukottai,Pudukkottai,TAMIL NADU,9843340489,cmo.valayapatti@gmail.com,Gynaecology,Cardiology,Cardio Thoracic Surgery
+501,Govt Hospital Viralimalai, Pudukkottai,Pudukkottai,TAMIL NADU,9994193229,cmo.viralimalai@gmail.com,
+502,Govt Hospital illuppur, Pudukkottai,TN,Pudukkottai,TAMIL NADU,7708620822,cmo.illuppur@gmail.com,
+503,Govt Hospital,Thirumayam,Pudukottai,TN,Pudukkottai,TAMIL NADU,9843575365,m,
+504,Govt Pudukottai MCH DEIC, Pudukottai,Pudukkottai,TAMIL NADU,9940440399,sathishricky502@gmail.com,
+505,Govt Pudukottai MCH Paediatrics, Pudukottai,Pudukkottai,TAMIL NADU,9942013989,.com,
+506,Govt hospital,Arranthangi,Pudukottai,TN,Pudukkottai,TAMIL NADU,9843159314,aranthangi.gh@gmail.com,
+507,Govt.DDWO,Pudukottai,Pudukkottai,TAMIL NADU,9488494679,ddawopdk@gmail.com,
+508,M Malar Hospital,Pudukottai,Pudukkottai,TAMIL NADU,9487406110,om,Orthopaedics,Cardio Thoracic Surgery,General Surgery,Neurology,ENT
+509,Manimegalai Medical Centre, Pudukottai,Pudukkottai,TAMIL NADU,9487742334,mmcpdkt@gmail.com,Medicine,General Surgery
+510,Muthu Meenakshi Hospitals, Pudukottai,Pudukkottai,TAMIL NADU,7397743998,claimmmh@gmail.com,Surgical Oncology,General Surgery,Neonatology,Nephrology
+511,PUDUGAI STAR HOSPITAL,PUDUKOTTAI,TN,Pudukkottai,TAMIL NADU,7708219190,l@gmail.com,
+512,Sree Meenakshi Polyclinic, Pudukottai,Pudukkottai,TAMIL NADU,9585224873,drabirami@yahoo.co.in,Nephrology,ENT,Surgical Oncology,Orthopaedics
+513,Sree Vijay Hosptials,Pudukottai,TN,Pudukkottai,TAMIL NADU,9698290442,m,General Surgery,Obstetrics & Gynaecology,Genitourinary Surgery,Orthopaedics
+514,Sri Durga Surg Clinic,Pudukottai,Pudukkottai,TAMIL NADU,9791835080,dr.a.alagesan@gmail.com,Oncology,General Surgery,Nephrology,Obstetrics & Gynaecology
+515,Sri Krishna Eye Hospital, Pudukottai,Pudukkottai,TAMIL NADU,8667592848,ksiva9328@gmail.com,
+516,Team Speciality Hospital,Pudukottai,Pudukkottai,TAMIL NADU,7373756006,il.com,Obstetrics & Gynaecology,General Surgery,General Medicine,Genitourinary Surgery
+517,Aasi Multispeciality Hosp,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,7708287735,aasihospital@gmail.com,
+518,Arogya hospital,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,7810084283,m,
+519,Govt Hospital Kamudhi,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,9442956803,cmo.kamuthigh@gmail.com,
+520,Govt Hospital Keelakkarai,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,9790262492,cmo.kilakaraigh@gmail.com,
+521,Govt Hospital,Mudukalathur,RAMANATHAPURAM,TAMIL NADU,9750193322,com,
+522,Govt Hospital,Parthibanur,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,6382410408,com,
+523,Govt Hospital,Rameshwaram,RAMANATHAPURAM,TAMIL NADU,8300163848,com,
+524,Govt Hospital,Thiruvadanai,RAMANATHAPURAM,TAMIL NADU,9003642299,om,
+525,Govt Hospital,Uchipuli,RAMANATHAPURAM,TAMIL NADU,7558174048,phc.uchipuli@gmail.com,
+526,Govt.DDWO,RAMANATHAPURAM,RAMANATHAPURAM,TAMIL NADU,9898989898,pa.com,
+527,Govt.Head Qrtrs Hosp Paramakudi,RAMANATHAPURAM,RAMANATHAPURAM,TAMIL NADU,8220092656,m,
+528,Govt.Head Quarters Hospital,DEIC,RAMANATHAPURAM,TAMIL NADU,9898989898,pa.com,
+529,Govt.Head Quarters Hospital,RAMANATHAPURAM,RAMANATHAPURAM,TAMIL NADU,8056898441,om,
+530,Govt.Upgraded PHC,Sayalkudi,Paramakudi,RAMANATHAPURAM,TAMIL NADU,9786745282,bmosayalkudi@yahoo.com,
+531,Kanagamani Hospital,RAMANATHAPURAM,RAMANATHAPURAM,TAMIL NADU,9965281061,kanagapriya73@yahoo.com,Nephrology
+532,PPS Hospital,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,9942818384,ppshospital@gmail.com,General Medicine
+533,Rajan Clinic,Ramanathapuram,RAMANATHAPURAM,TAMIL NADU,9443321225,m,General Medicine
+534,Abhi Eye hospital,Attur,Salem,SALEM,TAMIL NADU,9842970739,selvameye@yahoo.com,Ophthalmology
+535,Aishwaryam Speciality Hospital,Salem,SALEM,TAMIL NADU,9790441772,m,Nephrology
+536,Ammani Hospital,Salem,SALEM,TAMIL NADU,9443165408,ammanihospital@gmail.com,Obstetrics & Gynaecology,Orthopaedics,Genitourinary Surgery
+537,Appu Venkatachalam Medical Research Ctr,Salem,SALEM,TAMIL NADU,9444575715,m,Medicine,Burns,Plastic & reconstructive Surgery
+538,Aravind Eye Hospital,Salem,SALEM,TAMIL NADU,9894350077,org,Ophthalmology
+539,Deepam Hospital,Salem,SALEM,TAMIL NADU,9787704400,deepamhosvpy@gmail.com,Medicine,Obstetrics & Gynaecology,Surgical Oncology,General Surgery
+540,Dharan Hospital,Salem,SALEM,TAMIL NADU,9047089990,dharanhospital@gmail.com,Medicine,Neuro Surgery
+541,District Differently abled welfare office,Salem,SALEM,TAMIL NADU,123458933333333,cmchs_pm@mdindia.com,
+542,Dr. Suraksha Speciality Medical Centr,Salem,SALEM,TAMIL NADU,7373040678,mdsurakksha@gmail.com,Surgery,Burns,Plastic & reconstructive Surgery,Genitourinary Surgery
+543,Dr. Thiru Neuro Multi Speclty,Ahragaram,Salem,SALEM,TAMIL NADU,9343379938,com,medicine(Pulmonology),Paediatrics,General Medicine,Neuro Surgery
+544,Dr.Agarwals Eye Hospital Ltd,Salem,SALEM,TAMIL NADU,9445003104,n,Ophthalmology
+545,Dr.Sasi Eye Care Hospital,Swarnapuri,Salem,SALEM,TAMIL NADU,9442419900,sasieyecare@gmail.com,Ophthalmology
+546,Dr.Sundararajan Neuro Hospital,Salem,SALEM,TAMIL NADU,9659650111,l@gmail.com,Surgery,Neurology,Obstetrics & Gynaecology,Surgical Oncology
+547,EKA Hospital,Fairlands,Salem,SALEM,TAMIL NADU,9842799639,dr.kppranav@gmail.com,Oncology,General Medicine,Cardiology,General Surgery
+548,Govt Hospital Authur,Salem,SALEM,TAMIL NADU,1111111111,cmoattur@gmail.com,
+549,Govt Hospital, Sankagiri,Salem,SALEM,TAMIL NADU,111111111111111,ghsankari@gmail.com,
+550,Govt Mohan Kumara.Medical College,DEIC,Salem,SALEM,TAMIL NADU,124589633333333,cmchs_pm@mdindia.com,
+551,Govt Mohan Kumaramangalam Med College,Salem,SALEM,TAMIL NADU,1111111111,om,
+552,Govt Mohan Kumaramangalam Radiology,Salem,SALEM,TAMIL NADU,245796333333333,cmchs_pm@mdindia.com,
+553,Govt. Hospital, Idappadi,Salem,SALEM,TAMIL NADU,756533333333333,cmchs_pm@mdindia.com,
+554,Govt.Head Quarters Hospital Mettur Dam,Salem,SALEM,TAMIL NADU,9443203477,selvaaraj62@gmail.com,
+555,J.S Hospital,Ramakrishna Road,Salem,SALEM,TAMIL NADU,9894041726,jshospitalsalem@gmail.com,surgery,ENT
+556,Jaaidev Hospital Pvt Ltd,Minnampalli,Salem,SALEM,TAMIL NADU,6382871314,m,Orthopaedics,Neuro Surgery,General Surgery,General Medicine
+557,K M Nataraj Hospital,Salem,SALEM,TAMIL NADU,9443232042,surgeonbalaji@hotmail.com,Surgery,General Medicine
+558,Kamala Hospital Agraharam,Salem,SALEM,TAMIL NADU,9842711234,m,medicine(Pulmonology)
+559,Karthik Media Centre,Edappadi,Salem,SALEM,TAMIL NADU,9842775098,kmc.idp@gmail.com,Surgery,Orthopaedics,Obstetrics & Gynaecology
+560,Kiruba Hospital,Rajaji Road,Salem,SALEM,TAMIL NADU,9843022961,kirubahospital@gmail.com,medicine(Pulmonology)
+561,Kurinji Hospital,Salem,SALEM,TAMIL NADU,9443244774,kmc.idp@gmail.com,Gynaecology
+562,London Ortho Hospital,Omalur Md Rd,Salem,SALEM,TAMIL NADU,9842704849,londonorthosh@gmail.com,General Medicine,Burns,Plastic & reconstructive Surgery,Orthopaedics
+563,Manipal Hospital,Dalmia Brd,Salem,SALEM,TAMIL NADU,8778374579,spitals.com,Obstetrics & Gynaecology
+564,Nathan Super Speciaty Hospt,Holy Flr Sch,Salem,SALEM,TAMIL NADU,9894276633,nathanorthocare@gamil.com,Surgery,Neurology,General Medicine,Burns,Plastic & reconstructive Surgery
+565,Neuro Foundation,Three Roads,Salem,SALEM,TAMIL NADU,9489900814,com,Surgery,Genitourinary Surgery,Neurology,Neuro Surgery,Orthopaedics,Nephrology
+566,Nitish Ge and Multispeciality Hospital,Salem,SALEM,TAMIL NADU,9790018136,com,Surgery,Burns,Plastic & reconstructive Surgery,Cardiology,Genitourinary Surgery
+567,Pranav Hospital,Salem,SALEM,TAMIL NADU,9865137697,pranavsalem@gmail.com,Medicine,Orthopaedics,Obstetrics & Gynaecology
+568,Priyam Speciality Hospital,Salem,SALEM,TAMIL NADU,9789702332,mail.com,reconstructive Surgery
+569,RPS Hospital,Salem,SALEM,TAMIL NADU,9750029888,rpshospital@gmail.com,Surgery,Obstetrics & Gynaecology,Cardiology,ENT,Orthopaedics,General Medicine
+570,Rishi Nethralaya,Near Arts College,Salem,SALEM,TAMIL NADU,9629798940,rishieye@gmail.com,Ophthalmology
+571,SIMS Chellum hospital,Salem,SALEM,TAMIL NADU,7338807105,com,Surgery,Neurology
+572,SISU Hospital India Pvt Ld,Kandapatti,Salem,SALEM,TAMIL NADU,9842745045,salemstarsisu@gmail.com,Neonatology;General Surgery;Obstetrics & Gynaecology
+573,SKS Hospital,Salem,SALEM,TAMIL NADU,9791330909,insurance@sksh.ac.in,Surgery;General Medicine
+574,SPMM Hospital,Ammapet, Salem,SALEM,TAMIL NADU,9843024130,spmmhospital@gmail.com,Medicine;Ophthalmology;Neonatology;Paediatrics;Neuro Surgery
+575,Salem Gopi Hospital,Ramakrishna Road,Salem,SALEM,TAMIL NADU,8778789313,ndia.com,Genitourinary Surgery;Nephrology
+576,Salem Polyclinic,Omalur Road,Salem,SALEM,TAMIL NADU,9677706235,rashmiraodr@gmail.com,Reconstructive Surgery;Nephrology;Neuro Surgery;Cardiology;Orthopaedics
+577,Saravana Hospital,Ammapet,Salem,SALEM,TAMIL NADU,9585500116,m,Medicine;Ophthalmology;Orthopaedics;Neurology
+578,Shanmuga Hospt Cancer Ins,Saradha Cll Rd,Salem,SALEM,TAMIL NADU,8754004099,shanmugahosp@gmail.com,Surgery;Orthopaedics
+579,Shanthi Nursing Home,Dadagapatti,Salem,SALEM,TAMIL NADU,9442563602,ksshanthinh@gmail.com,Surgery;Neuro Surgery;Cardiology
+580,Sharon Cancer Ctr General Hsp,Vinaya Rd,Salem,SALEM,TAMIL NADU,9342107421,m,Obstetrics & Gynaecology;Medical Oncology;General Surgery;Orthopaedics
+581,Shri Bharathi Nursing Home,Salem,SALEM,TAMIL NADU,9443249194,m,Obstetrics & Gynaecology;General Surgery;Neonatology
+582,Sree Jayam Ortho and Multispecialty Hosp,Salem,SALEM,TAMIL NADU,9790019192,m,Neuro Surgery;Neurology;Orthopaedics;General Medicine;General Surgery
+583,Sree Vasantham Hospital,Salem,SALEM,TAMIL NADU,9894136398,m,Nephrology
+584,Sri Gokulam Hospital,Salem,SALEM,TAMIL NADU,9443730790,om,Medicine(Pulmonology);ENT;General Medicine
+585,Sri Shellappa Hospital,Rajaram Nagar,Salem,SALEM,TAMIL NADU,9894264333,.com,Medicine(Pulmonology);Orthopaedics
+586,Sub Divisional Hospital,Erode,SALEM,TAMIL NADU,9003956501,harisreerags@gmail.com,Paediatrics
+587,Subam Hospital,Elampillai,Salem,SALEM,TAMIL NADU,9715529302,hospitalsubam@gmail.com,Medicine;Orthopaedics;Genitourinary Surgery
+588,Sundaram Multispeciality Hospital,Salem,SALEM,TAMIL NADU,8825958177,smshospital@hotmail.com,Gynaecology;Paediatrics
+589,Universal Cancer Hospital Limited,Salem,SALEM,TAMIL NADU,9786669995,ail.com,Surgery;General Surgery
+590,Vinayaka Mission SuperSpecialty Hospital,Salem,SALEM,TAMIL NADU,7904155056,com,Surgery;Paediatric Surgery;Genitourinary Surgery;General Medicine;Cardiology
+591,Adithiya Multi Specialty Hospital,Sivagangai,SIVAGANGA,TAMIL NADU,9489804834,com,
+592,Anbhu Ramachandran Hospital,Sivagangai,SIVAGANGA,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,Surgery;ENT;Obstetrics & Gynaecology
+593,Apollo Hospitals,Sivagangai,SIVAGANGA,TAMIL NADU,9600370315,als.com,Medicine;Cardiology;Nephrology;Genitourinary Surgery;General Surgery
+594,Baba Hospital,Sivagangai,SIVAGANGA,TAMIL NADU,6382188971,com,
+595,Devaki Surgical Clinic,Sivagangai,SIVAGANGA,TAMIL NADU,7824950986,smartraja2821@gmail.com,Oncology;Orthopaedics
+596,Govt Hospital Manamadurai,Sivagangai,SIVAGANGA,TAMIL NADU,9677723083,ghmanamadurai@gmail.com,
+597,Govt Hospital Singampunari,Sivagangai,SIVAGANGA,TAMIL NADU,9443399959,ghsingampunari@gmail.com,
+598,Govt Hospital Thirupathur,Sivagangai,SIVAGANGA,TAMIL NADU,9443487426,ghthiruppathur@gmail.com,
+599,Govt Hospital Thiruppuvanam,Sivagangai,SIVAGANGA,TAMIL NADU,6383864778,m,
+600,Govt Hospital,Ilayankudi,Sivagangai,SIVAGANGA,TAMIL NADU,9994252607,ghilayangudi@gmail.com,
+601,Deepan Nursing Home,Puthur,Trichy,TAMIL NADU,1111111111,deepandnh@yahoo.co.in,"Gynaecology, Orthopaedics"
+602,Divisional Railway Hospital,Ponmalai,Trichy,TAMIL NADU,9003864507,drveerattl@gmail.com,
+603,Dr Agarwal Eye Hospital,Thillai Nagar,Trichy,TAMIL NADU,9750941241,nithia.d@vidalhealthtpa.com,Ophthalmology
+604,Dr.G.Viswanathan Speciality Hospitals,Trichy,Trichy,TAMIL NADU,8098337695,revathitrygvn@gmail.com,"Oncology, Obstetrics & Gynaecology, Neuro Surgery, ENT"
+605,Dr.Malas Hospital,Manaparai,Trichy,TAMIL NADU,8754538511,muthukarthi50@gmail.com,"Polytrauma, Orthopaedics"
+606,DrAgrawals health care limited,Trichy,Trichy,TAMIL NADU,9600088603,m, 
+607,Frontline Hospital,Anna Statue,Trichy,Trichy,TAMIL NADU,8489912715,org,Nephrology
+608,G V N Hospital PVT LTD,Trichy,Trichy,TAMIL NADU,9626011771,gvnhospital@gmail.com,Nephrology
+609,GKM Hospital,Manaparai,Trichy,TAMIL NADU,1111111111,murugesangkm@gmail.com,"Surgery, Cardiology, Medical Oncology, Genitourinary Surgery"
+610,Gitanjali Medical Centre,Pudhur,Trichy,TAMIL NADU,1111111111,geemce@gmail.com,"Surgery, Paediatrics, ENT, Obstetrics & Gynaecology, Neuro Surgery, General Surgery"
+611,Govt Hospital Lalgudi,Trichy,Trichy,TAMIL NADU,111111111111111,lalgudi.cmo@gmail.com,
+612,Govt Hospital Manachanallur,Trichy,Trichy,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+613,Govt Hospital Omanthur,Trichy,Trichy,TAMIL NADU,7708210734,omandur.nqas@gmail.com,
+614,Govt Hospital Thottiyam,Trichy,Trichy,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+615,Govt Hospital Thuraiyur,Trichy,Trichy,TAMIL NADU,9791529253,ghthuraiyur@gmail.com,
+616,Govt Hospital Thuvakudi,Trichy,Trichy,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+617,Govt Hospital Thuvarankurichi,Trichy,Trichy,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+618,Govt Hospital,Musiri,Trichy,TAMIL NADU,1111111111,m,
+619,Govt KAPVMCH DEIC,Trichy,Trichy,TAMIL NADU,9898989898,pa.com,
+620,Govt. Head Qrtrs Hosp Manaparai,Trichy,Trichy,TAMIL NADU,9787153045,jdhs.trichy@rediffmail.com,
+621,Govt. Hospital Srirangam,Trichy,Trichy,TAMIL NADU,8888888888,srirangamgh@gmail.com,
+622,Harshmitra super speciality cancer centre,Trichy,Trichy,TAMIL NADU,7373135777,l.com,"Surgical Oncology, Medical Oncology"
+623,Jeyam Multispeciality Hospital,Trichy,Trichy,TAMIL NADU,111111111111111,jmhtrichy2013@gmail.com,"Gynaecology, Genitourinary Surgery, Neuro Surgery"
+624,Joseph Eye Hospital,Melapudur,Trichy,TAMIL NADU,111111111111111,claims@iojeh.org,Ophthalmology
+625,K.A.P.Viswanathan Govt. Medical College,Trichy,Trichy,TAMIL NADU,1111111111,thulasi_j@yahoo.com,
+626,KMC Speciality,Trichy,Trichy,TAMIL NADU,7708832460,yhospital.com,"Medicine, Cardiology, Neuro Surgery"
+627,Kavery Medical Centre and Hospital,Trichy,Trichy,TAMIL NADU,8189846144,tal.com,"Thoracic Surgery, Ophthalmology, Medical Oncology"
+628,Mahatma Eye Hospital,Thennur,Trichy,TAMIL NADU,1111111111,org,Ophthalmology
+629,Mangalam Hospital,Thillainagar,Trichy,TAMIL NADU,9092829992,mangalamnh@gmail.com,"Medicine, Polytrauma"
+630,Maruti Hospital,Thennur,Trichy,TAMIL NADU,1111111111,marutihospital@yahoo.in,Gynaecology
+631,Q Med Hospital,Renganathapuram, Pudur,Trichy,TN,TIRUCHIRAPPALLI,TAMIL NADU,9788842645,qmedhospital@gmail.com,"General Medicine,Orthopaedics,Obstetrics & Gynaecology,Genitourinary Surgery"
+632,Rathna Medical Centre,Kumaran Nagar,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,9843273701,jeevaraj1969@gmail.com,"Genitourinary Surgery"
+633,Retna Global Hospital,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,7708077419,om,"reconstructive Surgery,Obstetrics & Gynaecology,General Medicine"
+634,Royal Pearl Hospital,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,"General Medicine,Genitourinary Surgery ,ENT"
+635,SMS Hospital,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,4312760480,nithia.d@vidalhealthtpa.com,"Surgery ,Obstetrics & Gynaecology,Neurology"
+636,SRI KUMARAN HOSPITAL,TRICHY,TN,TIRUCHIRAPPALLI,TAMIL NADU,7397391444,m,"Surgery,Orthopaedics"
+637,STAR KIMS HOSPITALS,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,7373763025,starkimsnabh@gmail.com,
+638,Silverline Speciality Hospital,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,9585068980,slshospital.gsk@gmail.com,"Medical Oncology,Surgical Oncology"
+639,Sinduja Hospital,Manaparai,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,9442009956,SINDUJA77@GMAIL.COM,"Nephrology,Neurology"
+640,Sugam Hospital,Trichy,TN,TIRUCHIRAPPALLI,TAMIL NADU,9894857273,om,"Medicine,General Surgery"
+641,Sundaram Hospital,Puthur,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,9843225264,om,"Gynaecology,Nephrology"
+642,Trichy Medical Services,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,4314210919,tmchclaim2014@gmail.com,"Surgery ,General Medicine,Obstetrics & Gynaecology,General Surgery"
+643,VELAN SPEICALITY HOSPITALS PRIVATE LTD,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,7339565444,.com,
+644,Vasan Eye Care,Annamalai Nagar,Trichy TN,TIRUCHIRAPPALLI,TAMIL NADU,9786200031,trichytpa@gmail.com,Ophthalmology
+645,Vijayalakshmi Eye Hospital,Trichy,TN,TIRUCHIRAPPALLI,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,Ophthalmology
+646,Annai Velankanni Nursing Home,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,7540094100,avnhinsurance@gmail.com,"Surgery,Orthopaedics"
+647,Aravind Eye Hospital,Tirunellvelli TN,TIRUNELVELI,TAMIL NADU,9486312853,tvl.insurance@aravind.org,Ophthalmology
+648,Arul Mission Hospital,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9940496796,drsasan814@gmail.com,"Surgery,Orthopaedics,General Surgery,Nephrology,Genitourinary Surgery"
+649,Balaji Hospital,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9443121365,balajihospitalvlr@gmail.com,Surgery
+650,CSI Bellpins Mission Hospital,Tirunelveli,TN,TIRUNELVELI,TAMIL NADU,9489913624,csibellhospital@gmail.com,"Nephrology,General Surgery,Obstetrics & Gynaecology"
+651,DR.AGARWALS HEALTH CARE LIMITED,TIRUNELVELI,TAMIL NADU,8220013039,rwal.com,
+652,Dist. Govt. Head Qrtrs Hosp Tenkasi,Tiruneveli TN,TIRUNELVELI,TAMIL NADU,7373052305,e.sainalen@gmail.com,
+653,Dr Agarwal Eye Hospital,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9445392745,wal.com,Ophthalmology
+654,Dr Velan Multispeciality Hospital,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9578711577,com,
+655,Galaxy Hospital,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,8870074122,galaxy.hospitals@gmail.com,"Surgery ,Cardiology"
+656,Govt Hospital Alangulam,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9445268348,moghalangulam@gmail.com,
+657,Govt Hospital Auikudi,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,7373052119,subramani.vidal@gmail.com,
+658,Govt Hospital Cheranmahadevi,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9443438885,ghcherai@gmail.com,
+659,Govt Hospital Kadayanallur, OG,Tirunelveli DC,TIRUNELVELI,TAMIL NADU,9842240820,.com,
+660,Govt Hospital Kadayanallur,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,7373052316,m,
+661,Govt Hospital Kalakad,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9894469744,fmghkalakad@gmail.com,
+662,Govt Hospital Koodankulam,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9894231856,pital@yahoo.com,
+663,Govt Hospital Melapalayam,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9894094662,om,
+664,Govt Hospital Nanguneri,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,8754293958,ghnangunerinew@gmail.com,
+665,Govt Hospital Puliangudi,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,8940688563,ghpuliangudi@gmail.com,
+666,Govt Hospital Radhapuram,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,9994926213,radhapuramgh@gmail.com,
+667,Govt Hospital Sankarankoil,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,7402688327,ail.com,
+668,Govt Hospital Sengkottai,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,7373052119,subramani.vidal@gmail.com,
+669,Govt Hospital Sivagiri,Tirunelveli TN,TIRUNELVELI,TAMIL NADU,7373004335,jeyalakshmi49@gmail.com,
+670,Govt Hospital Vallioor,Tirunelveli,TAMIL NADU,9442452858,ghvallioor@gmail.com,
+671,Govt Hospital Veerakeralampudur,Tirunelveli,TAMIL NADU,7373052118,vkpudurgh@gmail.com,
+672,Govt hospital,Ambasamudiram,Tirunelveli,TAMIL NADU,8344427900,com,
+673,Govt.DDWO,Tirunelveli,TAMIL NADU,9898989898,pa.com,
+674,Krishna Maternity Paed Centre,Tirunelveli,TAMIL NADU,9843268276,krishnaiso2005@yahoo.com,"Orthopaedics, General Surgery, Genitourinary Surgery"
+675,Parvathy Nursing Home,Tirunelveli,TAMIL NADU,9486184186,ail.com,"General Surgery, Orthopaedics"
+676,Peace Health Centre,Tirunelveli,TAMIL NADU,9443747643,om,"General Surgery, Genitourinary Surgery, Nephrology, General Medicine, Orthopaedics"
+677,Ponra Multispeciality Hospital,Tirunelveli,TAMIL NADU,9788855713,om,Nephrology
+678,RSP Nursing Home,Tirunelveli,TAMIL NADU,8220116113,com,"Cardio Thoracic Surgery, Nephrology, Obstetrics & Gynaecology, General Surgery"
+679,SHIFA HOSPITALS,Tirunelveli,TAMIL NADU,9345833444,om,
+680,Shifa Health Care,Tirunelveli,TAMIL NADU,8870861104,com,
+681,Shifa Hospital,Tirunelveli,TAMIL NADU,9345833444,om,"Surgery, Surgical Oncology"
+682,Sree Sudharson Hospital,Tirunelveli,TAMIL NADU,8946080395,om,"Oncology, Cardio Thoracic Surgery"
+683,Subramanian Nursing Home,Tirunelveli,TAMIL NADU,9385306738,m,"Nephrology, Genitourinary Surgery"
+684,Tirunelveli MC. DEIC,Tirunelveli,TAMIL NADU,9898989898,pa.com,
+685,Tirunelveli Medical College Hosp,Tirunelveli,TAMIL NADU,7708002585,cmchis@tvmc.ac.in,
+686,VJ Hospital,Tirunelveli,TAMIL NADU,6380645890,vjhospital21@gmail.com,
+687,Vecare Madhubala Hospital,Tirunelvelli,TAMIL NADU,9443145067,drchandru4546@gmail.com,
+688,ARS Hospital,Tirupur,TAMIL NADU,9442643723,arshospital@gmail.com,Orthopaedics
+689,Alamelu Balaji Hospital,Tirupur,TAMIL NADU,9894779909,.com,"& reconstructive Surgery, General Medicine"
+690,Aresta Medical Centre,Palladam Road,Tirupur,TAMIL NADU,9715245555,info@aresta.care,"Medicine, Paediatrics"
+691,Bala Ortho Hospital,Tirupur,TAMIL NADU,9843859353,orthobala@gmail.com,Orthopaedics
+692,DSK Hospitale,Kangeyam Main Road,Tirupur,TAMIL NADU,9003346211,dskhospitale@gmail.com,Cardiology
+693,Deepa Hospital,Tirupur,TAMIL NADU,9443292767,com,"Gynaecology, Surgical Oncology, ENT, General Medicine"
+694,District Diff. abled welfare office,Tirupur,TAMIL NADU,789563333333333,cmchs_pm@mdindia.com,
+695,Dr.Sivakani Hospital, Udumalpet,Tirupur,TAMIL NADU,9976498899,sivakanihospital@yahoo.in,"General Medicine, General Surgery, Obstetrics & Gynaecology, Cardiology"
+696,Govt Hospital, Palladam,Tirupur,TAMIL NADU,111111111111,cmopalladam@gmail.com,
+697,Govt Hospital,Dharapuram,Tirupur,TAMIL NADU,1111111111,dharapuramgh@gmail.com,
+698,Govt Hospital,Udumalapet,Tirupur,TAMIL NADU,1111111111,gudumalpet@gmail.com,
+699,Govt.Head Quarters Hospital, DEIC,Tirupur,TAMIL NADU,125893333333333,cmchs_pm@mdindia.com,
+700,Govt.Head Quarters Hospital,Tirupur,TAMIL NADU,9442221020,m,
+701,Kongu Heart Centre,Dharapuram Mainroad,Tirupur,TAMIL NADU,9443794555,doctorselvaa@gmail.com,Cardiology
+702,L.G Medical Centre,Kangeyam Road,Tirupur,TAMIL NADU,9843082692,om,"Oncology, Surgical Oncology, General Surgery, ENT"
+703,Lavanya Hospital,Udumalpet,Tirupur,TAMIL NADU,9443565914,lavanyahospital@gmail.com,", Nephrology, Obstetrics & Gynaecology"
+704,Malar Priya Medical Center, PN Nagar,Tirupur,TAMIL NADU,9626264800,mp_mc@ymail.com,"medicine(Pulmonology), Cardiology, General Medicine"
+705,OMS Hospital, Bharathi Nagar,Tirupur,TAMIL NADU,8586894306,omshospitals@gmail.com,"Burns, Plastic & reconstructive Surgery, Orthopaedics"
+706,Ponni Hospital,Palladum,Tirupur,TAMIL NADU,9600978005,ail.com,"Genitourinary Surgery, General Medicine, Obstetrics & Gynaecology, General Surgery"
+707,Priya Orthopaedic Center,Tirupur,TAMIL NADU,9843129464,sundarortho@gmail.com,Orthopaedics
+708,Rams Multispeciality Centre,Tirupur,TAMIL NADU,9442554456,ramshospital82@gmail.com,"Surgery, Orthopaedics, Cardiology, Genitourinary Surgery, ENT, Neuro Surgery"
+709,Revathi Medical Centre,Tirupur,TAMIL NADU,9842247997,.com,"Surgery, Genitourinary Surgery, Neuro Surgery"
+710,SK Hospital, Samalapuram, Somanur,Tirupur,TAMIL NADU,9994449909,skhospitalmail@gmail.com,"Surgery, Genitourinary Surgery, Paediatric surgery, General Surgery"
+711,Sri Kumaran Hospital,Tirupur,TAMIL NADU,9842201500,tal.org,Gynaecology
+712,Sri Saran Hospital,Tirupur,TAMIL NADU,8056400999,m,"surgery, Neonatology, Neuro Surgery, Medical Oncology, ENT"
+713,Sugan Sugaa Medical Centre,Tirupur,TAMIL NADU,7373733530,gmail.com,"Gynaecology, Neuro Surgery, General Surgery, Orthopaedics, Neurology"
+714,TANKER Foundation Dialysis unit,Tiruppur,TAMIL NADU,9940374680,tankertirupur@gmail.com,
+715,The Eye Foundation,RV road,Tirupur,TAMIL NADU,9786779379,om,Ophthalmology
+716,Vel Hospital,Dharapuram,Tirupur,TAMIL NADU,7373580003,velhospitaldpm@gmail.com,"Medicine, ENT"
+717,Velan Hospital,Gandhi Road, Avinashi,Tirupur,TAMIL NADU,9942181874,m,medicine(Pulmonology)
+718,DEIC,Tiruvannamalai,TAMIL NADU,1111111111,ndia.com,
+719,District Diff.abled welfare off,Tiruvannamalai,TAMIL NADU,1111111111,ndia.com,
+720,Govt Hospital, Chetpet,Tiruvannamalai,TAMIL NADU,7200462688,chetpetgh@gmail.com,
+721,Govt. Arani Hospital,Tiruvannmalai,TAMIL NADU,9080813125,aranigh@gmail.com,
+722,Govt. Cheyyar Hospital,Tiruvannmalai,TAMIL NADU,9087267636,cheyyargh@gmail.com,
+723,Govt. Hospital Vandavasi,Tiruvannamalai,TAMIL NADU,8124527574,vandavasigh@gmail.com,
+724,Govt.Head Qrtrs Hosp,Tiruvannamalai,TAMIL NADU,9443205063,ices.com,
+725,Grace And Compassion Hosp,Tiruvannamalai,TAMIL NADU,7598010463,@yahoo.co.in,"General Medicine, Nephrology"
+726,Raj ENT Care Centre,Tiruvannamalai,TAMIL NADU,7708311567,srisaveetha@gmail.com,ENT
+727,Ramana Maharishi Hospital, Thiruvannamalai,TAMIL NADU,9943039540,rmrh.tvm@gmail.com,"Medicine, Orthopaedics, Obstetrics & Gynaecology, General Surgery"
+728,SRI RAMANAMAHARISHI EYE HOSP, THIRUVANNAMALAI,TAMIL NADU,9487407521,ramyasiddhu59@gmail.com,Ophthalmology
+729,StThomas Hosp and Leprosy Centre, Thiruvanamalai,TAMIL NADU,9443963125,sthlcchetpet@gmail.com,"Medicine, Ophthalmology, Nephrology"
+730,Vivekananda Eye Hospital,Tiruvannamalai,TAMIL NADU,8838447330,drsoms7@gmail.com,Ophthalmology
+731,Aarthi Hospital,Tuticorin,TAMIL NADU,9443141811,om,"General Surgery, Obstetrics & Gynaecology, Orthopaedics, ENT, Nephrology"
+788,Govt Hospital Ettayapuram,Tuticorin,TAMIL NADU,8870591504,pushpaamar16@gmail.com,
+789,Govt Hospital Kalankudiyirrupu,Tuticorin,TAMIL NADU,9486486588,il.com,
+790,Govt Hospital Kayalpattanam,Tuticorin,TAMIL NADU,9840295298,kayalgh@gamil.com,
+791,Govt Hospital Ottapidaram,Tuticorin,TAMIL NADU,9486083975,ail.com,
+792,Govt Hospital Sathankulam,Tuticorin,TAMIL NADU,9443269265,sathaikulam@gmail.com,
+793,Govt Hospital Srivaikundam,Tuticorin,TAMIL NADU,9941756077,ghsrivaikuntam@gmail.com,
+794,Govt Hospital Vilathikulam,Tuticorin,TAMIL NADU,9944146513,vilathikulamgh@gmail.com,
+795,Govt Hospital Thiruchendur,Thoothukudi,TAMIL NADU,9443139759,moghtdr@gmail.com,
+796,Govt. Head Qrtrs Hosp Kovilpatti,Tuticorin,TAMIL NADU,9443441036,com,
+797,Govt.DDWO,Tuticorin,TAMIL NADU,9443390545,ddawotut@gmail.com,
+798,Jeyanth Nallathambi Hospital,Tuticorin,TAMIL NADU,9443981144,il.com,"Obstetrics & Gynaecology, General Surgery, Nephrology, General Medicine"
+799,Kovilpatti Venkateswara Hospitals,Tuticorin,TAMIL NADU,9578025552,ail.com,"Orthopaedics, General Surgery"
+800,Public welfare Hospital,Tuticorin,TAMIL NADU,9585145666,.com,Nephrology
+801,Rajesh Tilak Hospital,Tuticorin,TAMIL NADU,9952742718,m,"General Surgery, Paediatrics, Nephrology, Obstetrics & Gynaecology"
+802,Sacred Heart Hospital,Tuticorin,TAMIL NADU,9443260714,sacheart2003@yahoo.com,"General Surgery, Obstetrics & Gynaecology"
+803,Sri Hospital,Tuticorin,TAMIL NADU,9994721860,srihospitals2015@gmail.com,
+804,TNMSC Govt HQ Hospital, Kovilpatti,Tuticorin,TAMIL NADU,9751360395,speeran@mdindia.com,
+805,Toothukudi Medical College,Tuticorin,TAMIL NADU,9443282398,m,
+806,Toothukudi. MC. DEIC,Tuticorin,TAMIL NADU,9443282398,m,
+807,Toothukudi. MC. Surgical Oncology,Tuticorin,TAMIL NADU,9443282398,m,
+808,ACS MEDICAL COLLEGE, THIRUVALLUR,TAMIL NADU,9884225003,the.ms@acsmch.ac.in,", General Surgery, ENT, Burns, Plastic & reconstructive Surgery"
+809,Aakash Hospital, Thiruvallur,TAMIL NADU,7010652121,diliporia@gmail.com,"Cardio Thoracic Surgery, Cardiology"
+810,Anbalaya Rural Spl School,Autism,Tiruvallur,TAMIL NADU,8122561990,dc96anbalaya@gmail.com,
+811,Anbalaya Special School,Autism,Tiruvallur,TAMIL NADU,8122561990,anbalaya96@gmail.com,
+812,Apollo Hospitals Ayyanambakkam,Thiruvallur,TAMIL NADU,9841221212,om,"Cardiology, Cardio Thoracic Surgery"
+813,Aravind Eye Hospital,Noombal, Thiruvallur,TAMIL NADU,9443153561,s.aravind@aravind.org,Ophthalmology
+814,Ayur Sukham Intgrt trng ctr,Autism,Tiruvallur,TAMIL NADU,9840912251,drtrambnys@gmail.com,
+815,Cias Learning Centre, Autism,Tiruvallur,TAMIL NADU,9444222840,cias2016@outlook.com,
+816,DEIC, Thiruvallur,TAMIL NADU,1111111111,ndia.com,
+817,DRR Eye Care Oculoplasty Hospital,Thiruvallur,TAMIL NADU,9710406278,drreyehospital@gmail.com,Ophthalmology
+818,District Diff.abled welfare office,Tiruvallur,TAMIL NADU,1111111111,ndia.com,
+819,Dr Agarwals eye hospital ltd,Tiruvallur,TAMIL NADU,8838492748,m,
+820,Dr Arvind Vision Care, Thiruvallur,TAMIL NADU,9789997885,avchospital@hotmail.com,Ophthalmology
+821,DrRai CBCC OncologyServices Pvt Ltd Thiruvallur,TAMIL NADU,9500078808,vimal@cbccusa.in,"Medical Oncology, Radiation Oncology"
+822,FRONTIER LIFELINE PRIVATE LTD,Tiruvallur,TAMIL NADU,9941325831,feline.com,
+823,Frontier Life Line Pvt. Ltd,Chennai,Tiruvallur,TAMIL NADU,7373004592,m,"Cardiology, Cardio Thoracic Surgery"
+824,Govt Hospital, Pallipattu, Tiruvallur,TAMIL NADU,8248961255,cmopallipattu@gmail.com,"Oncology, Neonatology, Nephrology, Paediatric Cancer, ENT"
+825,Govt Hospital, Tiruthani, Thiruvallur,TAMIL NADU,9444029297,cmotiruthani@gmail.com,
+826,Govt Hospital, Uthukottai, Tiruvallur,TAMIL NADU,9445929903,cmouthukottai@gmail.com,"Care, Nephrology, Neuro Surgery"
+827,Govt Hospital,Podadurpet,Tiruvallur,TAMIL NADU,9444043600,m,"Care, Cardiology, Neonatology, General Medicine"
+828,Govt. Head Quarters Hospital,Tiruvallur,TAMIL NADU,7010090790,devanand.p50@gmail.com,
+829,Govt. Hospital, Avadi, Tiruvallur,TAMIL NADU,9566290901,cmoavadi@gmail.com,"surgery, Neonatology, Obstetrics & Gynaecology, Cardiology, Paediatric Cancer"
+830,Govt. Hospital, Madhavaram, Tiruvallur,TAMIL NADU,9940534388,m,"Procedures, Neurology, ENT"
+831,Govt. Hospital, Poonamallee, Tiruvallur,TAMIL NADU,9677020582,m,"Surgery, Ophthalmology, Neonatology, Paediatric Cancer, Psychiatry"
+832,INSTITUTE,Tiruvallur,TAMIL NADU,8610850481,insurance@pmchri.ac.in,
+833,K.M Multi speciality Hospital, Thiruvallur,TAMIL NADU,9841122372,drk.kalidoss@yahoo.in,"General Medicine, General Surgery"
+834,RPS Hospital, Korattur North, Thiruvallur,TAMIL NADU,9790834566,drvivekhpb@gmail.com,"Surgery, Genitourinary Surgery"
+835,Saveetha Dental Coll and Hospital, Thiruvallur,TAMIL NADU,9994892022,m,"Treatment Procedure, Dental Procedures"
+836,Smart Sensory Kids Tng Ctr, Autism,Tiruvallur,TAMIL NADU,9600154890,shobi.moorthy@gmail.com,
+837,Sugam Hospital, Thiruvallur,TAMIL NADU,9840217999,surecure2011@gmail.com,"Gynaecology, Nephrology, General Medicine, Neuro Surgery, Medical Oncology, ENT"
+838,TANKER FOUNDATION DIALYSIS CENTRE ,THIRUVALLUR,TAMIL NADU,9940374680,tanker1993@gmail.com,Nephrology
+839,Tanker Foudn Dialysis,Tiruverkadu, Thiruvallur,TAMIL NADU,9940374680,tankertvk@gmail.com,Nephrology
+840,The Madras Medical Mission,Chennai,TAMIL NADU,9884270160,ms@mmm.org.in,"Cardiology, Cardio Thoracic Surgery"
+841,Veecare Hospital, Chennai,TAMIL NADU,9677000099,vk@veecarehospital.com,"General Medicine, Nephrology"
+842,Govt hospital Kodavasal,Tiruvarur,TAMIL NADU,960050116,gh.kodavasal@gmail.com,"Oncology, Genitourinary Surgery"
+843,Govt hospital Koothannallur,Tiruvarur,TAMIL NADU,9524513125,gh.koothanallur@gmail.com,"Cancer, Neonatology, Medical Oncology"
+845,Govt hospital Needamangalam,Tiruvarur,TAMIL NADU,9940934757,om,"Care,Neonatology,Paediatric surgery,Psychiatry"
+846,Govt hospital Valangiman,Tiruvarur,TAMIL NADU,9942423623,gh.valangaiman@gmail.com,"Procedure Dental Procedures,Neonatology,General Surgery,Nephrology,Psychiatry"
+847,Govt hospital Vijayapuram,Tiruvarur,TAMIL NADU,9443863903,gh.wchhospital@gmail.com,"Oncology,Psychiatry,General Surgery"
+848,Govt hospital Nanillam,Tiruvarur,TAMIL NADU,9999999999,ghnannilam@gmail.com,
+849,Govt hospital Thiruthuraipoondi,Tiruvarur,TAMIL NADU,9999999992,drsureshrayanan@gmail.com,
+850,Govt.DDWO,Tiruvarur,TAMIL NADU,9898989898,pa.com,
+851,Govt.Head Qrtrs Hosp Mannargudi,Tiruvarur,TAMIL NADU,9942885300,gh.mannargudi@gmail.com,
+852,Lakshana Hospital,Thiruvarur,TAMIL NADU,33333333333,mail.com,"& Gynaecology,Genitourinary Surgery ,General Surgery"
+853,Navajeevan MedicalFoundation PVT LTD,Tiruvarur,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,"Orthopaedics,Obstetrics & Gynaecology,Paediatric surgery,General Surgery"
+854,Raaj Hospital,Tiruvarur,TAMIL NADU,2222222222,drmrkrajhospital@yahoo.in,Surgery
+855,Thiruvarur Medical Centre,Tiruvarur,TAMIL NADU,9994379600,tmcplh2006@gmail.com,"Oncology,Nephrology,ENT"
+856,Tiruvarur MC. DEIC,Tiruvarur,TAMIL NADU,9898989898,pa.com,
+857,Tiruvarur Medical College,Tiruvarur,TAMIL NADU,8888888888,pawanks@healthsprint.net,
+858,Arcot Dialysis Centre,Vellore,TAMIL NADU,9487226861,ksundarveera@gmail.com,Nephrology
+859,Arun Hospital,Vellore,TAMIL NADU,9500044444,om,Gynaecology
+860,Baba Hospital,Vellore,TAMIL NADU,9994431643,babahospital@yahoo.com,Surgery
+861,Christian Medical College And Hospital,Vellore,TAMIL NADU,8300205286,ices.com,"surgery,Medical Oncology"
+862,Dhinesh Nursing Home, Bagayam,Vellore,TAMIL NADU,9600435667,dhineshins@gmail.com,"General Surgery,Obstetrics & Gynaecology,Orthopaedics"
+863,Divisional Railway Hospital Arakkonam,Vellore,TAMIL NADU,9003161502,acmsdrhajj@gmail.com,"General Medicine,Orthopaedics"
+864,Dr. Agarwals Eye Hospital,Vellore,TAMIL NADU,9444366550,pawanks@healthsprint.net,Ophthalmology
+865,Eye Care clinic Nursing Home,Tirupattur,Vellore,TAMIL NADU,9442072969,eyecaretpt@rediffmail.com,Ophthalmology
+866,Government Hospital,Pernambut,Vellore,TAMIL NADU,11111111111,cmchs_pm@mdindia.com,
+867,Govt Hospital Sholingur,Vellore,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+868,Govt Hospital, Pentland,Vellore,TAMIL NADU,9999999999,ices.com,
+869,Govt. Gudiyatham Hospital,Vellore,TAMIL NADU,0,ices.com,
+870,Govt. Medical College Hosp Cardiology,Vellore,TAMIL NADU,4542226777,ices.com,
+871,Govt. Medical College Hospital, DEIC,Vellore,TAMIL NADU,124589633333333,cmchs_pm@mdindia.com,
+872,Govt. Medical College Hospital,Vellore,TAMIL NADU,8888888888,ices.com,
+873,Govt. Thirupathur Hospital,Vellore,TAMIL NADU,0,ices.com,
+874,Govt. Vaniyambadi Hospital,Vellore,TAMIL NADU,0,ices.com,
+875,Govt.Head Quarters Hospital,Wallajah,Vellore,TAMIL NADU,8888888888,ices.com,
+876,Govt.Medical College Hospital Oncology,Vellore,TAMIL NADU,999999999999,ices.com,
+877,Govt.Medical College Hospital Paediatri,Vellore,TAMIL NADU,111111111111111,services.com,
+878,INDIRA NURSING HOME,Vellore,TAMIL NADU,9842342525,ices.com,Gynaecology
+879,Kafeel Emergency Care,Vellore,TAMIL NADU,9790562043,nithia.d@vidalhealthtpa.com,"Medicine,Nephrology,Orthopaedics,Ophthalmology,Obstetrics & Gynaecology"
+880,Manisundaram Medical Mission Hospital,Vellore,TAMIL NADU,9994756090,on@gmail.com,Surgery
+881,Sandhya Hospital and Fertility Centre,Vellore,TAMIL NADU,8489899900,om,"Paediatric surgery,General Surgery,Obstetrics & Gynaecology,General Medicine"
+882,Scudder Hospital,Vellore,TAMIL NADU,9715573768,pawanks@healthsprint.net,"Surgery,General Medicine,General Surgery,Orthopaedics,Nephrology"
+883,Sri Narayani Hospital and Res Ctr,Vellore,TAMIL NADU,9003916841,pawanks@healthsprint.net,"Oncology,Nephrology"
+884,Sundaram Health centre,Sholinghur,Vellore,TAMIL NADU,9442294171,shc@shc.org.in,"General Medicine,General Surgery,Orthopaedics"
+885,TANKER Foundation,Sathuvachari,Vellore,TAMIL NADU,9940374680,tankervellore@gmail.com,Nephrology
+886,Annai Medical Centre,Villupuram,TAMIL NADU,9443268759,mail.com,"Orthopaedics,Obstetrics & Gynaecology,General Surgery"
+887,Balamurugan Ortho Hospital,Villupuram,TAMIL NADU,9443254327,s.sundaram.dr@gmail.com,Orthopaedics
+888,DEIC,Villupuram,TAMIL NADU,1111111111,ndia.com,
+889,District Diff.abled welfare off,Villupuram,TAMIL NADU,1111111111,ndia.com,
+890,Dr. Agarwals Eye Hospital,Villupuram,TAMIL NADU,9444448619,rk_eye2005@yahoo.co.in,Ophthalmology
+891,E S NURSING COLLEGE HOSPITAL,Villupuram,TAMIL NADU,9443147949,n,"Oncology,Nephrology,General Medicine,Burns,Plastic & reconstructive Surgery"
+892,E.S.Hospital,Villupuram,TAMIL NADU,9443147949,n,"Medicine,Nephrology"
+893,Govt Hospital Marakanam,Villupuram,TAMIL NADU,9629300668,marakanamgh@gmail.com,"Surgery,Ophthalmology"
+894,Govt Hospital Mugaiyur PHC,Villupuram,TAMIL NADU,9384362777,maranbmo@gmail.com,medicine(Pulmonology)
+895,Govt Hospital Sankarapuram,Villupuram,TAMIL NADU,9942963132,sankarapuramgh@gmail.com,"Surgery,Cardiology,ENT,General Surgery"
+896,Govt Hospital Ulundurpet, OG Villupuram DC,Villupuram,TAMIL NADU,9898989898,nithia.d@vidalhealthtpa.com,
+897,Govt Hospital Vikravandi,Villupuram,TAMIL NADU,9597990787,uhak20@gmail.com,"Surgery,Orthopaedics,Treatment Procedure Dental Procedures,Cardiology"
+898,Govt Hospital, Gingee,Villupuram,TAMIL NADU,9999999999,ices.com,
+899,Govt Hospital, Thirukovilur,Villupuram,TAMIL NADU,9999999999,ices.com,
+900,Govt. Tindivanam Hospital,Villupuram,TAMIL NADU,0,ices.com,
+901,Govt.Head Qrtrs Hosp Kallakurichi,Villupuram,TAMIL NADU,94432222091,ices.com,
+902,I Med Super Speciality Hospital,Villupuram,TAMIL NADU,8072441603,nsshgm@gmail.com,"Surgery,Neurology,Orthopaedics,General Surgery,General Medicine"
+903,KS Emergency and Medical Centre,Villupuram,TAMIL NADU,9843163160,keyan2k1@yahoo.co.in,"Nephrology,General Surgery"
+904,Lotus Paediatric Emergency Centre,Villupuram,TAMIL NADU,9487461533,m,"Paediatrics,Neonatology"
+905,MAHALAKSHMI MATERNITY AND ENT,Villupuram,TAMIL NADU,9444413465,mmhupt@gmail.com,"Obstetrics & Gynaecology,General Surgery"
+906,Maragadam Hospital, Nehruji Road,Villupuram,TAMIL NADU,9444550975,dr_babu73@yahoo.com,"Obstetrics & Gynaecology,Genitourinary Surgery ,General Surgery"
+907,P R G Hospital,Villupuram,TAMIL NADU,7810044900,arunagiri.mch@gmail.com,",Ophthalmology,Nephrology,Obstetrics & Gynaecology"
+908,SRI BHARANI HOSPITAL,Villupuram,TAMIL NADU,9443043452,drktvalavan@gmail.com,
+909,Sai Speciality Hospital,Villupuram,TAMIL NADU,9443739189,8@gmail.com,"Medicine,Genitourinary Surgery ,Neonatology,Orthopaedics,General Surgery"
+910,Soorya Multispeciality Hospital,Villupuram,TAMIL NADU,9159429868,arunchinna03@gmail.com,"Obstetrics & Gynaecology,Orthopaedics"
+911,Sri Sanjeevi Hospital,Villupuram,TAMIL NADU,9750999354,ravichandranv70@gmail.com,",General Medicine,Obstetrics & Gynaecology"
+912,Sumathi Hospital,Villupuram,TAMIL NADU,8925072072,sumathyhospital@gmail.com,"Obstetrics & Gynaecology,Orthopaedics,Nephrology,General Medicine"
+913,Annai Dialysis Centre,Virudhunagar,TAMIL NADU,9843296390,om,Nephrology
+914,City Hospital, Aruppukottai,Virudhunagar,TAMIL NADU,9751673000,apk.cityhospital@gmail.com,"Obstetrics & Gynaecology,General Surgery,General Medicine"
+915,DEIC,Virudhunagar,TAMIL NADU,1111111111,ndia.com,
+916,District Diff.abled welfare off,Virudhunagar,TAMIL NADU,1111111111,ndia.com,
+917,Govt Hospital Kallamanayakanpati,Virudhunagar,TAMIL NADU,8838666086,m,
+918,Govt hospital,Arupukottai,Virudhunagar,TAMIL NADU,9500468100,gharuppukottai@gmail.com,
+919,Govt hospital,Kariapatti,Virudhunagar,TAMIL NADU,9443503351,kariapattigh@gmail.com,
+920,Govt hospital,Sattur,Virudhunagar,TAMIL NADU,7708411314,satturgh@gmail.com,
+921,Govt hospital,Watrap,Virudhunagar,TAMIL NADU,8825806248,watrapgh@gmail.com,
+922,Govt. Hospital, Srivilliputhur,Virudhunagar,TAMIL NADU,9442058582,kalirajgh@gmail.com,
+923,Govt. Hospital, Thiruthangal,Virudhunagar,TAMIL NADU,9843650105,Ghthirutangal@gmail.com,
+924,Govt.Hd.Quarters Hosp,Rajapalayam,Virudhunagar,TAMIL NADU,9994391023,rajapalayamgh@gmail.com,
+925,Govt.Hospital Thiruchuli,Virudhunagar,TAMIL NADU,9443271802,thiruchuligh@gmail.com,
+926,Govt.Hospital, Srivilliputhur, Virudhunagar DC,Virudhunagar,TAMIL NADU,312569999999999,speeran@mdindia.com,
+927,Graham Clinic,Sivakasi,Virudhunagar,TAMIL NADU,9442627966,.com,Nephrology
+928,Graham Nursing Home,Virudhunagar,TAMIL NADU,9787713966,grahamnh_svk@yahoo.com,"Genitourinary Surgery ,General Surgery,Obstetrics & Gynaecology,Orthopaedics"
+929,Krishna Hospital, Sattur,Virudhunagar,TAMIL NADU,9443472855,kannanbalki@gmail.com,"Gynaecology,Orthopaedics,General Surgery"
+930,Mathi Cardiac Centre, Sivakasi,Virudhunagar,TAMIL NADU,9443472688,mathicc2016@gmail.com,Cardiology
+931,Mathi Integrated Health Center,Virudhunagar,TAMIL NADU,9566722609,mathihospital@gmail.com,"General Medicine,Neurology,Nephrology,General Surgery"
+932,Meenakshi Memorial Hospital,Virudhunagar,TAMIL NADU,6381125113,@gmail.com,"Nephrology,General Surgery,Cardiology,Obstetrics & Gynaecology"
+933,Ritham Special School, Autism,Virudhunagar,TAMIL NADU,9750682277,com,
+934,Senthil Hospital,Virudhunagar,TAMIL NADU,9944830013,om,"Nephrology,General Surgery,General Medicine"
+935,Shakthi Eye Hospital,Rajapalayam,Virudhunagar,TAMIL NADU,9787822260,om,
+936,Sri Krishna Hospital,Rajapalayam,Virudhunagar,TAMIL NADU,9159098003,o.in,"Medicine,Orthopaedics,Nephrology"
+937,Sri Ram Hospital Sugasthala,Virudhunagar,TAMIL NADU,9842312336,m,"General Surgery,General Medicine"
+938,Sri Ramakrishna Hospital,Virudhunagar,TAMIL NADU,8643849098,l.com,Nephrology
+939,Sruthi Hospital,Virudhunagar,TAMIL NADU,9489477457,sruthihospital@gmail.com,Orthopaedics
+940,Star Hospital,Virudhunagar,TAMIL NADU,9894428790,m,"Orthopaedics,Nephrology,General Surgery,Neurology,General Medicine"
+941,Sudha Nursing home,Virudhunagar,TAMIL NADU,8144271571,@gmail.com,",Neuro Surgery"
+942,Vijaya Nursing Home,Virudhunagar,TAMIL NADU,9789669996,m,"General Medicine,General Surgery,Nephrology"

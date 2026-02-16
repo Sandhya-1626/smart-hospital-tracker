@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { Shield, Languages, User, Menu, X, LogOut, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Navbar = ({ onLoginClick, isLogged, userName }) => {
+const Navbar = ({ onLoginClick, isLogged, userName, onProfileClick }) => {
     const { t, toggleLanguage, lang } = useLanguage();
     const { logout } = useAuth();
     const [isOpen, setIsOpen] = useState(false);
@@ -47,8 +47,14 @@ const Navbar = ({ onLoginClick, isLogged, userName }) => {
                             {showProfileMenu && (
                                 <div className="glass-card" style={{ position: 'absolute', top: '120%', right: 0, width: '200px', padding: '0.5rem', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-lg)', background: 'white' }}>
                                     <button
+                                        onClick={() => { setShowProfileMenu(false); onProfileClick(); }}
+                                        style={{ width: '100%', padding: '10px', display: 'flex', alignItems: 'center', gap: '8px', color: '#1E293B', borderRadius: '4px', marginBottom: '4px' }}
+                                    >
+                                        <User size={16} /> Edit Profile
+                                    </button>
+                                    <button
                                         onClick={logout}
-                                        style={{ width: '100%', padding: '10px', display: 'flex', alignItems: 'center', gap: '8px', color: '#EF4444', borderRadius: '4px', hover: { background: '#FEF2F2' } }}
+                                        style={{ width: '100%', padding: '10px', display: 'flex', alignItems: 'center', gap: '8px', color: '#EF4444', borderRadius: '4px', borderTop: '1px solid #F1F5F9' }}
                                     >
                                         <LogOut size={16} /> Logout
                                     </button>
