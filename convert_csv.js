@@ -99,11 +99,25 @@ for (let i = 1; i < lines.length; i++) {
     const lat = baseCoord.lat + (Math.random() - 0.5) * 0.1; // Add small jitter
     const lng = baseCoord.lng + (Math.random() - 0.5) * 0.1;
 
+    // Determine Type
+    let hType = "General Care";
+    if (pvt_govt.toLowerCase().includes("govt")) {
+        hType = "Government Hospital";
+    } else if (hName.includes("multi") || specialists.length > 2) {
+        hType = "Multispeciality Hospital";
+    }
+
+    // Determine Emergency (Emergency usually in Multi/Govt/General or if name says "Emergency")
+    const hasEmergency = hName.includes("emergency") || hName.includes("accident") || hName.includes("trauma") ||
+        hType === "Multispeciality Hospital" || hType === "Government Hospital" || hName.includes("medical college");
+
     hospitals.push({
         id: i,
         external_id: id,
         name: hospital_name,
         city: district,
+        type: hType,
+        hasEmergency: hasEmergency,
         specialists: specialists,
         insurance: insurance,
         fee: pvt_govt.toLowerCase().includes("govt") ? 0 : (Math.floor(Math.random() * 500) + 300),
