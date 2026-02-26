@@ -1,7 +1,7 @@
 export const translations = {
   en: {
-    appName: "TN Health AI",
-    tagline: "Your AI-Powered Healthcare Guide in Tamil Nadu",
+    appName: "Smart Hospital Tracker",
+    tagline: "Your Modern Healthcare Guide",
     selectLanguage: "Select Language",
     login: "Login",
     heroTitle: "Find the Best Care, Instantly.",
@@ -29,8 +29,8 @@ export const translations = {
     languageToggle: "தமிழ்",
   },
   ta: {
-    appName: "TN ஹெல்த் AI",
-    tagline: "தமிழ்நாட்டில் உங்கள் AI-இயங்கும் சுகாதார வழிகாட்டி",
+    appName: "ஸ்மார்ட் ஹாஸ்பிடல் டிராக்கர்",
+    tagline: "உங்கள் நவீன சுகாதார வழிகாட்டி",
     selectLanguage: "மொழியைத் தேர்ந்தெடுக்கவும்",
     login: "உள்நுழைய",
     heroTitle: "சிறந்த சிகிச்சையை உடனே கண்டறியவும்.",

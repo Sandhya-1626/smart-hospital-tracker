@@ -9,7 +9,7 @@ import Chatbot from './components/Chatbot';
 import PanicModal from './components/PanicModal';
 import ProfileModal from './components/ProfileModal';
 import { getHospitals, searchHospitalsByIssue, recommendHospitals } from './services/dataService';
-import { CheckCircle, CreditCard, X, AlertTriangle } from 'lucide-react';
+import { MapPin, Search, Phone, User, Activity, ShieldCheck, Clock, Settings, FileText, CheckCircle, CreditCard, X, AlertTriangle, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const PaymentModal = ({ isOpen, onClose }) => {
@@ -104,7 +104,7 @@ const MainApp = () => {
 
   const [locationName, setLocationName] = useState("Detecting Location...");
   const [locationError, setLocationError] = useState(null);
-  const [isDetecting, setIsDetecting] = useState(true);
+  const [isDetectingLocation, setIsDetectingLocation] = useState(true); // Renamed from isDetecting
   const [isManualLocation, setIsManualLocation] = useState(false);
 
   // New State for strictly filtering display
@@ -114,7 +114,7 @@ const MainApp = () => {
   useEffect(() => {
     if (!navigator.geolocation) {
       setLocationError("Geolocation is not supported by your browser.");
-      setIsDetecting(false);
+      setIsDetectingLocation(false);
       return;
     }
 
@@ -126,7 +126,7 @@ const MainApp = () => {
         const { latitude, longitude } = position.coords;
         const newLocation = { lat: latitude, lng: longitude };
         setUserLocation(newLocation);
-        setIsDetecting(false);
+        setIsDetectingLocation(false);
 
         // Reverse Geocoding
         try {
@@ -141,7 +141,7 @@ const MainApp = () => {
       },
       (error) => {
         console.error("Location access denied or error:", error);
-        setIsDetecting(false);
+        setIsDetectingLocation(false);
         if (error.code === 1) { // PERMISSION_DENIED
           setLocationError("Location permission denied.");
         } else {
@@ -258,27 +258,125 @@ const MainApp = () => {
           onSearch={handleSearch}
           // Pass down global location state
           locationName={locationName}
-          isDetecting={isDetecting}
+          isDetecting={isDetectingLocation}
           locationError={locationError}
           userLocation={userLocation}
         />
 
-        <div style={{ background: 'var(--primary)', color: 'white', padding: '2rem 1rem' }}>
-          <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', textAlign: 'center' }}>
-            <div>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800 }}>500+</div>
-              <div style={{ opacity: 0.8, fontSize: '0.9rem' }}>Verified Hospitals in TN</div>
-            </div>
-            <div>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800 }}>98%</div>
-              <div style={{ opacity: 0.8, fontSize: '0.9rem' }}>Response Accuracy</div>
-            </div>
-            <div>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800 }}>10k+</div>
-              <div style={{ opacity: 0.8, fontSize: '0.9rem' }}>Monthly Consultations</div>
+        {/* --- PREMIUM MEDICAL TRUST SECTION --- */}
+        <section style={{ padding: '3rem 1rem', borderBottom: '1px solid var(--border-light)', background: 'var(--bg-surface)' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto', textAlign: 'center' }}>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+              style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', marginBottom: '2rem', color: 'var(--text-secondary)' }}
+            >
+              <span style={{ fontSize: '0.9rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px' }}>Verified Hospitals Near You</span>
+              <div style={{ height: '4px', width: '4px', background: 'var(--border-strong)', borderRadius: '50%' }} />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#F59E0B', fontWeight: 700, fontSize: '0.9rem' }}>
+                <Star size={16} fill="currentColor" /> 4.8/5 Patient Average Rating
+              </span>
+            </motion.div>
+
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '3rem', opacity: 0.6 }}>
+              {['Apollo General', 'Medanta Care', 'Fortis Health', 'Max Partner', 'AIIMS Network'].map((logo, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, filter: 'grayscale(100%)' }}
+                  whileInView={{ opacity: 1 }}
+                  whileHover={{ filter: 'grayscale(0%)', scale: 1.05, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4 }}
+                  style={{
+                    fontSize: '1.25rem', fontFamily: 'Outfit', fontWeight: 800, color: 'white',
+                    display: 'flex', alignItems: 'center', gap: '8px', cursor: 'default'
+                  }}
+                >
+                  <Activity size={24} color={i % 2 === 0 ? "var(--primary)" : "#651FFF"} /> {logo}
+                </motion.div>
+              ))}
             </div>
           </div>
-        </div>
+        </section>
+
+        {/* --- PREMIUM SAAS FEATURE HIGHLIGHTS --- */}
+        <section style={{ padding: '6rem 1rem', background: 'var(--bg-base)' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontFamily: 'Outfit', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '1rem' }}
+              >
+                Intelligent Healthcare Routing
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}
+              >
+                Experience seamless access to emergency and elective care through our AI-driven insights platform.
+              </motion.p>
+            </div>
+
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+              {[
+                { icon: <MapPin size={32} color="var(--secondary)" />, title: 'Smart Location Matching', desc: 'Instantly discover the closest top-rated hospitals using real-time geolocation.' },
+                { icon: <ShieldCheck size={32} color="var(--secondary)" />, title: 'Insurance Verification', desc: 'Instant eligibility checks for CMCHIS and corporate medical policies.' },
+                { icon: <User size={32} color="var(--secondary)" />, title: 'AI Doctor Consultation', desc: 'Get preliminary diagnostic insights from our tuned medical models.' }
+              ].map((feature, idx) => (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: idx * 0.1, duration: 0.5 }}
+                  className="glass-card"
+                  style={{
+                    padding: '2.5rem 2rem',
+                    background: 'var(--bg-surface)',
+                    border: '1px solid var(--border-light)',
+                    borderRadius: 'var(--radius-xl)',
+                    boxShadow: 'var(--shadow-sm)',
+                    display: 'flex', flexDirection: 'column', gap: '1rem',
+                    position: 'relative', overflow: 'hidden'
+                  }}
+                >
+                  <div style={{ background: 'var(--bg-accent)', padding: '16px', borderRadius: '16px', display: 'inline-block', width: 'fit-content' }}>
+                    {feature.icon}
+                  </div>
+                  <h3 style={{ fontSize: '1.4rem', color: 'var(--text-primary)', fontFamily: 'Outfit', fontWeight: 700, margin: '0.5rem 0' }}>{feature.title}</h3>
+                  <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7', margin: 0 }}>{feature.desc}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+          <style>{` .glass-card:hover .hover-glow { opacity: 1 !important; } `}</style>
+        </section>
+
+        <section style={{
+          background: 'var(--bg-surface)',
+          padding: '4rem 1rem',
+          position: 'relative',
+          overflow: 'hidden',
+          borderTop: '1px solid var(--border-light)',
+          borderBottom: '1px solid var(--border-light)'
+        }}>
+          {/* Decorative background for stats */}
+          <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(90deg, transparent, rgba(42, 125, 225, 0.05), transparent)', transform: 'skewX(-20deg)', animation: 'shimmer 4s infinite' }} />
+
+          <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem', textAlign: 'center', position: 'relative', zIndex: 1 }}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+              <div style={{ fontSize: '4rem', fontWeight: 900, fontFamily: 'Outfit', color: 'var(--text-primary)' }}>500<span style={{ color: 'var(--primary)' }}>+</span></div>
+              <div style={{ color: 'var(--text-secondary)', fontSize: '1rem', fontWeight: 500, marginTop: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Verified Hospitals</div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
+              <div style={{ fontSize: '4rem', fontWeight: 900, fontFamily: 'Outfit', color: 'var(--text-primary)' }}>98<span style={{ color: 'var(--success)' }}>%</span></div>
+              <div style={{ color: 'var(--text-secondary)', fontSize: '1rem', fontWeight: 500, marginTop: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>AI Accuracy</div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
+              <div style={{ fontSize: '4rem', fontWeight: 900, fontFamily: 'Outfit', color: 'var(--text-primary)' }}>10k<span style={{ color: 'var(--primary)' }}>+</span></div>
+              <div style={{ color: 'var(--text-secondary)', fontSize: '1rem', fontWeight: 500, marginTop: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Consultations</div>
+            </motion.div>
+          </div>
+        </section>
 
         <section style={{ padding: '0 2rem' }}>
           <HospitalList
@@ -286,7 +384,6 @@ const MainApp = () => {
             loading={loading}
             onConsult={handleConsult}
             userLocation={userLocation}
-            // Pass the filter
             activeInsuranceFilter={activeInsuranceFilter}
             onLocationUpdate={handleManualLocationUpdate}
             onFilterApply={handleFilterApply}
@@ -309,62 +406,75 @@ const MainApp = () => {
       {/* Floating Panic Button */}
       <motion.button
         onClick={() => setShowPanic(true)}
-        whileHover={{ scale: 1.05 }}
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        whileHover={{ scale: 1.05, boxShadow: '0 15px 25px -5px rgba(239, 68, 68, 0.5)' }}
         whileTap={{ scale: 0.95 }}
         style={{
           position: 'fixed',
-          bottom: '100px',
-          left: '2rem',
-          background: '#EF4444',
+          bottom: '2rem',
+          right: '2rem',
+          background: 'linear-gradient(135deg, var(--error) 0%, #B91C1C 100%)',
           color: 'white',
           border: 'none',
           borderRadius: '50px',
-          padding: '12px 24px',
+          padding: '16px 32px',
           display: 'flex',
           alignItems: 'center',
-          gap: '10px',
+          gap: '12px',
           boxShadow: '0 10px 15px -3px rgba(239, 68, 68, 0.4)',
           zIndex: 900,
-          fontWeight: 700,
+          fontWeight: 800,
+          fontFamily: 'Outfit',
+          letterSpacing: '1px',
           cursor: 'pointer'
         }}
+        className="animate-pulse"
       >
-        <AlertTriangle size={24} className="animate-pulse" />
+        <AlertTriangle size={24} />
         <span>PANIC MODE</span>
       </motion.button>
 
       <style>{`
         @keyframes pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.5; }
+          0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+          70% { box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
         }
-        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes shimmer {
+          0% { transform: skewX(-20deg) translateX(-150%); }
+          100% { transform: skewX(-20deg) translateX(150%); }
+        }
       `}</style>
 
-      <footer style={{ padding: '4rem 2rem', background: '#0F172A', color: 'white', marginTop: '4rem' }}>
+      <footer style={{ padding: '4rem 2rem 2rem 2rem', background: 'var(--bg-surface)', color: 'var(--text-primary)', marginTop: '6rem', position: 'relative', overflow: 'hidden', borderTop: '1px solid var(--border-strong)' }}>
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '4px', background: 'var(--primary)' }} />
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '4rem' }}>
           <div>
-            <h3 style={{ color: 'var(--secondary)', marginBottom: '1rem' }}>TN Health AI</h3>
-            <p style={{ opacity: 0.6, fontSize: '0.9rem' }}>Serving the health needs of Tamil Nadu with cutting-edge AI technology.</p>
+            <h3 style={{ color: 'var(--text-primary)', marginBottom: '1rem', fontSize: '1.4rem', display: 'flex', alignItems: 'center', gap: '12px', fontFamily: 'Outfit', fontWeight: 800 }}>
+              <div style={{ background: 'var(--bg-accent)', border: '1px solid var(--border-light)', padding: '6px', borderRadius: '8px' }}>
+                <CheckCircle size={20} color="var(--primary)" />
+              </div>
+              Smart Hospital Tracker
+            </h3>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.8' }}>Serving health needs with cutting-edge AI technology. Fast, reliable, and accessible healthcare for everyone.</p>
           </div>
           <div>
-            <h4 style={{ marginBottom: '1rem' }}>Quick Links</h4>
-            <ul style={{ listStyle: 'none', spaceY: '0.5rem', opacity: 0.6, fontSize: '0.9rem' }}>
-              <li>Find Hospitals</li>
-              <li>Insurance Partners</li>
-              <li>Doctor Consultation</li>
-              <li>Privacy Policy</li>
+            <h4 style={{ marginBottom: '1.5rem', color: 'var(--text-primary)', fontWeight: 600, fontFamily: 'Outfit' }}>Quick Links</h4>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem', fontSize: '0.95rem', padding: 0 }}>
+              <li style={{ cursor: 'pointer', transition: 'color 0.2s', color: 'var(--text-secondary)' }} onMouseOver={(e) => e.target.style.color = 'var(--primary)'} onMouseOut={(e) => e.target.style.color = 'var(--text-secondary)'}>Find Hospitals</li>
+              <li style={{ cursor: 'pointer', transition: 'color 0.2s', color: 'var(--text-secondary)' }} onMouseOver={(e) => e.target.style.color = 'var(--primary)'} onMouseOut={(e) => e.target.style.color = 'var(--text-secondary)'}>Insurance Partners</li>
+              <li style={{ cursor: 'pointer', transition: 'color 0.2s', color: 'var(--text-secondary)' }} onMouseOver={(e) => e.target.style.color = 'var(--primary)'} onMouseOut={(e) => e.target.style.color = 'var(--text-secondary)'}>Doctor Consultation</li>
             </ul>
           </div>
           <div>
-            <h4 style={{ marginBottom: '1rem' }}>Emergency</h4>
-            <button className="primary-button" style={{ background: 'var(--error)', width: '100%', border: 'none' }} onClick={() => setShowPanic(true)}>
+            <h4 style={{ marginBottom: '1.5rem', color: 'var(--text-primary)', fontWeight: 600, fontFamily: 'Outfit' }}>Emergency</h4>
+            <button className="primary-button" style={{ background: '#FEF2F2', color: 'var(--error)', width: '100%', border: '1px solid #FECACA', boxShadow: 'none' }} onClick={() => setShowPanic(true)}>
               Call 108 Emergency
             </button>
           </div>
         </div>
-        <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', marginTop: '4rem', paddingTop: '2rem', textAlign: 'center', opacity: 0.4, fontSize: '0.8rem' }}>
-          © 2026 TN Health AI Platform. Built for excellence in healthcare.
+        <div style={{ borderTop: '1px solid var(--border-light)', marginTop: '4rem', paddingTop: '2rem', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
+          © 2026 Smart Hospital Tracker. Built for excellence in healthcare.
         </div>
       </footer>
 

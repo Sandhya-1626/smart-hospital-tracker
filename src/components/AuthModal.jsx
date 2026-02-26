@@ -101,21 +101,23 @@ const AuthModal = ({ isOpen, onClose }) => {
                         position: 'relative',
                         width: '100%',
                         maxWidth: '450px',
-                        padding: '2rem',
-                        background: 'white',
-                        border: '1px solid var(--glass-border)',
+                        padding: '2.5rem 2rem',
+                        background: 'var(--bg-surface)',
+                        border: '1px solid var(--border-light)',
+                        borderRadius: 'var(--radius-xl)',
+                        boxShadow: 'var(--shadow-lg)',
                         maxHeight: '90vh',
                         overflowY: 'auto'
                     }}
                 >
-                    <button onClick={onClose} style={{ position: 'absolute', top: '1rem', right: '1rem', color: 'var(--text-muted)' }}>
+                    <button onClick={onClose} style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', color: 'var(--text-muted)', background: 'var(--bg-base)', padding: '6px', borderRadius: '50%', display: 'flex', border: '1px solid var(--border-light)', cursor: 'pointer', transition: 'all 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.color = 'var(--text-primary)'; e.currentTarget.style.background = 'var(--bg-accent)' }} onMouseOut={(e) => { e.currentTarget.style.color = 'var(--text-muted)'; e.currentTarget.style.background = 'var(--bg-base)' }}>
                         <X size={20} />
                     </button>
 
-                    <h2 style={{ marginBottom: '0.5rem', fontSize: '1.75rem', textAlign: 'center', color: '#1E293B' }}>
+                    <h2 style={{ marginBottom: '0.5rem', fontSize: '1.75rem', textAlign: 'center', color: 'var(--text-primary)', fontFamily: 'Outfit', fontWeight: 800 }}>
                         {isLogin ? 'Welcome Back' : 'Create Account'}
                     </h2>
-                    <p style={{ textAlign: 'center', color: 'var(--text-secondary)', marginBottom: '2rem' }}>
+                    <p style={{ textAlign: 'center', color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '0.95rem' }}>
                         {isLogin ? 'Enter your details to access your account' : 'Sign up for emergency services'}
                     </p>
 
@@ -130,16 +132,18 @@ const AuthModal = ({ isOpen, onClose }) => {
                             justifyContent: 'center',
                             gap: '12px',
                             padding: '12px',
-                            background: 'white',
-                            border: '1px solid #E2E8F0',
+                            background: 'var(--bg-base)',
+                            border: '1px solid var(--border-strong)',
                             borderRadius: '8px',
                             fontSize: '0.95rem',
                             fontWeight: 600,
-                            color: '#475569',
+                            color: 'var(--text-primary)',
                             marginBottom: '1.5rem',
                             cursor: 'pointer',
-                            transition: 'background 0.2s'
+                            transition: 'all 0.2s'
                         }}
+                        onMouseOver={(e) => { e.currentTarget.style.background = 'var(--bg-accent)' }}
+                        onMouseOut={(e) => { e.currentTarget.style.background = 'var(--bg-base)' }}
                     >
                         <svg width="20" height="20" viewBox="0 0 24 24">
                             <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
@@ -151,9 +155,9 @@ const AuthModal = ({ isOpen, onClose }) => {
                     </button>
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
-                        <div style={{ flex: 1, height: '1px', background: '#E2E8F0' }}></div>
-                        <span style={{ fontSize: '0.8rem', color: '#94A3B8' }}>OR</span>
-                        <div style={{ flex: 1, height: '1px', background: '#E2E8F0' }}></div>
+                        <div style={{ flex: 1, height: '1px', background: 'var(--border-light)' }}></div>
+                        <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: 600 }}>OR</span>
+                        <div style={{ flex: 1, height: '1px', background: 'var(--border-light)' }}></div>
                     </div>
 
                     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -168,7 +172,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                                         required
                                         value={formData.name}
                                         onChange={handleChange}
-                                        style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none' }}
+                                        style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', background: 'var(--bg-base)', border: '1px solid var(--border-strong)', color: 'var(--text-primary)', outline: 'none' }}
                                     />
                                 </div>
                                 <div style={{ position: 'relative' }}>
@@ -181,7 +185,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                                         maxLength="10"
                                         value={formData.mobile}
                                         onChange={handleChange}
-                                        style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none' }}
+                                        style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', background: 'var(--bg-base)', border: '1px solid var(--border-strong)', color: 'var(--text-primary)', outline: 'none' }}
                                     />
                                 </div>
                             </>
@@ -196,7 +200,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                                 required
                                 value={formData.email}
                                 onChange={handleChange}
-                                style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none' }}
+                                style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', background: 'var(--bg-base)', border: '1px solid var(--border-strong)', color: 'var(--text-primary)', outline: 'none' }}
                             />
                         </div>
 
@@ -209,14 +213,14 @@ const AuthModal = ({ isOpen, onClose }) => {
                                 required
                                 value={formData.password}
                                 onChange={handleChange}
-                                style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #E2E8F0', outline: 'none' }}
+                                style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', background: 'var(--bg-base)', border: '1px solid var(--border-strong)', color: 'var(--text-primary)', outline: 'none' }}
                             />
                         </div>
 
                         {!isLogin && (
-                            <div style={{ background: '#FFF1F2', padding: '12px', borderRadius: '8px', border: '1px solid #FECACA' }}>
+                            <div style={{ background: '#FEF2F2', padding: '12px', borderRadius: '8px', border: '1px solid #FECACA' }}>
                                 <div style={{ position: 'relative', marginBottom: '8px' }}>
-                                    <Heart size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: '#E11D48' }} />
+                                    <Heart size={18} style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', left: '12px', color: 'var(--error)' }} />
                                     <input
                                         type="tel"
                                         name="emergencyContact"
@@ -225,23 +229,23 @@ const AuthModal = ({ isOpen, onClose }) => {
                                         maxLength="10"
                                         value={formData.emergencyContact}
                                         onChange={handleChange}
-                                        style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', border: '1px solid #FDA4AF', outline: 'none', background: 'white' }}
+                                        style={{ width: '100%', padding: '12px 12px 12px 40px', borderRadius: 'var(--radius-md)', background: 'var(--bg-surface)', border: '1px solid var(--error)', color: 'var(--text-primary)', outline: 'none' }}
                                     />
                                 </div>
-                                <p style={{ fontSize: '0.75rem', color: '#9F1239', margin: 0, paddingLeft: '4px' }}>
+                                <p style={{ fontSize: '0.75rem', color: 'var(--error)', margin: 0, paddingLeft: '4px', fontWeight: 500 }}>
                                     *Used ONLY during Panic Mode to alert family.
                                 </p>
                             </div>
                         )}
 
                         {error && (
-                            <div style={{ padding: '10px', background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 'var(--radius-sm)', color: '#DC2626', fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <div style={{ padding: '10px', background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: 'var(--radius-sm)', color: 'var(--error)', fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                                 <AlertCircle size={16} /> {error}
                             </div>
                         )}
 
                         {success && (
-                            <div style={{ padding: '10px', background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 'var(--radius-sm)', color: '#059669', fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <div style={{ padding: '10px', background: 'rgba(16, 185, 129, 0.1)', border: '1px solid rgba(16, 185, 129, 0.3)', borderRadius: 'var(--radius-sm)', color: 'var(--success)', fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                                 <CheckCircle size={16} /> {success}
                             </div>
                         )}
@@ -260,7 +264,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                         {isLogin ? "Don't have an account? " : "Already have an account? "}
                         <button
                             onClick={() => { setIsLogin(!isLogin); setError(''); setSuccess(''); }}
-                            style={{ fontWeight: 600, color: 'var(--primary)', textDecoration: 'underline' }}
+                            style={{ fontWeight: 600, color: 'var(--primary)', textDecoration: 'underline', border: 'none', background: 'transparent', cursor: 'pointer' }}
                         >
                             {isLogin ? 'Sign Up' : 'Log In'}
                         </button>
